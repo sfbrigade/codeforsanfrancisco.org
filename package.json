@@ -1,0 +1,16 @@
+{
+  "name": "alpha.codeforsanfrancisco.org",
+  "version": "1.0.0",
+  "description": "Alpha website for Code for San Francisco",
+  "main": "index.js",
+  "repository": "git@github.com:sfbrigade/alpha.codeforsanfrancisco.org.git",
+  "author": "Jesse Szwedko <jesse.szwedko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.2.1",
+    "respond.js": "^1.4.2"
+  }
+}

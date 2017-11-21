@@ -1,0 +1,28 @@
+name: Code for San Francisco
+url: http://alpha.codeforsanfrancisco.org
+title: Code for San Francisco
+description: "San Francisco's weekly event to build, share, and learn about civic tech"
+encoding: utf-8
+timezone: America/Los_Angeles
+
+github: sfbrigade/alpha.codeforsanfrancisco.org
+twitter: sfbrigade
+facebook: codeforsanfrancisco
+youtube: UCLFcPyza0fGFEDMEb1A14XQ
+meetup: Code-for-San-Francisco-Civic-Hack-Night
+mailchimp: http://eepurl.com/bfFkF9
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - package.json
+  - vendor/bundle/
+  - yarn.lock
+
+future: true
+
+logo: /img/logo.png
+
+plugins:
+  - jekyll-redirect-from

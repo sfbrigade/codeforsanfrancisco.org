@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<article class='row'>
+  <div class="col-sm-12">
+    <header>
+      <h2>{{ page.title }}</h2>
+      <p class="text-center">
+        <img src="{{ page.image }}" alt="{{ page.image_alt }}" class="img-thumbnail" style='width:50%;'/><br />
+      </p>
+
+      <h3>
+        Published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}"> {{ page.date | date: "%b %-d, %Y" }} </time> by
+        {% for author_key in page.authors %}
+          {% assign author = site.data.authors[author_key] %}
+          {{ author.name }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </h3>
+    </header>
+
+    <section>
+      {{ content }}
+    </section>
+
+    <hr />
+
+    <footer>
+      <h3>About the author(s)</h3>
+      <address>
+        {% for author_key in page.authors %}
+          {% assign author = site.data.authors[author_key] %}
+          <div class='media author'>
+            <div class='media-left'>
+              {% if author.url %}
+                <a href='{{author.url}}'>
+                  <img class='media-object author-image' src='{{ site.baseurl }}{{ author.image | default: '/img/authors/default.png' }}' alt='{{ author.name }}' />
+                </a>
+              {% else %}
+                <img class='media-object author-image' src='{{ site.baseurl }}{{ author.image | default: '/img/authors/default.png' }}' alt='{{ author.name }}' />
+                <h4>{{ author.name }}</h4>
+              {% endif %}
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">
+                {% if author.url %}
+                  <a href='{{ author.url }}'>{{ author.name }}</a>
+                {% else %}
+                  {{ author.name }}
+                {% endif %}
+              </h4>
+              <p>{{ author.bio }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </address>
+    </footer>
+  </div>
+</article>

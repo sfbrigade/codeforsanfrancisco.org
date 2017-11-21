@@ -1,0 +1,28 @@
+/*
+ * Overrides of Flatly bootstrap theme
+ */
+
+a {
+  color: #428bca;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #cf1b41;
+  text-decoration: none;
+}
+
+.btn-success {
+  background-color: #428bca;
+  border-color: #428bca;
+}
+
+.btn-link {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.btn-link:hover, .btn-link:focus {
+  color: #cf1b41;
+  text-decoration: none;
+}

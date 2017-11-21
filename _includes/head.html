@@ -1,0 +1,102 @@
+<title>
+  {% if page.title %}
+    {{page.title}} -
+  {% endif %}
+  {{site.name}} - {{site.description}}
+</title>
+<meta charset='utf-8' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.description %}
+  <meta content="{{ page.description }}" name='description' />
+{% else %}
+  <meta content="{{ site.description }}" name='description' />
+{% endif %}
+<meta content='{{ site.name }}' name='author' />
+
+<!-- Facebook metadata -->
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+{% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url }}/about-us/" property="article:author">
+{% endif %}
+
+{% if page.image %}
+  <meta content="{{ site.url }}{{page.image}}" property="og:image">
+{% else %}
+  <meta content="{{ site.url }}/{{ site.logo }}" property="og:image">
+{% endif %}
+{% if page.categories %}
+  {% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">
+  {% endfor %}
+{% endif %}
+{% if page.tags %}
+  {% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">
+  {% endfor %}
+{% endif %}
+
+<!-- Twitter metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="{{ site.title }}">
+<meta name="twitter:creator" content="{{ site.title }}">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}{{page.image}}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/{{ site.logo }}">
+{% endif %}
+
+<meta name="application-name" content="{{ site.name }}"/>
+
+<!-- Used https://realfavicongenerator.net to generate favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
+<link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+<link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+<link href="{{ site.baseurl }}/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<link href="{{ site.baseurl }}/css/bootstrap-flatly.min.css" rel="stylesheet">
+
+<link href="{{ site.baseurl }}/css/bootstrap-overrides.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/css/style.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="{{ site.baseurl }}/node_modules/html5shiv/dist/html5shiv.min.js"></script>
+  <script src="{{ site.baseurl }}/node_modules/respond.js/dest/respond.min.js"></script>
+<![endif]-->
