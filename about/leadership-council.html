@@ -1,0 +1,45 @@
+---
+layout: default
+title: Leadership Council
+description: Every month, we hold an open Leadership Council meeting at Code for San Francisco to discuss new ideas and ways to make the hack night better. Anyone is welcome to join!
+---
+
+<h1>Leadership Council</h1>
+
+<p>
+  Every month, we hold an open Leadership Council meeting at Code for San Francisco to discuss new ideas and ways to
+  make the hack night better. Anyone is welcome to join!
+</p>
+
+<table class='table table-bordered table-striped table-condensed'>
+  <thead>
+    <tr>
+      <th>Meeting #</th>
+      <th>Date</th>
+      <th>Minutes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for meeting in site.data.leadership-councils %}
+      {% assign next_meeting = false %}
+      {% if forloop.first and site.time <= meeting.date %}
+        {% assign next_meeting = true %}
+      {% endif %}
+      <tr>
+        <td>
+          {{ meeting.id }}
+          {% if next_meeting %}
+            <span class='label label-info'>Next meeting</span>
+          {% endif %}
+        </td>
+        <td>
+          {{ meeting.date | date: "%b %d, %Y" }}
+        </td>
+        <td>
+          <a href='{{ meeting.link }}'>
+            <i class='fa fa-file-text-o'></i> {% if next_meeting %}Agenda{% else %}Minutes{% endif %}</a>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
