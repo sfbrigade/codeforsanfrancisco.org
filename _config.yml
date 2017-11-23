@@ -4,6 +4,7 @@ title: Code for San Francisco
 description: "San Francisco's weekly event to build, share, and learn about civic tech"
 encoding: utf-8
 timezone: America/Los_Angeles
+permalink: pretty
 
 github: sfbrigade/alpha.codeforsanfrancisco.org
 twitter: sfbrigade
