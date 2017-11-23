@@ -6,6 +6,8 @@ a new long term solution to host the website. The current thought is to move bac
 [Jekyll](https://jekyllrb.com/). This repository is attempt at that. When it is ready, it'll be hosted at
 [alpha.codeforsanfrancisco.org](http://alpha.codeforsanfrancisco.org) for feedback.
 
+Heavily inspired by [Chi Hack Night's website](https://chihacknight.org/).
+
 ## Developing
 
 * Install the version of Ruby specified in [.ruby-version](.ruby-version)
