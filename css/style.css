@@ -28,3 +28,10 @@
   width: 64px;
   height: 64px;
 }
+
+section.seperated {
+  border-bottom: 1px solid #ecf0f1;
+
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+}
