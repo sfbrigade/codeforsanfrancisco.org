@@ -1,0 +1,53 @@
+---
+layout: default
+title: Events
+description: Recent and upcoming hack nights and other Code for San Francisco events.
+---
+
+<h1>
+  <i class='fa fa-calendar-o'></i> Events
+</h1>
+
+<p>
+  Past and upcoming events, with links to each event's agenda and any resources. We host Hack Night every Wednesday and
+  several larger and special events throughout the year.
+
+  <p>
+    <a href='{{ site.baseurl }}/feeds/events.xml'><i class='fa fa-rss-square'></i> RSS feed</a>
+  </p>
+</p>
+
+<table class='table table-striped datatable'>
+  <thead>
+    <tr itemscope itemtype='http://schema.org/Event'>
+      <th>Date</th>
+      <th>#</th>
+      <th>Event</th>
+      <th>Speaker(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for post in site.posts %}
+      {% if post.categories contains 'events' %}
+        <tr>
+          <td class='nowrap'>
+              <meta itemprop='startDate' datetime='{{ post.date | date: "%Y-%m-%d" }}' content='{{ post.date | date: "%Y-%m-%d" }}' />
+              <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          </td>
+          <td>{{post.event_id}}</td>
+          <td>
+            <a href='{{ post.url }}' itemprop='url'><span itemprop='name'>{{ post.title }}</span></a>
+            {% if post.youtube_id %}
+              <small><i title='This event has a video' class='fa fa-fw fa-video-camera'></i></small>
+            {% endif %}
+          </td>
+          <td>
+            {% for speaker in post.speakers %}
+              {{speaker}}<br />
+            {% endfor %}
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>

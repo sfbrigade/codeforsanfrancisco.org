@@ -8,9 +8,12 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "datatables.net": "^1.10.16",
+    "datatables.net-bs": "^1.10.16",
     "font-awesome": "^4.7.0",
     "html5shiv": "^3.7.3",
     "jquery": "^3.2.1",
+    "jquery-address": "^1.6.0",
     "respond.js": "^1.4.2"
   }
 }

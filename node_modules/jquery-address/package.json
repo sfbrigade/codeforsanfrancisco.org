@@ -1,0 +1,23 @@
+{
+  "name": "jquery-address",
+  "version": "1.6.0",
+  "description": "jQuery Address - Deep linking for the masses",
+  "main": "src/jquery.address.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgaticaq/jquery-address.git"
+  },
+  "keywords": [
+    "address",
+    "linking"
+  ],
+  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgaticaq/jquery-address/issues"
+  },
+  "homepage": "https://github.com/lgaticaq/jquery-address#readme"
+}

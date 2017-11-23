@@ -1,0 +1,5 @@
+lib
+samples
+test
+build.*
+*-LICENSE
