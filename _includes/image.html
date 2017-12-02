@@ -1,0 +1,7 @@
+{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+<img class="{{ include.class | default: "img-responsive center-block" }}" src="/img/posts/{{ imagePath }}" alt="{{ include.alt }}" style="{{ include.style | default: "" }}" />
+{% if include.caption %}
+  <p class="text-center">
+    {{ include.caption }}
+  </p>
+{% endif %}

@@ -1,0 +1,8 @@
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list={{ include.id }}" frameborder="0" allowfullscreen>
+</div>
+{% if include.caption %}
+  <p class="text-center">
+    {{ include.caption }}
+  </p>
+{% endif %}

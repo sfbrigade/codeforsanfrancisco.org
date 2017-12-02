@@ -3,6 +3,7 @@
 jason_lally:
   name: Jason Lally
   bio: "Open Data Program Manager for the City and County of San Francisco"
+  gravatar: b0d79f25e915d34f7f06907322ad8060
 
 joseph_tanigawa:
   name: Joseph Tanigawa
@@ -32,7 +33,6 @@ allen_meyer:
 celia_moreno:
   name: Celia Moreno
   url: https://www.linkedin.com/in/celiaim
-  image: /img/authors/celia_moreno.jpg
   bio: ""
 
 peter_thompson:
@@ -41,6 +41,10 @@ peter_thompson:
 
 julio_feliciano:
   name: Julio Feliciano
+  bio: ""
+
+seunghee_eu:
+  name: Seunghee Eu
   bio: ""
 
 andrew_hyder:
@@ -63,8 +67,8 @@ laura_childs:
   name: Laura Childs
   bio: ""
 
-asha_john_allen:
-  name: Asha John and Allen Meyer
+asha_john:
+  name: Asha John
   bio: ""
 
 vedrana_trbusic:
@@ -74,3 +78,25 @@ vedrana_trbusic:
 kasia_rachuta:
   name: Kasia Rachuta
   bio: "Data Analyst Intern with background in theoretical physics, passionate about technology and impact"
+
+julia_gitis:
+  name: Julia Gitis
+  bio: ""
+
+oz_ozwald:
+  name: Oz Ozwald
+  bio: "therebelrobot"
+
+jesse_szwedko:
+  name: Jesse Szwedko
+  bio: "Brigade Captain"
+  gravatar: 3e3a63b9ce04e1cd241d8660248e5412
+
+mike_bridge:
+  name: Mike Bridge
+  bio: "Former Partnerships Lead"
+
+lauren_harriman:
+  name: LaurenHarriman
+  bio: ""
+  url: https://twitter.com/lmmharriman

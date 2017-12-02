@@ -6,9 +6,11 @@ layout: default
   <div class="col-sm-12">
     <header>
       <h2>{{ page.title }}</h2>
-      <p class="text-center">
-        <img src="{{ page.image }}" alt="{{ page.image_alt }}" class="img-thumbnail" style='width:50%;'/><br />
-      </p>
+      {% if page.image %}
+        <p class="text-center">
+          {% include image.html name=page.image alt=page.image_alt style="max-height: 400px" %}
+        </p>
+      {% endif %}
 
       <h3>
         Published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}"> {{ page.date | date: "%b %-d, %Y" }} </time> by
@@ -34,11 +36,10 @@ layout: default
             <div class='media-left'>
               {% if author.url %}
                 <a href='{{author.url}}'>
-                  <img class='media-object author-image' src='{{ site.baseurl }}{{ author.image | default: '/img/authors/default.png' }}' alt='{{ author.name }}' />
+                  <img class='media-object author-image' src="http://gravatar.com/avatar/{{author.gravatar}}" alt="{{ author.name }}">
                 </a>
               {% else %}
-                <img class='media-object author-image' src='{{ site.baseurl }}{{ author.image | default: '/img/authors/default.png' }}' alt='{{ author.name }}' />
-                <h4>{{ author.name }}</h4>
+                <img class='media-object author-image' src="http://gravatar.com/avatar/{{author.gravatar}}" alt="{{ author.name }}">
               {% endif %}
             </div>
             <div class="media-body">
