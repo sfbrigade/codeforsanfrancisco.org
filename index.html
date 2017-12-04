@@ -47,7 +47,7 @@ layout: default
       <div class='row'>
         <div class='col-sm-4'>
           {% if post.image %}
-            <img class='img-thumbnail img-responsive' src='{{post.image}}' alt='{{ post.title }}' />
+            <img class='img-thumbnail img-responsive' src='/img/posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | slugify }}/{{post.image}}' alt='{{ post.title }}' />
           {% else %}
             <img class='img-thumbnail img-responsive' src='{{site.logo}}' alt='{{ post.title }}' />
           {% endif %}
