@@ -19,6 +19,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      type: "events"
+    values:
+      layout: "event"
 
 exclude:
   - Gemfile

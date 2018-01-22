@@ -1,7 +1,6 @@
 ---
 published: true
 date: 2018-04-04
-categories: events
 links:
 title: "Civic Hack Night"
 description: |
