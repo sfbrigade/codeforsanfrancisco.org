@@ -13,10 +13,10 @@ description: A communal blog with the goal of amplifying more diverse perspectiv
 </p>
 
 <p>
-  <a href='{{ site.baseurl }}/feeds/blog.xml'><i class='fa fa-rss-square'></i> RSS feed</a>
+  <a href='{{ site.baseurl }}/feeds/posts.xml'><i class='fa fa-rss-square'></i> RSS feed</a>
 </p>
 
-{% for post in site.categories['blog'] %}
+{% for post in site.posts %}
   <div class='row'>
     <div class='col-sm-4'>
       {% if post.image %}

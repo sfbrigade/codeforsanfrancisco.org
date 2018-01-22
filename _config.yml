@@ -25,5 +25,9 @@ future: true
 
 logo: /img/logo.png
 
+collections:
+  events:
+    output: true
+
 plugins:
   - jekyll-redirect-from

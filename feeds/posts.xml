@@ -7,8 +7,8 @@ layout: null
     <title>{{ site.name }} Blog</title>
     <description>A communal blog with the goal of amplifying more diverse perspectives and stories in San Francisco civic tech.</description>
     <link>{{ site.url }}/blog</link>
-    <atom:link href="{{ site.url }}/feeds/blog.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.categories['blog'] %}
+    <atom:link href="{{ site.url }}/feeds/posts.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.date  | date: "%b, %d %Y" }} {{ post.content | xml_escape }}</description>

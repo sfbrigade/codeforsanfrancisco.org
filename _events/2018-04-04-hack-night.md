@@ -1,4 +1,6 @@
 ---
+published: true
+date: 2018-04-04
 layout: event
 categories: events
 links:
@@ -7,11 +9,15 @@ description: |
   Join neighbors, government employees, designers, coders, students and more! Our weekly hack night is focused on civic
   tech and making government services better in San Francisco.
 speakers:
-date: 2017-11-22T18:00:00-07:00
 event_id: 1
 agenda: https://docs.google.com/document/d/1tAJN7vEUdZJs5EOPemcjG3xoJGYppk7xkSmFhKDESqE/edit
-rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/243161895/
-published: true
+rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/rpgblnyxgbgb/
+start_time: 2018-04-04T18:00:00-07:00
+end_time: 2018-04-04T21:30:00-07:00
+
+meetup:
+  event_id: rpgblnyxgbgb
+  venue_id: 6325852
 
 address:
   name: Code for America's Offices
