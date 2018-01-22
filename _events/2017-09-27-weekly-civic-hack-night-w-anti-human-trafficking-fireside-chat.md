@@ -1,0 +1,21 @@
+---
+published: true
+date: '2017-09-27'
+title: Weekly Civic Hack Night w/ Anti-Human Trafficking Fireside Chat
+description: Our weekly hack night is focused on civic tech and making government
+  services better in San Francisco
+rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/241230310/
+start_time: '2017-09-27T18:00:00-07:00'
+end_time: '2017-09-27T21:30:00-07:00'
+meetup:
+  event_id: rpgblnywmbkc
+  venue_id: 6325852
+address:
+  name: Code for America
+  street: 155 9th St.
+  locality: San Francisco
+  region: CA
+
+---
+<!-- imported via scripts/generate-events-from-meetup -->
+<p><b>Interested in helping San Francisco? You have found the right place! </b></p> <p><br/>Join neighbors, government employees, designers, coders, students and more! Our weekly hack night is focused on civic tech and making government services better in San Francisco. We hack/build and learn together every Wednesday evening.</p> <p><br/>• Contribute to the betterment of San Francisco</p> <p>• Build your own portfolio of work or work on someone else's cool project</p> <p>• Meet new (and different!) people</p> <p><b>Join us this week for a fireside chat about Human Trafficking</b></p> <p><i>"Human trafficking is a form of modern slavery—a multi-billion dollar criminal industry that denies freedom to 20.9 million people around the world. And no matter where you live, chances are it's happening nearby. From the girl forced into prostitution at a truck stop, to the man discovered in a restaurant kitchen, stripped of his passport and held against his will. All trafficking victims share one essential experience: the loss of freedom."</i></p> <p><br/>-- <a href="https://polarisproject.org/human-trafficking"><a href="https://polarisproject.org/human-trafficking" class="linkified">https://polarisproject.org/human-trafficking</a></a></p> <p>This week we are excited to welcome anti-human trafficking advocates Ehb Teng, Laura Hackney, and Ashlie Bryant to participate in a fireside chat with brigade members about this critical human rights issue. They will share with us:</p> <p>• Their work in combating this issue</p> <p>• The challenges they, and others, face</p> <p>• How technology can be leveraged</p> <p>• How we can help</p> <p>Members will be encouraged to ask questions throughout to explore the issue.</p> <p>Ehb Teng is an activist entrepreneur with a humanitarian focus on ending global human trafficking and advocacy for economic freedom. He is the Founder and Executive Director of ATHack! Inc., a non-profit facilitating projects between activists, technologists, community leaders, and stakeholders to combat human trafficking. <a href="http://www.athackit.org">www.athackit.org</a></p> <p>Laura Hackney is the Cofounder and Executive Director of AnnieCannons, an organization working to transform survivors of human trafficking into software professionals. Laura is a software engineer, and she leads AnnieCannons’ curriculum development, nonprofit partnerships, and trauma-informed care and work model. <a href="http://www.anniecannons.com">www.anniecannons.com</a></p> <p>Ashlie Bryant is the co-founder and President of 3Strands Global Foundation, an organization that educates students at the middle school, high school and university levels about human trafficking. As a leading anti-trafficking advocate, she has been dedicated to combating human trafficking for the past seven years. <a href="http://3strandsglobalfoundation.org">3strandsglobalfoundation.org</a></p> <p><br/><b>Schedule</b></p> <p><br/>6:00p Doors open, socialize and eat dinner</p> <p>6:30p Welcome remarks and project pitches</p> <p>7:00p Anti-Human Trafficking Fireside Chat</p> <p>8:00p Hacking and discussion</p> <p>9:30p Doors close and lights out.</p> <p><br/>Check out our <a href="http://codeforsanfrancisco.org/">website</a>. Read/contribute to our <a href="https://github.com/sfbrigade">code</a>. Communicate via our <a href="http://c4a.me/cfsfslack">slack team</a> (or IRC Freenode #sfbrigade). </p> <p><b>Interested in our <a href="http://codeforsanfrancisco.org/projects/">current projects</a>?</b></p> <p>If you have questions, please reach out over Slack, contact the organizers via meetup, or drop by on Wednesday evening.</p> 
