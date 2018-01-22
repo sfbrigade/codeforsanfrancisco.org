@@ -6,6 +6,11 @@ encoding: utf-8
 timezone: America/Los_Angeles
 permalink: pretty
 
+google_api_key: AIzaSyASGyuTdO6QCoVBaKSK360IWdpVpmGiqow
+
+# development key
+# google_api_key: AIzaSyBrSPsoJXo-iI97sUWEjIhDdCqUkghScQk
+
 github: sfbrigade/alpha.codeforsanfrancisco.org
 twitter: sfbrigade
 facebook: codeforsanfrancisco
