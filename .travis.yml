@@ -1,0 +1,6 @@
+sudo: false
+language: ruby
+
+script:
+  - echo "${TRAVIS_COMMIT_RANGE} -> ${TRAVIS_COMMIT_RANGE/.../..} (travis-ci/travis-ci#4596)"
+  - git diff --name-only ${TRAVIS_COMMIT_RANGE/.../..} _posts/events | ./scripts/update-meetup
