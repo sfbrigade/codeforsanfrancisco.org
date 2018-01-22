@@ -1,10 +1,7 @@
 ---
 authors:
 - kasia_rachuta
-categories:
-- blog
 date: '2016-04-26'
-layout: blog
 published: true
 title: SF Brigade's Data Science Working Group
 image: IMG_1846.jpg

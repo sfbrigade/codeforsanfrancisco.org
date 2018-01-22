@@ -1,10 +1,7 @@
 ---
 authors:
 - allen_meyer
-categories:
-- blog
 date: '2016-08-15'
-layout: blog
 published: true
 title: "VR Data Visualization: A New Way to Address Community Issues"
 description: A San Francisco Brigade team has been partnering with SFHIP for almost a year now on a data visualization project that looks at alcohol licenses in San Francisco, specifically those establishments that sell alcohol to be sold off premise. Before any mapping or visualization could happened, SFHIP reached out to community advocates to find out first hand how the easy access to alcohol was impacting their communities. SFHIP lead community focus discussions in three SF neighborhoods, Bayview, Tenderloin and the Mission. SF Brigade members participated in these community listening sessions and helped SFHIP distill the findings using user centered design principles.

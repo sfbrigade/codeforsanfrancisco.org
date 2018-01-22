@@ -1,10 +1,7 @@
 ---
 authors:
 - mike_bridge
-categories:
-- blog
 date: '2017-11-25'
-layout: blog
 published: true
 title: Designers & Geeks Provoke SF Crime Data
 image: screenshot.jpg

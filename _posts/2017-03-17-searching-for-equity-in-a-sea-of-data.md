@@ -1,10 +1,7 @@
 ---
 authors:
 - allen_meyer
-categories:
-- blog
 date: '2017-03-17'
-layout: blog
 published: true
 title: Searching for Equity in a Sea of Data
 description: Open Data Day is an annual celebration of open data all over the world. This year, it was celebrated on Saturday, March 4. Code for San Francisco hosted its Open Data Day event at the [Microsoft Reactor](http://microsoftreactor.com/venue/sf-reactor/) and launched the day with an inspiring keynote by Carla Mays. [@CarlaMays](https://twitter.com/CarlaMays) is a veteran of the Civic tech movement and this was a bit of a homecoming for her having attended Open Data Day’s previous incarnation, Code Across in 2013. Carla discussed how open data could be used to create a more equitable and inclusive society. "We've really got to start to see the faces of this change, it's got to be more inclusive and we've got to work as a team." She also stressed that “We have to address biases that are baked into data sets.” The key to inclusiveness and equity is what Carla tagged #WithNot4Design. 

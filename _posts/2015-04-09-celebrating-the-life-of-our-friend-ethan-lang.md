@@ -1,10 +1,7 @@
 ---
 authors:
 - laura_childs
-categories:
-- blog
 date: '2015-04-09'
-layout: blog
 published: true
 title: Celebrating the Life of Our Friend, Ethan Lang
 description: Ethan loved to bring people together through music. His friends, family and loved ones will never forget his footloose spirit and ability to always get them on a dance floor. In Turkey, he was known to dance at a traditional turkish bar with locals in a bar mitzvah-type circle. In 2011, while celebrating at the Boston Marathon, he never stopped jiving to the street music, despite warning from policemen. "Dancin' ain't illegal," he'd say. He inspired people around him to enjoy life to the fullest and not take anything too seriously. His dance moves could cure anyone during the saddest of times – and they still do.

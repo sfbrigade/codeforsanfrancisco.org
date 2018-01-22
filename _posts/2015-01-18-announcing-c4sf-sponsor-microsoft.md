@@ -1,10 +1,7 @@
 ---
 authors:
 - jesse_biroscak
-categories:
-- blog
 date: '2015-01-18'
-layout: blog
 published: true
 title: 'Announcing C4SF sponsor: Microsoft'
 image: microsoft.png

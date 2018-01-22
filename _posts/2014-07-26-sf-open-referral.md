@@ -1,10 +1,7 @@
 ---
 authors:
 - jason_lally
-categories:
-- blog
 date: '2014-07-26'
-layout: blog
 published: true
 title: SF Open Referral
 description: Agencies and organizations create and maintain many different community resource directories. Each organization applies similar resources and effort against a shared issue, but there is no shared knowledge. Although they share similar goals and challenges, these efforts work in isolation of each other. SF Open Referral improves social service delivery through shared, open resource data.

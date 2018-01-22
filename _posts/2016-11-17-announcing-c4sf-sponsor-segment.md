@@ -1,10 +1,7 @@
 ---
 authors:
 - allen_meyer
-categories:
-- blog
 date: '2016-11-17'
-layout: blog
 published: true
 title: 'Announcing C4SF sponsor: Segment'
 description: Code for San Francisco is happy to announce that Segment has contributed $5,047 to support our efforts. A huge, sincere thank you to Segment!

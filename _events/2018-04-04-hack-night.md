@@ -1,13 +1,11 @@
 ---
 published: true
 date: 2018-04-04
-layout: event
 categories: events
 links:
 title: "Civic Hack Night"
 description: |
-  Join neighbors, government employees, designers, coders, students and more! Our weekly hack night is focused on civic
-  tech and making government services better in San Francisco.
+  Our weekly hack night is focused on civic tech and making government services better in San Francisco.
 speakers:
 event_id: 1
 agenda: https://docs.google.com/document/d/1tAJN7vEUdZJs5EOPemcjG3xoJGYppk7xkSmFhKDESqE/edit

@@ -2,10 +2,7 @@
 authors:
 - julio_feliciano
 - seunghee_eu
-categories:
-- blog
 date: '2015-06-01'
-layout: blog
 published: true
 title: "Text if you\u2019re happy or not says tech volunteer group"
 ---

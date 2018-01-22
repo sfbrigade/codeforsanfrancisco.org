@@ -1,10 +1,7 @@
 ---
 authors:
 - joseph_tanigawa
-categories:
-- blog
 date: '2014-09-05'
-layout: blog
 published: true
 image: "LocalFreeWebText.jpg"
 image_alt: Photo of LocalFreeWeb text message

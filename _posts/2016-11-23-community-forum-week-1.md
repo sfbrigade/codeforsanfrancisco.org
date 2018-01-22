@@ -1,10 +1,7 @@
 ---
 authors:
 - oz_ozwald
-categories:
-- blog
 date: '2016-11-23'
-layout: blog
 published: true
 title: Community Forum - Week 1
 description: "We at Code for San Francisco have one goal: to positively impact our community by means of the skills at our disposal, which for many of us means leveraging various technologies to meet a community need. This goal can be often distilled into two words: *civic tech*. And here in the Bay Area we have at our disposal a seemingly endless supply of technologists: developers, designers, data scientists, product managers, and many many more. I think in our city, as a collective community dedicated to civic tech, we do not have a lack of engagement on the latter half of that phrase. The former half, however, the *civic* in *civic tech*, is the real tricky part to get right. If the past election has taught us nothing, it has taught us that civic engagement with our communities is not something that can be underestimated nor ignored."

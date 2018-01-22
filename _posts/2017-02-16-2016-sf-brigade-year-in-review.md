@@ -2,10 +2,7 @@
 authors:
 - mike_bridge
 - allen_meyer
-categories:
-- blog
 date: '2017-02-16'
-layout: blog
 published: true
 title: 2016 SF Brigade Year in Review
 description: '2016 was defined by broken politics. [Dumpster fire](http://www.americandialect.org/dumpster-fire-is-2016-american-dialect-society-word-of-the-year) was chosen as “best representing the public discourse and preoccupations of the past year.” While the world of politics looks completely dysfunctional, Code for San Francisco folks continue to meet in growing numbers, committed to the ideal that our politics and government can work better for people by leveraging technology.'

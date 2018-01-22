@@ -1,10 +1,7 @@
 ---
 authors:
 - vedrana_trbusic
-categories:
-- blog
 date: '2016-04-09'
-layout: blog
 published: true
 title: Meet SF Brigade Members
 description: "We’re kicking off our #MeetSFBrigadeMembers series with April Steed – a UX designer, passionate civic hacker, and Project Lead for Lighten. Read on to find out how she got involved with Code for SF, what drives her and how Lighten is making access to social services more user friendly!"

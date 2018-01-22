@@ -1,10 +1,7 @@
 ---
 authors:
 - lauren_harriman
-categories:
-- blog
 date: '2017-07-31'
-layout: blog
 published: true
 title: 'NOOB: A First Timer''s Account of Code for San Francisco Civic Hack Night'
 image: sign.jpg

@@ -13,6 +13,13 @@ youtube: UCLFcPyza0fGFEDMEb1A14XQ
 meetup: Code-for-San-Francisco-Civic-Hack-Night
 mailchimp: http://eepurl.com/bfFkF9
 
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+
 exclude:
   - Gemfile
   - Gemfile.lock
