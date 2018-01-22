@@ -1,16 +1,6 @@
 $(document).ready(function() {
   // initialize datatables
   var table = $('.datatable').dataTable( {
-    "aaSorting": [ [0,'desc'] ],
-    "aoColumns": [
-      { "sType": "datetime" },
-      null,
-      null,
-      null
-    ],
-    "bInfo": false,
-    "bPaginate": false,
-
     /* allow linking to searches */
     "search": {
       "search": $.address.parameter('search'),

@@ -17,11 +17,10 @@ description: Recent and upcoming hack nights and other Code for San Francisco ev
   </p>
 </p>
 
-<table class='table table-striped datatable'>
+<table data-paging='false', data-info='false', data-order='[[ 0, "desc" ]]' class='table table-striped datatable'>
   <thead>
     <tr itemscope itemtype='http://schema.org/Event'>
       <th>Date</th>
-      <th>#</th>
       <th>Event</th>
       <th>Speaker(s)</th>
     </tr>
@@ -29,11 +28,10 @@ description: Recent and upcoming hack nights and other Code for San Francisco ev
   <tbody>
     {% for event in site.events %}
       <tr>
-        <td class='nowrap'>
+        <td data-order="{{ event.date }}" class='nowrap'>
             <meta itemprop='startDate' datetime='{{ event.date | date: "%Y-%m-%d" }}' content='{{ event.date | date: "%Y-%m-%d" }}' />
             <p>{{ event.date | date: "%b %-d, %Y" }}</p>
         </td>
-        <td>{{event.event_id}}</td>
         <td>
           <a href='{{ event.url }}' itemprop='url'><span itemprop='name'>{{ event.title }}</span></a>
           {% if event.youtube_id %}

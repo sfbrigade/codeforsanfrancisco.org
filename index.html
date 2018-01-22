@@ -10,7 +10,7 @@ layout: default
   </div>
   <div class="panel-body">
     {% for event in site.events limit:1 %}
-    <h4>{{ event.date | date: "%l %p, %A, %B %-d, %Y" }}</h4>
+    <h4>{{ event.start_time | date: "%l %p, %A, %B %-d, %Y" }}</h4>
 
     <h2 class='name'>
       <small>#{{ event.event_id }}</small>

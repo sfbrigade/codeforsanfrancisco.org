@@ -6,7 +6,6 @@ title: "Civic Hack Night"
 description: |
   Our weekly hack night is focused on civic tech and making government services better in San Francisco.
 speakers:
-event_id: 1
 agenda: https://docs.google.com/document/d/1tAJN7vEUdZJs5EOPemcjG3xoJGYppk7xkSmFhKDESqE/edit
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/rpgblnyxgbgb/
 start_time: 2018-04-04T18:00:00-07:00
