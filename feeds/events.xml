@@ -8,7 +8,7 @@ layout: null
     <description>{{ site.description }}</description>
     <link>http://{{ site.url }}/events</link>
     <atom:link href="{{ site.url }}/feeds/events.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.categories['events'] %}
+    {% for post in site.events %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.date  | date: "%b, %d %Y %l %p" }} {{ post.content | xml_escape }}</description>

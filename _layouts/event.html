@@ -7,7 +7,6 @@ layout: default
     <a href='{{ site.baseurl }}/events'>Events</a> > <time itemprop="startDate" datetime={{ page.date | date: "%Y-%m-%d" }}>{{ page.date | date: "%B %-d, %Y" }}</time>
   </h3>
   <h1>
-    <small>#{{page.event_id}}</small>
     <span itemprop="name">{{page.title}}</span>
   </h1>
   <hr />
@@ -68,7 +67,7 @@ layout: default
           <p><img class='img-responsive img-thumbnail' src='{{page.image}}' alt='{{page.title}}' /></p>
         {% endif %}
 
-        <p>{{ page.date | date: "%l %p, %A, %B %-d, %Y" }}</p>
+        <p>{{ page.start_time | date: "%l %p, %A, %B %-d, %Y" }}</p>
 
         {% if page.address %}
           <div itemprop="location" itemscope itemtype="http://schema.org/Place">
@@ -76,16 +75,19 @@ layout: default
               <span itemprop="name">{{ page.address.name }}</span>
             </p>
             <div>
-              <a href='https://goo.gl/maps/fEy5XnYsquE2"'>
-                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                  <span itemprop="streetAddress">{{ page.address.street }}
-                  <span itemprop="addressLocality">{{ page.address.locality }}</span>,
-                  <span itemprop="addressRegion">{{ page.address.region }}</span>
-                </div>
-              </a>
-              {% if page.address.google_map_embed %}
+              {% if page.address %}
+                {%- capture google_maps_query -%}
+                  {{ page.address.name }} {{ page.address.street }} {{ page.address.locality }} {{ page.address.region }}
+                {%- endcapture -%}
+                <a href="https://www.google.com/maps/search/?api=1&query={{ google_maps_query|urlencode }}">
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">{{ page.address.street }}
+                    <span itemprop="addressLocality">{{ page.address.locality }}</span>,
+                    <span itemprop="addressRegion">{{ page.address.region }}</span>
+                  </div>
+                </a>
                 <div class="google-maps">
-                  <iframe src="{{ page.address.google_map_embed }}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed/v1/search?key={{ site.google_api_key }}&q={{ google_maps_query|urlencode }}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
               {% endif %}
             </div>

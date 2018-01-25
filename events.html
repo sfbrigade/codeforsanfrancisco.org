@@ -17,37 +17,33 @@ description: Recent and upcoming hack nights and other Code for San Francisco ev
   </p>
 </p>
 
-<table class='table table-striped datatable'>
+<table data-paging='false', data-info='false', data-order='[[ 0, "desc" ]]' class='table table-striped datatable'>
   <thead>
     <tr itemscope itemtype='http://schema.org/Event'>
       <th>Date</th>
-      <th>#</th>
       <th>Event</th>
       <th>Speaker(s)</th>
     </tr>
   </thead>
   <tbody>
-    {% for post in site.posts %}
-      {% if post.categories contains 'events' %}
-        <tr>
-          <td class='nowrap'>
-              <meta itemprop='startDate' datetime='{{ post.date | date: "%Y-%m-%d" }}' content='{{ post.date | date: "%Y-%m-%d" }}' />
-              <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-          </td>
-          <td>{{post.event_id}}</td>
-          <td>
-            <a href='{{ post.url }}' itemprop='url'><span itemprop='name'>{{ post.title }}</span></a>
-            {% if post.youtube_id %}
-              <small><i title='This event has a video' class='fa fa-fw fa-video-camera'></i></small>
-            {% endif %}
-          </td>
-          <td>
-            {% for speaker in post.speakers %}
-              {{speaker}}<br />
-            {% endfor %}
-          </td>
-        </tr>
-      {% endif %}
+    {% for event in site.events %}
+      <tr>
+        <td data-order="{{ event.date }}" class='nowrap'>
+            <meta itemprop='startDate' datetime='{{ event.date | date: "%Y-%m-%d" }}' content='{{ event.date | date: "%Y-%m-%d" }}' />
+            <p>{{ event.date | date: "%b %-d, %Y" }}</p>
+        </td>
+        <td>
+          <a href='{{ event.url }}' itemprop='url'><span itemprop='name'>{{ event.title }}</span></a>
+          {% if event.youtube_id %}
+            <small><i title='This event has a video' class='fa fa-fw fa-video-camera'></i></small>
+          {% endif %}
+        </td>
+        <td>
+          {% for speaker in event.speakers %}
+            {{speaker}}<br />
+          {% endfor %}
+        </td>
+      </tr>
     {% endfor %}
   </tbody>
 </table>

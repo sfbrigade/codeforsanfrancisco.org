@@ -1,0 +1,114 @@
+#! /usr/bin/env ruby
+
+require 'faraday'
+require 'faraday_middleware'
+require 'front_matter_parser'
+require 'jekyll'
+require 'liquid'
+require 'logger'
+require 'optparse'
+require 'ostruct'
+require 'pathname'
+
+#TODO figure out how to handle featured photo for event
+
+DESCRIPTION_TEMPLATE = <<-TXT
+  {{ description }}
+
+  We are a group of neighbors, government employees, designers, coders, students and more working on civic tech projects to improve our community and government.
+
+  Each week:
+
+  * Contribute to the betterment of San Francisco
+  * Build your own portfolio of work or work on someone else's cool project
+  * Learn from each other
+  * (Often) hear from speakers in our community
+  * Meet new (and different!) people
+
+  Food and drinks will be provided. We encourage attendees to bring their own water bottles to reduce waste.
+
+  See {{ link }} for complete agenda and details for this evening.
+TXT
+
+
+def main(filename, options)
+  template = Liquid::Template.parse(DESCRIPTION_TEMPLATE)
+
+  conn = Faraday.new(:url => "https://api.meetup.com") do |conn|
+    if options.debug
+      conn.response :logger, ::Logger.new(STDERR), bodies: true
+    end
+    conn.response :json, :content_type => 'application/json'
+    conn.adapter Faraday.default_adapter
+  end
+
+  # need to parse dates and times from frontmatter
+  unsafe_loader = ->(string) { YAML.load(string) }
+  parsed = FrontMatterParser::Parser.parse_file(filename, loader: unsafe_loader)
+  unless event_id = parsed.front_matter.fetch('meetup', {})['event_id']
+    STDERR.puts('event does not have a meetup id')
+    exit(1)
+    # TODO create events?
+  end
+
+  # will not handle non-standard permalink formats
+  slug = parsed.front_matter.fetch('slug', Jekyll::Utils.slugify(Pathname.new(filename).basename(".*").to_s))
+
+  body = template.render(parsed.front_matter.merge({
+    "description" => parsed.front_matter['description'],
+    "link" => "http://alpha.codeforsanfrancisco.org/events/#{slug}",
+  }))
+
+
+  resp = conn.patch do |req|
+    req.url "/Code-for-San-Francisco-Civic-Hack-Night/events/#{event_id}"
+    req.headers['Content-Type'] = 'application/json'
+    req.params = {
+      key: options.key,
+
+      name: parsed.front_matter['title'],
+      description: body,
+      duration: (parsed.front_matter['end_time'] - parsed.front_matter['start_time']).to_i * 1000,
+      time: parsed.front_matter['start_time'].to_i * 1000,
+      venue: parsed.front_matter['meetup']['venue_id'],
+    }
+  end
+
+  puts resp.body["link"]
+end
+
+if __FILE__ == $0
+  options = OpenStruct.new
+  options.debug = false
+
+  parser = OptionParser.new do |opts|
+    opts.banner = "Usage: #{$0} [options] event_file"
+
+    opts.on("-d", "--[no-]debug", "Debug") do |d|
+      options[:debug] = d
+    end
+    opts.on("-k", "--key KEY", "Meetup API key; $MEETUP_API_KEY") do |k|
+      options[:key] = k
+    end
+    opts.on_tail("-h", "--help", "Show this message") do
+      puts opts
+      exit
+    end
+  end
+  parser.parse!
+
+  if options[:key].nil?
+    options[:key] = ENV['MEETUP_API_KEY']
+  end
+
+  raise OptionParser::MissingArgument if options[:key].nil?
+
+  filename = ARGV.pop
+  unless filename
+    STDERR.puts("need to specify an event file to process")
+    puts parser
+    exit(1)
+  end
+
+  main(filename, options)
+end

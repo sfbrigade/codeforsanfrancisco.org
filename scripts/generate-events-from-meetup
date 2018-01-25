@@ -1,0 +1,100 @@
+#! /usr/bin/env ruby
+
+# This script is used to generate local event pages from old Meetup pages
+# It will probably only be run once
+
+require 'faraday'
+require 'faraday_middleware'
+require 'front_matter_parser'
+require 'jekyll'
+require 'liquid'
+require 'logger'
+require 'nitlink'
+require 'optparse'
+require 'ostruct'
+require 'pathname'
+require 'yaml'
+
+#TODO figure out how to handle featured photo for event
+
+# default to 3 hours per meetup's API docs
+DEFAULT_EVENT_DURATION = 3 * 60 * 60 * 1000
+
+def main(options)
+  conn = Faraday.new do |conn|
+    if options.debug
+      conn.response :logger, ::Logger.new(STDERR), bodies: true
+    end
+    conn.response :json, :content_type => 'application/json'
+    conn.adapter Faraday.default_adapter
+  end
+  link_parser = Nitlink::Parser.new
+
+  url = 'https://api.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events?fields=featured_photo&status=past'
+  while true
+    break unless url
+
+    puts url
+    resp = conn.get(url) do |req|
+      req.headers['Content-Type'] = 'application/json'
+    end
+
+    resp.body.each do |event|
+      start_time = Time.at(event["time"] / 1000)
+      end_time = start_time + (event.fetch("duration", DEFAULT_EVENT_DURATION) / 1000)
+      frontmatter = {
+        "published" => true,
+        "date" => event["local_date"],
+        "title" => event["name"],
+        "description" => "Our weekly hack night is focused on civic tech and making government services better in San Francisco",
+        "rsvp" => event["link"],
+        "start_time" => start_time.strftime('%FT%T%:z'),
+        "end_time" => end_time.strftime('%FT%T%:z'),
+        "meetup" => {
+          "event_id" => event["id"],
+        },
+      }
+
+      if event["venue"]
+        frontmatter["meetup"]["venue_id"] = event["venue"]["id"]
+        frontmatter["address"] = {
+          "name" => event["venue"]["name"],
+          "street" => event["venue"]["address_1"],
+          "locality" => event["venue"]["city"],
+          "region" => event["venue"]["state"],
+        }
+      end
+
+      output = <<-MD
+#{frontmatter.to_yaml}
+---
+<!-- imported via scripts/generate-events-from-meetup -->
+#{event.fetch("description", "Our weekly hack night is focused on civic tech and making government services better in San Francisco")}
+  MD
+
+      File.write("_events/#{event["local_date"]}-#{Jekyll::Utils.slugify(event["name"])}.md", output)
+    end
+
+    url = link_parser.parse(resp).by_rel('next')&.target
+  end
+end
+
+if __FILE__ == $0
+  options = OpenStruct.new
+  options.debug = false
+
+  parser = OptionParser.new do |opts|
+    opts.banner = "Usage: #{$0} [options]"
+
+    opts.on("-d", "--[no-]debug", "Debug") do |d|
+      options[:debug] = d
+    end
+    opts.on_tail("-h", "--help", "Show this message") do
+      puts opts
+      exit
+    end
+  end
+  parser.parse!
+
+  main(options)
+end
