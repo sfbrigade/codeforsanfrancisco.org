@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<p><img alt="{{page.title}}" class="img-thumbnail" src="{{page.image}}" /></p>
+<p><img alt="{{page.title}}" class="img-thumbnail" src="{{page.image_path}}" /></p>
 
-<p><a href='/projects'>&laquo; back to Projects &amp; successes</a></p>
+<p><a href='/projects'>&laquo; back to Projects</a></p>
 
 <h2>{{ page.title }}</h2>
-{% if page.website %}
-  <p><i class='fa fa-globe'></i> <a target='_blank' href='{{page.website}}'>{{page.website}}</a></p>
+{% if page.app_link %}
+  <p><i class='fa fa-globe'></i> <a target='_blank' href='{{page.app_link}}'>{{page.app_link}}</a></p>
 {% endif %}
 
 <div class='post'>
@@ -23,36 +23,94 @@ layout: default
     <div class="well">
       <table class='table table-condensed'>
         <tbody>
-          {% if page.website %}
+            <tr>
+              <td>Project Status</td>
+              <td><span class='label label-primary'>{{page.project_status}}</span></td>
+            </tr>
+          {% if page.app_link %}
           <tr>
             <td>Website</td>
-            <td><a target='_blank' href='{{page.website}}'>{{page.title}}</a></td>
+            <td><a target='_blank' href='{{page.app_link}}'>{{page.app_link}}</a></td>
           </tr>
           {% endif %}
+          {% if page.repos %}
+          <tr>
+            <td>Code</td>
+            <td>{% for repo in page.repos %}{% if forloop.first != true %} <br />{% endif %}<a target='_blank' href='{{repo}}'>{{repo}}</a>{% endfor %}</td>
+          </tr>
+          {% endif %}
+          {% if page.civic_topics %}
+          <tr>
+            <td>Civic Topics</td>
+            <td>
+              {% for topic in page.civic_topics %}
+                <span class='label label-danger'>{{topic}}</span>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endif %}
+          {% if page.skills_needed %}
+          <tr>
+            <td>Skills Needed</td>
+            <td>
+              {% for skill in page.skills_needed %}
+                <span class='label label-info'>{{skill}}</span>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endif %}
+          {% if page.learning_opportunities %}
+          <tr>
+            <td>Learning Opportunities</td>
+            <td>
+              {% for opportunity in page.learning_opportunities %}
+                <span class='label label-warning'>{{opportunity}}</span>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endif %}
+          {% if page.project_lead %}
+          <tr>
+            <td>Project Lead</td>
+            <td>
+              {% assign member = site.data.authors[page.project_lead] %}
+              {% if member.url %}
+                <a href='{{member.url}}'>
+                  <img class='media-object member-image' src="http://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
+                </a>
+              {% else %}
+                <img class='media-object member-image' src="http://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
+              {% endif %}
+            </td>
+          </tr>
+          {% endif %}
+          {% if page.project_members %}
+          <tr>
+            <td>Project Members</td>
+            <td>
+                {% for member_key in page.project_members %}
+                {% assign member = site.data.authors[member_key] %}
+                  {% if member.url %}
+                    <a href='{{member.url}}'>
+                      <img class='media-object member-image' src="http://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
+                    </a>
+                  {% else %}
+                    <img class='media-object member-image' src="http://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
+                  {% endif %}
+              {% endfor %}
+            </td>
+          </tr>
+          {% endif %}
+          {% if page.tags %}
           <tr>
             <td>Tags</td>
             <td>
               {% for tag in page.tags %}
-                {{tag}}<br />
+                <span class='label label-primary'>{{tag}}</span>
               {% endfor %}
             </td>
           </tr>
-          <tr>
-            <td>Creators</td>
-            <td>
-              {% for creator in page.creators %}
-                {{creator}}<br />
-              {% endfor %}
-            </td>
-          </tr>
-          <tr>
-            <td>GitHub</td>
-            <td><a href='{{page.github}}'>{{page.github}}</a></td>
-          </tr>
-          <tr>
-            <td>Launched</td>
-            <td>{{page.date | date: "%B %Y"}}</td>
-          </tr>
+          {% endif %}
         </tbody>
       </table>
     </div>

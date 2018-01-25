@@ -35,3 +35,10 @@ section.seperated {
   padding-bottom: 1.5em;
   margin-bottom: 1.5em;
 }
+
+.member-image {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 0 5px 5px 0;
+}

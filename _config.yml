@@ -27,3 +27,15 @@ logo: /img/logo.png
 
 plugins:
   - jekyll-redirect-from
+  - liquid-md5
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
