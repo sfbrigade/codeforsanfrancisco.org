@@ -49,8 +49,7 @@ collections:
 
 plugins:
   - jekyll-redirect-from
-  - liquid-md5
-
+  
 collections:
   projects:
     output: true
