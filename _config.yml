@@ -29,6 +29,10 @@ defaults:
       type: "events"
     values:
       layout: "event"
+  - scope:
+      type: projects
+    values:
+      layout: project
 
 exclude:
   - Gemfile
@@ -46,17 +50,9 @@ logo: /img/logo.png
 collections:
   events:
     output: true
-
-plugins:
-  - jekyll-redirect-from
-  
-collections:
   projects:
     output: true
     permalink: /:collection/:path/
 
-defaults:
-  - scope:
-      type: projects
-    values:
-      layout: project
+plugins:
+  - jekyll-redirect-from
