@@ -6,6 +6,7 @@ published: true
 title: Designers & Geeks Provoke SF Crime Data
 image: screenshot.jpg
 image_alt: SF Crime Data Screenshot
+description: 'Code for San Francisco first collaboration with Designers & Geeks leads off Provoke, a new event series.'
 ---
 
 On October 12th we met at DesignMap’s offices with 75 others to witness the culmination of a partnership between Code for San Francisco and Designers & Geeks to rethink the user experience of SF Crime Data as part of Provoke, a new event series from [Designers & Geeks](https://designersandgeeks.com/) focused on the redesign of city projects.
