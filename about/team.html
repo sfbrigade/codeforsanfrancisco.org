@@ -1,0 +1,55 @@
+---
+layout: default
+title: Organizing team
+description: Code for San Francisco organization team.
+---
+
+<h1>Organizing team</h1>
+
+<p>
+  <strong>Code for San Francisco</strong> is organized by the following individuals
+  along with members of our <a href='{{ site.baseurl }}/about/leadership-council'>Leadership
+  Council</a>.
+</p>
+
+<div class='row'>
+  {% for member in site.data.team %}
+    <div class='col-sm-4'>
+      <img class='img-rounded img-responsive' src="http://gravatar.com/avatar/{{member.gravatar}}" alt="{{ author.name }}">
+      <h4>
+        <ul class="list-unstyled">
+          <li>
+            {% if member.email %}
+              <a href='mailto:{{ member.email }}'>{{ member.name }}</a>
+            {% else %}
+              {{ member.name }}
+            {% endif %}
+          </li>
+          <li>
+            <small>{{ member.title }}</small>
+          </li>
+        </ul>
+      </h4>
+    </div>
+  {% endfor %}
+</div>
+<p>
+  <small><i class='fa fa-envelope'></i> <a
+href='mailto:core-team@codeforsanfrancisco.org'>core-team@codeforsanfrancisco.org</a></small>
+</p>
+
+<h3>Governance and finances</h3>
+<p>
+  All major decisions about Code for San Francisco are made by the organizing team with input from the <a href='{{
+  site.baseurl }}/about/leadership-council'>Leadership Council</a>, which meets once a month.
+</p>
+
+<p>
+  Code for San Francisco finances are administered under Code for America Labs, Inc.
+</p>
+
+<h3>Speaker submissions</h3>
+<p>
+  Have a talk you'd like to give at Code for San Francisco? <a href='{{ site.baseurl }}/speaker-submissions.html'>See
+  our speaker guidelines</a>.
+</p>
