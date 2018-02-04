@@ -7,6 +7,7 @@ timezone: America/Los_Angeles
 permalink: pretty
 
 google_api_key: AIzaSyASGyuTdO6QCoVBaKSK360IWdpVpmGiqow
+google_analytics: UA-70064412-5
 
 # development key
 # google_api_key: AIzaSyBrSPsoJXo-iI97sUWEjIhDdCqUkghScQk
