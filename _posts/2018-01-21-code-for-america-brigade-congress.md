@@ -1,5 +1,6 @@
 ---
 authors:
+- jude_calvillo
 - kenny_durrell
 - vincent_la
 date: '2018-01-21'
