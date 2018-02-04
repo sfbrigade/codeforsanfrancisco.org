@@ -63,10 +63,10 @@ layout: default
           </h4>
           <p>
             <small>{{ post.date | date: "%b %-d, %Y" }} by
-              <a class='muted' href='{{post.author_url}}'>{{post.author}}</a>
-              {% if post.author2 %}
-                , <a class='muted' href='{{post.author2_url}}'>{{post.author2}}</a>
-              {% endif %}
+              {% for author_key in post.authors %}
+                {% assign author = site.data.authors[author_key] %}
+                {{ author.name }}{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
             </small>
             <br />
             {{ post.description | markdownify }} <a href='{{post.url}}'>Read more &raquo;</a>
