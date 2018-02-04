@@ -89,7 +89,7 @@ oz_ozwald:
 
 jesse_szwedko:
   name: Jesse Szwedko
-  bio: "Brigade Captain"
+  bio: "Brigade Co-captain"
   gravatar: 3e3a63b9ce04e1cd241d8660248e5412
 
 mike_bridge:
@@ -97,6 +97,14 @@ mike_bridge:
   bio: "Former Partnerships Lead"
 
 lauren_harriman:
-  name: LaurenHarriman
+  name: Lauren Harriman
   bio: ""
   url: https://twitter.com/lmmharriman
+
+kenny_durrell:
+  name: Kenny Durrell
+  bio: ""
+
+vincent_la:
+  name: Vincent La
+  bio: "Data Science Working Group Co-Lead"
