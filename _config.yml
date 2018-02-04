@@ -32,10 +32,12 @@ defaults:
       layout: "event"
 
 exclude:
+  - .gitignore
   - Gemfile
   - Gemfile.lock
-  - README.md
+  - node_modules
   - package.json
+  - README.md
   - scripts
   - vendor/bundle/
   - yarn.lock

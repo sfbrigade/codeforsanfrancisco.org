@@ -12,11 +12,13 @@ Heavily inspired by [Chi Hack Night's website](https://chihacknight.org/).
 
 * Install the version of Ruby specified in [.ruby-version](.ruby-version)
   * Usage of [rbenv](https://github.com/rbenv/rbenv) recommended
-* Run `bundle`
-* `bundle exec jekyll serve`
+* Run `make`
 
 [yarn](https://yarnpkg.com/lang/en/docs/install/) is used for managing external asset libraries (like Bootstrap, jQuery,
-etc.). Please install and use this if you are adding a new external resource.
+etc.).
+
+If you add a new external resource, be sure to add lines to the relevant [`Makefile`](Makefile) target to copy
+them into `css/vendor` and `js/vendor`.
 
 ## Scripts
 
