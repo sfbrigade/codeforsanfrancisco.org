@@ -12,6 +12,14 @@ require 'pathname'
 
 #TODO figure out how to handle featured photo for event
 
+=begin
+  This script is used to update a Meetup.com event that corresponds to the provided event markdown description from _events/.
+
+  After much back and forth, it was decided that keeping a relatively static Meetup description, with an optional
+  special description that will be prepended, and a link back to the event page on the site was the best route given
+  Meetup.com's very limited support for HTML.
+=end
+
 DESCRIPTION_TEMPLATE = <<-TXT
   {{ description }}
 
@@ -48,7 +56,6 @@ def main(filename, options)
   unless event_id = parsed.front_matter.fetch('meetup', {})['event_id']
     STDERR.puts('event does not have a meetup id')
     exit(1)
-    # TODO create events?
   end
 
   # will not handle non-standard permalink formats

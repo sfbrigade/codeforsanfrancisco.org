@@ -17,3 +17,14 @@ Heavily inspired by [Chi Hack Night's website](https://chihacknight.org/).
 
 [yarn](https://yarnpkg.com/lang/en/docs/install/) is used for managing external asset libraries (like Bootstrap, jQuery,
 etc.). Please install and use this if you are adding a new external resource.
+
+## Scripts
+
+Several scripts are included to facilitate synchronizing data to/from the site and external sources. Relevant scripts
+are highlighted below:
+
+### scripts/update-meetup
+
+This script is used to update a Meetup.com event with the description and metadata specified in the corresponding
+markdown document in the `_events/` collection. It should be run any time an event is updated. We'd like to automate
+this in the future.
