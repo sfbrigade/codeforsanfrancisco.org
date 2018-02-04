@@ -3,7 +3,7 @@
  */
 
 a {
-  color: #428bca;
+  color: #2c4a92;
   text-decoration:none;
 }
 
@@ -25,4 +25,56 @@ a:hover {
 .btn-link:hover, .btn-link:focus {
   color: #cf1b41;
   text-decoration: none;
+}
+
+/*
+ * Alert overrides copied from Bootstrap 4 since Flatly theme text contrast is not high enough
+ */
+
+.alert-primary {
+	color: #004085;
+	background-color: #cce5ff;
+	border-color: #b8daff;
+}
+
+.alert-secondary {
+	color: #383d41;
+	background-color: #e2e3e5;
+	border-color: #d6d8db;
+}
+
+.alert-success {
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.alert-info {
+	color: #0c5460;
+	background-color: #d1ecf1;
+	border-color: #bee5eb;
+}
+
+.alert-light {
+	color: #818182;
+	background-color: #fefefe;
+	border-color: #fdfdfe;
+}
+
+.alert-dark {
+	color: #1b1e21;
+	background-color: #d6d8d9;
+	border-color: #c6c8ca;
 }

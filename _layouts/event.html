@@ -87,7 +87,7 @@ layout: default
                     <span itemprop="addressRegion">{{ page.address.region }}</span>
                   </div>
                 </a>
-                <div class="google-maps">
+                <div class="google-maps" aria-hidden="true">
                   <iframe src="https://www.google.com/maps/embed/v1/search?key={{ site.google_api_key }}&q={{ google_maps_query|urlencode }}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
               {% endif %}

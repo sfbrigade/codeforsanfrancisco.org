@@ -20,15 +20,15 @@ description: Recent and upcoming hack nights and other Code for San Francisco ev
 <table data-paging='false', data-info='false', data-order='[[ 0, "desc" ]]' class='table table-striped datatable'>
   <thead>
     <tr itemscope itemtype='http://schema.org/Event'>
-      <th>Date</th>
-      <th>Event</th>
-      <th>Speaker(s)</th>
+      <th scope="col">Date</th>
+      <th scope="col">Event</th>
+      <th scope="col">Speaker(s)</th>
     </tr>
   </thead>
   <tbody>
     {% for event in site.events %}
       <tr>
-        <td data-order="{{ event.date }}" class='nowrap'>
+        <th data-order="{{ event.date }}" scope="row" class='nowrap'>
             <meta itemprop='startDate' datetime='{{ event.date | date: "%Y-%m-%d" }}' content='{{ event.date | date: "%Y-%m-%d" }}' />
             <p>{{ event.date | date: "%b %-d, %Y" }}</p>
         </td>
@@ -39,9 +39,13 @@ description: Recent and upcoming hack nights and other Code for San Francisco ev
           {% endif %}
         </td>
         <td>
-          {% for speaker in event.speakers %}
-            {{speaker}}<br />
-          {% endfor %}
+          <ul class="list-unstyled">
+            {% for speaker in event.speakers %}
+              <li>{{speaker}}</li>
+            {% else %}
+              <li class="sr-only">No speaker</li>
+            {% endfor %}
+          </ul>
         </td>
       </tr>
     {% endfor %}
