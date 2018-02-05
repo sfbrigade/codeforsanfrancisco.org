@@ -101,6 +101,12 @@ layout: default
             </td>
           </tr>
           {% endif %}
+          {% if page.slack %}
+          <tr>
+            <td>Slack Channel</td>
+            <td><a href='https://sfbrigade.slack.com/app_redirect?channel={{page.slack}}' target='_blank'>#{{page.slack}}</a></td>
+          </tr>
+          {% endif %}
           {% if page.tags %}
           <tr>
             <td>Tags</td>
