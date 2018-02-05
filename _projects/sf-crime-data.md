@@ -36,6 +36,7 @@
     - "stats"
     - "police"
     - "statistics"
+  slack: prj-sf-crime-data
 ---
 <h1 id="sf-crime-data">SF Crime Data</h1>
 <p>Reduce paper public records requests made to SFPD, by delivering fast, accurate OpenData in a web browser.</p>

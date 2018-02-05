@@ -1,6 +1,6 @@
 ---
   title: "Resilience Map"
-  blurb: ""
+  blurb: "An effort to find a solution for helping the SF Bay Area community to better prepare before a natural disaster"
   skills_needed: 
     - "UX Research"
     - "GeoJSON"
@@ -12,11 +12,15 @@
   project_status: "live"
   project_lead: null
   project_members: null
-  image_path: null
+  image_path: "http://i.imgur.com/2lHqtJ7.png"
   active: true
   tags: 
     - "Resilience"
     - "Disaster Response"
     - "Map"
+  civic_topics:
+    - "Resilience"
+    - "Disaster Preparedness"
+  slack: "resiliencemap"
 ---
-This project spun out of the National Day of Civic Hacking. The idea of an asset map is to give neighborhood leaders the tools they need before a disaster strikes. The map is going to document city resources and later will be used by neighborhood leaders to memorialize and digitize their neighborhood artifacts. 
+The Resilience Map project spun out of the National Day of Civic Hacking in an effort to find a solution for helping the SF Bay Area community to better prepare before a natural disaster. We’re currently working on creating an asset map to give neighborhood leaders the tools to prepare before a disaster strikes. The map is going to document city resources and later will be used by neighborhood leaders to create a digital archive of their neighborhood artifacts.

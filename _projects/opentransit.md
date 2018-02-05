@@ -14,9 +14,12 @@
   project_status: "prototype"
   project_lead: null
   project_members: null
-  image_path: "https://trynmaps.github.io/tryn-homepage/img/tryn-web-bg.jpg"
+  image_path: "http://i.imgur.com/2lHqtJ7.png"
   active: true
   tags: 
     - "transit"
     - "data visualization"
+  civic_topics:
+    - "Transit"
+  slack: "opentransit"
 ---

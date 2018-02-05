@@ -13,7 +13,7 @@
   project_lead: null
   project_members: null
   image_path: null
-  active: true
+  active: false
   tags: 
     - "legislation"
     - "laws"

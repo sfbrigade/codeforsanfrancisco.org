@@ -13,10 +13,13 @@
   project_lead: null
   project_members: null
   image_path: null
-  active: true
+  active: false
   tags: 
     - "Machine Learning"
     - "NeuralNetworks"
+  civic_topics:
+    - "Food Access"
+    - "Food Waste"
 ---
 > "40 percent of food in the United States today goes uneaten."
 > 

@@ -19,6 +19,7 @@
     - "prototyping"
     - "urwg"
     - "user research working group"
+  slack: research
 ---
 [![Stories in Ready](https://badge.waffle.io/sfbrigade/research-group.png?label=ready&title=Ready)](https://waffle.io/sfbrigade/research-group)
 # Welcome to the UX Research Group!

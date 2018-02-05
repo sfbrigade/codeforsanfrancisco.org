@@ -12,13 +12,18 @@
   project_status: "alpha"
   project_lead: null
   project_members: null
-  image_path: "https://pbs.twimg.com/profile_banners/39868320/1481679387/1500x500"
+  image_path: "/img/uploads/wevote.png"
   active: true
   tags: 
     - "Politics"
     - "Voting"
     - "Election"
     - "GOTV"
+  civic_topics:
+    - "Voting"
+    - "Elections"
+    - "Ballot Measures"
+  slack: wevote
 ---
 We Vote is a nonprofit, volunteer-driven movement, dedicated to bringing social collaboration to voting.
 

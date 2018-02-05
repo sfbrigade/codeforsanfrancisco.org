@@ -6,7 +6,7 @@
     - "css"
     - "a11y"
   repos: 
-    - ""
+    - "https://github.com/rootandrebound/roadmap-to-html"
   app_link: "http://roadmap.rootandrebound.org"
   license: null
   project_status: "alpha"
@@ -21,6 +21,10 @@
     - "content"
     - "criminal justice"
     - "reentry"
+  civic_topics:
+    - "Resource Directory"
+    - "Criminal Justice"
+  slack: roadmap
 ---
 Help us convert a massive, valuable Word Document into a high-quality, accessible static website!
 

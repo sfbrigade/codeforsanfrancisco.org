@@ -12,7 +12,7 @@
   project_lead: null
   project_members: null
   image_path: "http://datascience.codeforsanfrancisco.org/wp-content/uploads/2017/03/doj-screenshot.png"
-  active: true
+  active: false
   tags: 
     - "data vizualization"
     - "data viz"

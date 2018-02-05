@@ -23,6 +23,9 @@
     - "ux"
     - "public equity"
     - "economic development"
+  civic_topics:
+    - "Economic Development"
+  slack: datasci-sba
 ---
 datasci-sba (Small Business Association
 

@@ -20,6 +20,7 @@
     - "inferential statistics"
     - "R"
     - "shiny"
+  slack: datasci-civicanomaly
 ---
 ## Universal Civic Anomaly Detector
 

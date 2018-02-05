@@ -1,17 +1,23 @@
 ---
-  title: "ballotapi"
-  blurb: "Ballots for developers"
-  skills_needed: []
-  repos: 
-    - "https://github.com/sfbrigade/ballotapi"
-  app_link: "https://github.com/sfbrigade/ballotapi"
-  license: "MIT"
-  project_status: "proposed"
-  project_lead: null
-  project_members: null
-  image_path: "http://i.imgur.com/2lHqtJ7.png"
-  active: false
-  tags: []
+title: "ballotapi"
+blurb: "Ballots for developers"
+skills_needed:
+- "apis"
+- "documentation"
+repos: 
+- "https://github.com/sfbrigade/ballotapi"
+app_link: "https://github.com/sfbrigade/ballotapi"
+license: "MIT"
+project_status: "proposed"
+project_lead: null
+project_members: null
+image_path: "http://i.imgur.com/2lHqtJ7.png"
+active: true
+tags: []
+civic_topics:
+  - "Voting"
+  - "Ballot Measures"
+  - "Elections"
 ---
 #Ballot API - Ballots for developers
 

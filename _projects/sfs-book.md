@@ -19,6 +19,11 @@
     - "violence"
     - "sfsbook"
     - "sfwar"
+  civic_topics:
+    - "Resource Directory"
+    - "Nonprofit"
+    - "Women's Safety"
+  slack: sfsbook
 ---
 # stop-violence
 

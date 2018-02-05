@@ -10,7 +10,7 @@
   project_status: "proposed"
   project_lead: null
   project_members: null
-  image_path: null
+  image_path: "http://i.imgur.com/2lHqtJ7.png"
   active: true
   tags: 
     - "running"
@@ -18,6 +18,10 @@
     - "computer programming"
     - "coding"
     - "software engineering"
+  slack: "runnerswhocode"
+  civic_topics:
+    - "Fitness"
+    - "Community"
 ---
 Hey Code for SF, 
 

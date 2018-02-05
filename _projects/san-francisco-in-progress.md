@@ -1,6 +1,6 @@
 ---
   title: "San-Francisco-in-Progress"
-  blurb: "San Francisco in Progress housing development mapping  project"
+  blurb: "San Francisco in Progress housing development mapping project"
   skills_needed: []
   repos: 
     - "https://github.com/sfbrigade/San-Francisco-in-Progress"

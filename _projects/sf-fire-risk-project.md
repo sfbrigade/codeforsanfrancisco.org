@@ -21,6 +21,9 @@
     - "Data Science"
     - "Mapping Software"
     - "Predictive Modeling"
+  civic_topics:
+    - "Public Safety"
+  slack: datasci-firerisk
 ---
 URL to Current Prototype:
 

@@ -22,6 +22,10 @@
     - "city planning"
     - "urban"
     - "design"
+  civic_topics:
+    - "Urban Planning"
+    - "Transportation"
+    - "Urban Design"
 ---
 Streetmix3D creates 3D visualizations of roadways from [Streetmix.net](http://streetmix.net) 2D street cross-section designs. It allows anyone from amateurs to professional engineers quickly create 3D scenes with VR support.
 

@@ -23,6 +23,11 @@
     - "privacy"
     - "activism"
     - "changing the world"
+  slack: pursuance
+  civic_topics: 
+    - "Organizing"
+    - "Activism"
+    - "Journalism"
 ---
 Pursuance is a software tool for effectively organizing individuals to achieve a shared mission.
 

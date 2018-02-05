@@ -11,7 +11,7 @@
   project_lead: null
   project_members: null
   image_path: "http://datascience.codeforsanfrancisco.org/wp-content/uploads/2016/08/ca_open-justice-750x330.png"
-  active: true
+  active: false
   tags: 
     - "inferential statistics"
     - "predictive modeling"
