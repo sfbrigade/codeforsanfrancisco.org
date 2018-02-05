@@ -73,3 +73,7 @@ section.seperated {
 .panel-project {
   border-radius: 0;
 }
+
+.project-search-params {
+  padding-bottom: 20px;
+}
