@@ -36,7 +36,13 @@ layout: default
           {% if page.repos %}
           <tr>
             <td>Code</td>
-            <td>{% for repo in page.repos %}{% if forloop.first != true %} <br />{% endif %}<a target='_blank' href='{{repo}}'>{{repo}}</a>{% endfor %}</td>
+            <td>
+              <ul class='list-unstyled'>
+                  {% for repo in page.repos %}
+                  <li><a target='_blank' href='{{repo}}'>{{repo}}</a></li>
+                  {% endfor %}
+              </ul>
+            </td>
           </tr>
           {% endif %}
           {% if page.civic_topics %}
