@@ -1,4 +1,4 @@
-# ode for San Francisco's website
+# Code for San Francisco's website
 
 [Brigadehub](https://github.com/brigadehub/brigadehub), the current host of
 [codeforsanfranciso.org](http://codeforsanfrancisco.org) is [retired](https://brigadehub.github.io/) we desire to find
