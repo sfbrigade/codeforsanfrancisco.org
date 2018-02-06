@@ -35,3 +35,45 @@ section.seperated {
   padding-bottom: 1.5em;
   margin-bottom: 1.5em;
 }
+
+.member-image {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+.row-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col-flex-item {
+  display: flex;
+  flex-flow: column;
+}
+
+.block-image {
+  height: 200px;
+  width: 200px;
+  display: block;
+  background-color: #f0f0f0;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-origin: border-box;
+  background-size: cover;
+  margin-right: 20px;
+  border: thin solid #e3e3e3;
+}
+
+.panel-project h3 {
+  margin-top: 0;
+}
+
+.panel-project {
+  border-radius: 0;
+}
+
+.project-search-params {
+  padding-bottom: 20px;
+}

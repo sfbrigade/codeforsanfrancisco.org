@@ -1,0 +1,14 @@
+---
+---
+{% assign active_projects = site.projects | where:"active",true %}
+[{% for project in active_projects %}
+  {
+    "id": "{{project.url}}",
+    "title": "{{project.title}}",
+    "blurb": "{{project.blurb}}",
+    "tags": {{project.tags | jsonify}},
+    "civic_topics": {{project.civic_topics | jsonify}},
+    "skills_needed": {{project.skills_needed | jsonify}},
+    "image_path": "{{project.image_path}}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}]

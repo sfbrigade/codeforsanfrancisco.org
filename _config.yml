@@ -18,6 +18,7 @@ facebook: codeforsanfrancisco
 youtube: UCLFcPyza0fGFEDMEb1A14XQ
 meetup: Code-for-San-Francisco-Civic-Hack-Night
 mailchimp: http://eepurl.com/bfFkF9
+slack_org: https://sfbrigade.slack.com
 
 defaults:
   -
@@ -30,6 +31,10 @@ defaults:
       type: "events"
     values:
       layout: "event"
+  - scope:
+      type: projects
+    values:
+      layout: project
 
 exclude:
   - Gemfile
@@ -47,6 +52,9 @@ logo: /img/logo.png
 collections:
   events:
     output: true
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 plugins:
   - jekyll-redirect-from
