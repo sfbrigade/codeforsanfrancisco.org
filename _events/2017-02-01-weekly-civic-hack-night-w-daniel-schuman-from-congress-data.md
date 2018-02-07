@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night w/ Daniel Schuman from Congress Data
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/236656383/
-start_time: '2017-02-01T18:00:00-08:00'
-end_time: '2017-02-01T21:30:00-08:00'
+start_time: 2017-02-01T18:00:00-08:00
+end_time: 2017-02-01T21:30:00-08:00
 meetup:
   event_id: fhcxxlywdbcb
   venue_id: 6325852

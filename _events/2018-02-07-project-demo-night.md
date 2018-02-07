@@ -6,8 +6,8 @@ description: |
                 Want to see how volunteers are using technology to tackle hard challenges in San Francisco? Code for SF
                 is hosting a demo night of the projects our members are building.
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/246796950/
-start_time: '2018-02-07T18:00:00-08:00'
-end_time: '2018-02-07T22:00:00-08:00'
+start_time: 2018-02-07T18:00:00-08:00
+end_time: 2018-02-07T22:00:00-08:00
 image: /img/events/2017-05-demo-day.jpeg
 meetup:
   event_id: 246796950

@@ -6,7 +6,7 @@ layout: default
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    {% assign next_event = site.events | where_exp: 'event', 'event.date >= site.time' | sort: 'date' | first %}
+    {% assign next_event = site.events | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
     <h3 class="panel-title">Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></h3>
   </div>
   <div class="panel-body">
@@ -22,7 +22,7 @@ layout: default
             <p>{{ next_event.description }}</p>
           {% endif %}
           <br />
-          {% if site.time <= next_event.date %}
+          {% if site.time <= next_event.start_time %}
             <a class='btn btn-success btn-lg' href="{{ next_event.rsvp }}" target='_blank'><i class='fa fa-check-square-o'></i> RSVP</a>
           {% endif %}
           <a class='btn btn-link btn-lg' href="{{ next_event.url }}"><i class='fa fa-info-circle'></i> Details</a>

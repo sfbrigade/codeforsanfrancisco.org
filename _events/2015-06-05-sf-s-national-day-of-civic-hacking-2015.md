@@ -5,8 +5,8 @@ title: SF's National Day of Civic Hacking 2015
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/219706402/
-start_time: '2015-06-05T18:30:00-07:00'
-end_time: '2015-06-07T18:00:00-07:00'
+start_time: 2015-06-05T18:30:00-07:00
+end_time: 2015-06-07T18:00:00-07:00
 meetup:
   event_id: '219706402'
   venue_id: 23815839

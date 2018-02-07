@@ -5,8 +5,8 @@ title: Civic Hackathon @ Dev Bootcamp!
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/228094567/
-start_time: '2016-01-23T09:00:00-08:00'
-end_time: '2016-01-23T12:00:00-08:00'
+start_time: 2016-01-23T09:00:00-08:00
+end_time: 2016-01-23T12:00:00-08:00
 meetup:
   event_id: '228094567'
   venue_id: 24304673

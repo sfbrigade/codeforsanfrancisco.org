@@ -5,8 +5,8 @@ title: Demo Night & Celebration
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/226629366/
-start_time: '2015-12-09T18:30:00-08:00'
-end_time: '2015-12-09T21:00:00-08:00'
+start_time: 2015-12-09T18:30:00-08:00
+end_time: 2015-12-09T21:00:00-08:00
 meetup:
   event_id: ttdjmlytqbmb
   venue_id: 6325852

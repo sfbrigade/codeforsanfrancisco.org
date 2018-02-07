@@ -5,8 +5,8 @@ title: Hack Night - Oliver Luby, Whistle Blower on SF Ethics Commission
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/221149744/
-start_time: '2015-04-08T18:30:00-07:00'
-end_time: '2015-04-08T21:00:00-07:00'
+start_time: 2015-04-08T18:30:00-07:00
+end_time: 2015-04-08T21:00:00-07:00
 meetup:
   event_id: csptdlytgblb
   venue_id: 6325852

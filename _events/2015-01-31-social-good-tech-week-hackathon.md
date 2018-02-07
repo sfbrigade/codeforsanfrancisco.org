@@ -5,8 +5,8 @@ title: Social Good Tech Week // Hackathon
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/220102323/
-start_time: '2015-01-31T10:00:00-08:00'
-end_time: '2015-01-31T19:30:00-08:00'
+start_time: 2015-01-31T10:00:00-08:00
+end_time: 2015-01-31T19:30:00-08:00
 meetup:
   event_id: '220102323'
   venue_id: 3420592

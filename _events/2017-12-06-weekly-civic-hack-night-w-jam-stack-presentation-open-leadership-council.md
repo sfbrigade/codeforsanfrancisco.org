@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night w/ JAM Stack Presentation & Open Leadership Counc
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/243162071/
-start_time: '2017-12-06T18:00:00-08:00'
-end_time: '2017-12-06T21:30:00-08:00'
+start_time: 2017-12-06T18:00:00-08:00
+end_time: 2017-12-06T21:30:00-08:00
 meetup:
   event_id: rpgblnywqbjb
   venue_id: 6325852

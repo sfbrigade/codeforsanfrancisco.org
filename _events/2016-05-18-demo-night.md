@@ -5,8 +5,8 @@ title: Demo Night!
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/230155661/
-start_time: '2016-05-18T18:00:00-07:00'
-end_time: '2016-05-18T22:00:00-07:00'
+start_time: 2016-05-18T18:00:00-07:00
+end_time: 2016-05-18T22:00:00-07:00
 meetup:
   event_id: xgtvslyvhbxb
   venue_id: 6325852

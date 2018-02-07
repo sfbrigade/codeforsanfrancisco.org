@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/180551062/
-start_time: '2014-05-14T18:30:00-07:00'
-end_time: '2014-05-14T21:00:00-07:00'
+start_time: 2014-05-14T18:30:00-07:00
+end_time: 2014-05-14T21:00:00-07:00
 meetup:
   event_id: dzrrxhyshbsb
   venue_id: 6325852
