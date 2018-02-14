@@ -1,0 +1,25 @@
+<h4>{{ include.event.start_time | date: "%l %p, %A, %B %-d, %Y" }}</h4>
+
+<h2 class='name'>
+  <a href="{{ include.event.url }}">{{ include.event.title }}</a>
+</h2>
+<div class='row'>
+  <div class='col-sm-7'>
+    {% if include.event.description %}
+      <p>{{ include.event.description }}</p>
+    {% endif %}
+    <br />
+    {% if site.time <= include.event.start_time %}
+      <a class='btn btn-success btn-lg' href="{{ include.event.rsvp }}" target='_blank'><i class='fa fa-check-square-o'></i> RSVP</a>
+    {% endif %}
+    <a class='btn btn-link btn-lg' href="{{ include.event.url }}"><i class='fa fa-info-circle'></i> Details</a>
+    {% if include.event.agenda %}
+      <a class='btn btn-link btn-lg' href="{{ include.event.agenda }}" target='_blank'><i class='fa fa-file-text-o'></i> Agenda</a>
+    {% endif %}
+  </div>
+  <div class='col-sm-5'>
+    {% if include.event.image %}
+      <a href="{{ include.event.url }}"><img class='img-responsive img-thumbnail' src='{{ include.event.image | prepend: site.basurl }}' alt='{{include.event.title}}' /></a>
+    {% endif %}
+  </div>
+</div>
