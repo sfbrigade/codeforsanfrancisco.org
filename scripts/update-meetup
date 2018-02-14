@@ -63,7 +63,7 @@ def main(filename, options)
 
   body = template.render(parsed.front_matter.merge({
     "description" => parsed.front_matter['description'],
-    "link" => "http://alpha.codeforsanfrancisco.org/events/#{slug}",
+    "link" => "http://codeforsanfrancisco.org/events/#{slug}",
   }))
 
 
