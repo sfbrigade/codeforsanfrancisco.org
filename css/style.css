@@ -1,3 +1,11 @@
+.header .navbar-brand > img {
+  height: 40px;
+}
+
+/* Theme only allows for colored navbars, but we want white so need to color the hamburger menu */
+.navbar-toggle { border: 1px solid #ccc; }
+.navbar-toggle .icon-bar { background-color: #666;}
+
 .footer {
   font-size: smaller;
 
