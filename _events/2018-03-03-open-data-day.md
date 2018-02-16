@@ -8,7 +8,7 @@ description: |
               the world will be gathering to show the benefits of open data and encourage the adoption of open data
               policies in government, business and civil society.  It'll be a day of learning, experimenting, and
               exploring what's possible when companies and governments open their data.
-rsvp: https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2018-tickets-42826162204
+rsvp: https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2018-tickets-42826162204?aff=Website
 start_time: 2018-03-07T08:30:00-08:00
 end_time: 2018-03-07T17:00:00-08:00
 image: /img/events/2018-03-03.jpg
