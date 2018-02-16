@@ -4,7 +4,7 @@ date: '2018-02-21'
 title: Weekly Civic Hack Night
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
-rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/247070605/
+rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/246740966/
 start_time: 2018-02-21T18:00:00-08:00
 end_time: 2018-02-21T21:30:00-08:00
 meetup:
@@ -15,7 +15,7 @@ address:
   street: 155 9th St.
   locality: San Francisco
   region: CA
-agenda: https://docs.google.com/document/d/1Yvm6GASOQN-AT-1QFSZPzdOhbx_wrG246pWcCC90oZc/edit#
+agenda: https://docs.google.com/document/d/11g1O1bgVq6OZInFUR5EA0tEmHPUZnfY0kShzYE3_QyU/edit
 
 ---
 
