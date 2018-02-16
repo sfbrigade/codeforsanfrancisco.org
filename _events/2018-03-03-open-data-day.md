@@ -4,9 +4,10 @@ featured: true
 date: '2018-03-03'
 title: Open Data Day 2018
 description: |
-               Join us for another celebration of open data! For the seventh time in history, groups from around the
-               world will be gathering to show the benefits of open data and encourage the adoption of open data
-               policies in government, business and civil society.
+              Join us for another annual celebration of open data! For the seventh time in history, groups from around
+              the world will be gathering to show the benefits of open data and encourage the adoption of open data
+              policies in government, business and civil society.  It'll be a day of learning, experimenting, and
+              exploring what's possible when companies and governments open their data.
 rsvp: https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2018-tickets-42826162204
 start_time: 2018-03-07T08:30:00-08:00
 end_time: 2018-03-07T17:00:00-08:00
@@ -22,11 +23,10 @@ address:
 
 ---
 
-Join us for another celebration of open data! For the seventh time in history, [groups from around the
+Join us for another annual celebration of open data! For the seventh time in history, [groups from around the
 world](http://opendataday.org/#map) will be gathering to show the benefits of open data and encourage the adoption of
-open data policies in government, business and civil society.
-
-It'll be a day of learning, experimenting, and exploring what's possible when companies and governments open their data.
+open data policies in government, business and civil society.  It'll be a day of learning, experimenting, and exploring
+what's possible when companies and governments open their data.
 
 This year, the global themes are: **Open Research Data**, **Tracking Public Money Flows**, **Open Mapping**, and **Data
 for Equal Development**, but all projects leveraging open data are welcome!
@@ -45,10 +45,27 @@ document](https://hackmd.io/KbDMCMAYE5IMwLQEMlwBwICwGNKQbKAOzLBpwAm4AbNmmkUkA===
 
 [Recap of last year's event](http://codeforsanfrancisco.org/blog/post/searching-for-equity-in-a-sea-of-data)
 
+## Confirmed Speakers
+
+### Keynote
+
+_Sandra Zuniga, Director of the [Fix-It Team](http://sfmayor.org/neighborhoods/fix-it-team)_
+
+**Description forthcoming**
+
+### Learning Opportunities
+
+#### Open Data 101
+
+_Jason Lally, Data Services Manager of [DataSF](https://datasf.org)_
+
+An exploration of the [Open Data Portal](https://datasf.org/opendata/) with our co-organizer and the Data Services
+Manager for the City of San Francisco.
+
 ## Schedule
 
 * **8:30 AM** Registration and breakfast
-* **9:15 AM** Opening presentation and lightning talks by government and community officials
+* **9:15 AM** Opening presentation and keynote by Sandra Zuniga, [Fix-It Director](http://sfmayor.org/neighborhoods/fix-it-team)
 * **9:45 AM** Existing project pitches, new problem statements, and how the day will work
 * **10:30 AM** Hacking and learning opportunities
 * **12:00 PM** Lunch
