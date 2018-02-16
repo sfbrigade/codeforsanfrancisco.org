@@ -43,7 +43,7 @@ open data can be used to improve our communities.
 We are gathering available resources and problem statements on a [collaborative
 document](https://hackmd.io/KbDMCMAYE5IMwLQEMlwBwICwGNKQbKAOzLBpwAm4AbNmmkUkA===?both#) in advance of the event.
 
-[Recap of last year's event](http://codeforsanfrancisco.org/blog/post/searching-for-equity-in-a-sea-of-data)
+[Recap of last year's event]({% post_url 2017-03-17-searching-for-equity-in-a-sea-of-data %})
 
 ## Confirmed Speakers
 
