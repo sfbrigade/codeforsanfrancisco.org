@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/241230313/
-start_time: '2017-08-30T18:00:00-07:00'
-end_time: '2017-08-30T21:30:00-07:00'
+start_time: 2017-08-30T18:00:00-07:00
+end_time: 2017-08-30T21:30:00-07:00
 meetup:
   event_id: rpgblnywlbnc
   venue_id: 6325852

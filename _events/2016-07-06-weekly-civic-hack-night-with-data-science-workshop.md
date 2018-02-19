@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night with Data Science Workshop
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/231988901/
-start_time: '2016-07-06T18:30:00-07:00'
-end_time: '2016-07-06T21:30:00-07:00'
+start_time: 2016-07-06T18:30:00-07:00
+end_time: 2016-07-06T21:30:00-07:00
 meetup:
   event_id: xgtvslyvkbjb
   venue_id: 24252670

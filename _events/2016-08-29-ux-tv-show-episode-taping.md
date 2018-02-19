@@ -5,8 +5,8 @@ title: UX TV Show - Episode Taping
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/233679469/
-start_time: '2016-08-29T18:00:00-07:00'
-end_time: '2016-08-29T21:00:00-07:00'
+start_time: 2016-08-29T18:00:00-07:00
+end_time: 2016-08-29T21:00:00-07:00
 meetup:
   event_id: '233679469'
   venue_id: 23799576

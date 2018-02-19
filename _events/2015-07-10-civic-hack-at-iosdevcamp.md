@@ -5,8 +5,8 @@ title: 'Civic Hack at iOSDevCamp '
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/223752879/
-start_time: '2015-07-10T17:00:00-07:00'
-end_time: '2015-07-12T17:00:00-07:00'
+start_time: 2015-07-10T17:00:00-07:00
+end_time: 2015-07-12T17:00:00-07:00
 meetup:
   event_id: '223752879'
   venue_id: 14975522

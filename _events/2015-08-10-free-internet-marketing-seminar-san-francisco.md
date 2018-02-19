@@ -5,8 +5,8 @@ title: FREE Internet Marketing Seminar - San Francisco
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/224528484/
-start_time: '2015-08-10T12:30:00-07:00'
-end_time: '2015-08-13T20:30:00-07:00'
+start_time: 2015-08-10T12:30:00-07:00
+end_time: 2015-08-13T20:30:00-07:00
 meetup:
   event_id: '224528484'
 

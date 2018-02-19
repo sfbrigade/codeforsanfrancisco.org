@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night w/ Code Tenderloin
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/246922854/
-start_time: '2018-01-31T18:00:00-08:00'
-end_time: '2018-01-31T21:30:00-08:00'
+start_time: 2018-01-31T18:00:00-08:00
+end_time: 2018-01-31T21:30:00-08:00
 meetup:
   event_id: rpgblnyxcbpc
   venue_id: 6325852

@@ -5,8 +5,8 @@ title: Open Data Day!
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/237515330/
-start_time: '2017-03-04T08:30:00-08:00'
-end_time: '2017-03-04T17:00:00-08:00'
+start_time: 2017-03-04T08:30:00-08:00
+end_time: 2017-03-04T17:00:00-08:00
 meetup:
   event_id: '237515330'
   venue_id: 24252670

@@ -5,8 +5,8 @@ title: Prep for National Day of Civic Hacking!
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/180624842/
-start_time: '2014-05-21T18:30:00-07:00'
-end_time: '2014-05-21T21:00:00-07:00'
+start_time: 2014-05-21T18:30:00-07:00
+end_time: 2014-05-21T21:00:00-07:00
 meetup:
   event_id: dzrrxhyshbcc
   venue_id: 6325852

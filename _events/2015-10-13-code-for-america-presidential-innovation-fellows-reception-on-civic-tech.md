@@ -5,8 +5,8 @@ title: Code for America & Presidential Innovation Fellows Reception on Civic Tec
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/226008840/
-start_time: '2015-10-13T18:00:00-07:00'
-end_time: '2015-10-13T20:00:00-07:00'
+start_time: 2015-10-13T18:00:00-07:00
+end_time: 2015-10-13T20:00:00-07:00
 meetup:
   event_id: '226008840'
   venue_id: 6325852

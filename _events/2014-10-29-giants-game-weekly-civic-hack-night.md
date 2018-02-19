@@ -5,8 +5,8 @@ title: Giants Game & Weekly Civic Hack Night
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/201350442/
-start_time: '2014-10-29T18:30:00-07:00'
-end_time: '2014-10-29T21:00:00-07:00'
+start_time: 2014-10-29T18:30:00-07:00
+end_time: 2014-10-29T21:00:00-07:00
 meetup:
   event_id: dzrrxhysnbmc
   venue_id: 6325852

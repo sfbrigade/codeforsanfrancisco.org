@@ -1,10 +1,10 @@
-# Alpha for Code for San Francisco's website
+# Code for San Francisco's website
 
 [Brigadehub](https://github.com/brigadehub/brigadehub), the current host of
 [codeforsanfranciso.org](http://codeforsanfrancisco.org) is [retired](https://brigadehub.github.io/) we desire to find
 a new long term solution to host the website. The current thought is to move back to using a static site generator,
-[Jekyll](https://jekyllrb.com/). This repository is attempt at that. When it is ready, it'll be hosted at
-[alpha.codeforsanfrancisco.org](http://alpha.codeforsanfrancisco.org) for feedback.
+[Jekyll](https://jekyllrb.com/). This repository is attempt at that. It is now live at
+[codeforsanfrancisco.org](codeforsanfrancisco.org).
 
 Heavily inspired by [Chi Hack Night's website](https://chihacknight.org/).
 
@@ -28,5 +28,5 @@ are highlighted below:
 ### scripts/update-meetup
 
 This script is used to update a Meetup.com event with the description and metadata specified in the corresponding
-markdown document in the `_events/` collection. It should be run any time an event is updated. We'd like to automate
+markdown document in the `_events/` collection. It should be run any time an event is updated. We would like to automate
 this in the future.

@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night w/ united.vote presentation
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/246740910/
-start_time: '2018-01-24T18:00:00-08:00'
-end_time: '2018-01-24T21:30:00-08:00'
+start_time: 2018-01-24T18:00:00-08:00
+end_time: 2018-01-24T21:30:00-08:00
 meetup:
   event_id: rpgblnyxcbgc
   venue_id: 6325852

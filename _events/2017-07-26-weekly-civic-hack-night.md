@@ -5,8 +5,8 @@ title: Weekly Civic Hack Night
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/241230284/
-start_time: '2017-07-26T18:00:00-07:00'
-end_time: '2017-07-26T21:30:00-07:00'
+start_time: 2017-07-26T18:00:00-07:00
+end_time: 2017-07-26T21:30:00-07:00
 meetup:
   event_id: rpgblnywkbjc
   venue_id: 6325852

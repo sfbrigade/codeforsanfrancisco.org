@@ -18,15 +18,9 @@ layout: default
         <hr />
       {% endif %}
 
-      {% if page.image %}
-        <p>
-          <img class='img-responsive img-thumbnail' src='{{ page.image }}' alt='{{ page.title }}' />
-        </p>
-      {% endif %}
-
       {% if site.time <= page.date %}
         <p>
-          <a class='btn btn-success' href="{{ post.rsvp }}" target='_blank'><i class='fa fa-check-square-o'></i> RSVP</a>
+          <a class='btn btn-success' href="{{ page.rsvp }}" target='_blank'><i class='fa fa-check-square-o'></i> RSVP</a>
 
           {% if page.agenda %}
             <a class='btn btn-info' href='{{ page.agenda }}' target='_blank'><i class='fa fa-file-text-o fa-fw'></i> Agenda</a>
@@ -44,7 +38,7 @@ layout: default
           </li>
         {% endif %}
 
-        <li><i class='fa fa-meetup fa-fw'></i> <a href='{{ page.rsvp }}' target='_blank'>Meetup page</a></li>
+        <li><i class='fa fa-calendar fa-fw'></i> <a href='{{ page.rsvp }}' target='_blank'>RSVP page</a></li>
         <li><i class='fa fa-group fa-fw'></i> <a href='{{ site.baseurl }}/projects'> Projects</a></li>
         <li><i class='fa fa-smile-o fa-fw'></i> <a href='https://docs.google.com/document/d/1ZV_iy2CeDlTu13Af9-_5NyOC8SVP9mpxIBn0g1e_S-Q/edit'> Code of Conduct</a></li>
 
@@ -63,11 +57,12 @@ layout: default
     </div>
 
     <div class='col-sm-5'>
+      {% if page.image %}
+        <p>
+          <img class='img-responsive img-thumbnail' src='{{ page.image | prepend: site.baseurl }}' alt='{{ page.title }}' />
+        </p>
+      {% endif %}
       <div class='well'>
-        {% if page.image %}
-          <p><img class='img-responsive img-thumbnail' src='{{page.image}}' alt='{{page.title}}' /></p>
-        {% endif %}
-
         <p>{{ page.start_time | date: "%l %p, %A, %B %-d, %Y" }}</p>
 
         {% if page.address %}

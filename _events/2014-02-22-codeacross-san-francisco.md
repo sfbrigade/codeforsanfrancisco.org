@@ -5,8 +5,8 @@ title: CodeAcross San Francisco
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/165083342/
-start_time: '2014-02-22T09:00:00-08:00'
-end_time: '2014-02-22T12:00:00-08:00'
+start_time: 2014-02-22T09:00:00-08:00
+end_time: 2014-02-22T12:00:00-08:00
 meetup:
   event_id: '165083342'
   venue_id: 6325852

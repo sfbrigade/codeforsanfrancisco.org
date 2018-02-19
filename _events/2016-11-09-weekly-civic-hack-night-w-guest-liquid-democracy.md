@@ -5,8 +5,8 @@ title: 'Weekly Civic Hack Night w/ Guest: Liquid Democracy'
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/235071427/
-start_time: '2016-11-09T18:00:00-08:00'
-end_time: '2016-11-09T21:30:00-08:00'
+start_time: 2016-11-09T18:00:00-08:00
+end_time: 2016-11-09T21:30:00-08:00
 meetup:
   event_id: fhcxxlyvpbmb
   venue_id: 6325852

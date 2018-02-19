@@ -4,36 +4,26 @@ layout: default
 
 <h2>{{ site.description }}</h2>
 
+{% assign next_featured_event = site.events | where: "featured", true | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
+{% if next_featured_event %}
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Featured upcoming event</h3>
+    </div>
+    <div class="panel-body">
+      {% include event_card_body.html event=next_featured_event %}
+    </div>
+  </div>
+{% endif %}
+
+{% assign next_event = site.events | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
 <div class="panel panel-default">
   <div class="panel-heading">
-    {% assign next_event = site.events | where_exp: 'start_time', 'start_time > site.time' | sort: 'start_time' | first %}
     <h3 class="panel-title">Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></h3>
   </div>
   <div class="panel-body">
-    {% if event %}
-      <h4>{{ event.start_time | date: "%l %p, %A, %B %-d, %Y" }}</h4>
-
-      <h2 class='name'>
-        <a href="{{ event.url }}">{{ event.title }}</a>
-      </h2>
-      <div class='row'>
-        <div class='col-sm-7'>
-          {% if event.description %}
-            <p>{{ event.description }}</p>
-          {% endif %}
-          <br />
-          {% if site.time <= event.date %}
-            <a class='btn btn-success btn-lg' href="{{ event.rsvp }}" target='_blank'><i class='fa fa-check-square-o'></i> RSVP</a>
-          {% endif %}
-          <a class='btn btn-link btn-lg' href="{{ event.url }}"><i class='fa fa-info-circle'></i> Details</a>
-          <a class='btn btn-link btn-lg' href="{{ event.agenda }}" target='_blank'><i class='fa fa-file-text-o'></i> Agenda</a>
-        </div>
-        <div class='col-sm-5'>
-          {% if event.image %}
-            <a href="{{event.url}}"><img class='img-responsive img-thumbnail' src='{{event.image}}' alt='{{event.title}}' /></a>
-          {% endif %}
-        </div>
-      </div>
+    {% if next_event %}
+      {% include event_card_body.html event=next_event %}
     {% else %}
       <h3 class='name'>
         No upcoming events. Stay tuned for more!

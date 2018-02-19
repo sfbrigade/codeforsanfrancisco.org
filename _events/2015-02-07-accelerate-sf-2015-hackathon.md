@@ -5,8 +5,8 @@ title: Accelerate SF 2015 hackathon
 description: Our weekly hack night is focused on civic tech and making government
   services better in San Francisco
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/219704848/
-start_time: '2015-02-07T10:00:00-08:00'
-end_time: '2015-02-08T19:00:00-08:00'
+start_time: 2015-02-07T10:00:00-08:00
+end_time: 2015-02-08T19:00:00-08:00
 meetup:
   event_id: '219704848'
   venue_id: 23489377
