@@ -3,6 +3,7 @@ BUNDLE := bundle
 YARN := yarn
 JS_VENDOR_DIR = js/vendor
 CSS_VENDOR_DIR = css/vendor
+CSS_FONTS_DIR = css/fonts
 JEKYLL := $(BUNDLE) exec jekyll
 
 PROJECT_DEPS := Gemfile package.json
@@ -38,6 +39,8 @@ include-yarn-js:
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(JS_VENDOR_DIR)
 	cp node_modules/html5shiv/dist/html5shiv.min.js $(JS_VENDOR_DIR)
 	cp node_modules/respond.js/dest/respond.min.js $(JS_VENDOR_DIR)
+	cp node_modules/mustache/mustache.min.js $(JS_VENDOR_DIR)
+	cp node_modules/lunr/lunr.js $(JS_VENDOR_DIR)
 
 # TODO(jszwedko) rewrite this to use the files as targets
 .PHONY: include-yarn-css
@@ -46,6 +49,7 @@ include-yarn-css:
 	cp node_modules/bootstrap/dist/css/bootstrap.min.css $(CSS_VENDOR_DIR)
 	cp node_modules/font-awesome/css/font-awesome.min.css $(CSS_VENDOR_DIR)
 	cp node_modules/datatables.net-bs/css/dataTables.bootstrap.css $(CSS_VENDOR_DIR)
+	cp -R node_modules/font-awesome/fonts $(CSS_FONTS_DIR)
 
 .PHONY: build
 build: install include-yarn-deps
