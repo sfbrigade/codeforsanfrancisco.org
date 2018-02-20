@@ -1,5 +1,10 @@
+.DS_Store
+
 _site/
 .sass-cache/
 .jekyll-metadata
-.DS_Store
+
 vendor/bundle
+
+# make sure to add any additions to node_modules to the Makefile to be copied
+node_modules/
