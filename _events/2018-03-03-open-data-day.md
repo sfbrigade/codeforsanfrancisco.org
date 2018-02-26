@@ -67,7 +67,7 @@ quality of life. As Fix-It Director, Sandra works with 7 different City agencies
 sustainable fixes in San Francisco, and has championed a number of innovative projects and civic efforts directly
 informed by unique data analysis. Prior to her appointment she worked at San Francisco Public Works for 8 years, most
 recently as Central Operations Manager, where she oversaw community engagement, enforcement and apprenticeship
-employment programs offered by the department
+employment programs offered by the department.
 
 ### Lightning Talks
 
