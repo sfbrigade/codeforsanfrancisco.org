@@ -63,7 +63,7 @@ layout: default
         </p>
       {% endif %}
       <div class='well'>
-        <p>{{ page.start_time | date: "%l %p, %A, %B %-d, %Y" }}</p>
+        <p>{{ page.start_time | date: "%l:%M %p, %A, %B %-d, %Y" }}</p>
 
         {% if page.address %}
           <div itemprop="location" itemscope itemtype="http://schema.org/Place">
