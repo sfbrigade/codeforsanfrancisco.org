@@ -85,6 +85,14 @@ Datasette is a tool for publishing data to the internet as a browsable web inter
 way to take some interesting data and host it somewhere in a way that enables applications to be built on top of it.
 I'll show how I used it to build a search engine for trees in San Francisco using data from DataSF.
 
+#### Brief introduction to the "Wikipedia of maps"
+
+**Sam Estabrook**
+
+OpenStreetMap (OSM) is a global, collaborative open map data project (ODbL license) being built by volunteers. For the
+last 13 years the map has grown into a primary source of geographic data for many places around the world and for many
+products and services.
+
 ### Learning Opportunities
 
 #### Open Data 101
