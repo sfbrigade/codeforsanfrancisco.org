@@ -3,7 +3,7 @@ BUNDLE := bundle
 YARN := yarn
 JS_VENDOR_DIR = js/vendor
 CSS_VENDOR_DIR = css/vendor
-CSS_FONTS_DIR = css/fonts
+CSS_FONTS_DIR = css
 JEKYLL := $(BUNDLE) exec jekyll
 
 PROJECT_DEPS := Gemfile package.json
