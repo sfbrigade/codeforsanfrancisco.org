@@ -28,12 +28,18 @@ lawrence_grodeska:
 allen_meyer:
   name: Allen Meyer
   url: http://allenmeyerdesign.com/
+  gravatar: 900717b6b0d5430cbfb953d44cacd1de
   bio: ""
 
 celia_moreno:
   name: Celia Moreno
   url: https://www.linkedin.com/in/celiaim
   bio: ""
+
+chuck_temple:
+  name: Chuck Temple
+  bio: Organizer and Project Investment Fund Lead
+  gravatar: fd6fd28a3a89cd5416d47ca691a08442
 
 peter_thompson:
   name: Peter Thompson
