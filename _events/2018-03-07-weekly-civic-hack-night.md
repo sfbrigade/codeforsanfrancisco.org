@@ -5,11 +5,11 @@ title: Weekly Civic Hack Night w/ Open Leadership Council
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
               This week also features our monthly Open Leadership Council.
-rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/vrfmjpyxfbkb/
+rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/247070613/
 start_time: 2018-03-07T18:00:00-08:00
 end_time: 2018-03-07T21:30:00-08:00
 meetup:
-  event_id: vrfmjpyxdblc
+  event_id: 247070613
   venue_id: 6325852
 address:
   name: Code for America
