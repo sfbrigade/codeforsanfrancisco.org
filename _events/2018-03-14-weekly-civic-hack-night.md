@@ -29,7 +29,6 @@ tech and making government services better in San Francisco. We hack/build and l
 * Build your own portfolio of work or work on someone else's cool project
 * Meet new (and different!) people
 
-
 ## Schedule
 
 * **6:00p** regular doors open, socialize and eat dinner
