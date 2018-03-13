@@ -4,6 +4,7 @@ date: '2018-03-14'
 title: Weekly Civic Hack Night w/ The Constituent
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
+
               Joining us this week will be Michael Pierce to demo The Constituent!
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/247070625/
 speakers:
