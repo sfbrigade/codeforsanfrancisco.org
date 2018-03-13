@@ -11,7 +11,7 @@ description: |
 rsvp: https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2018-tickets-42826162204?aff=Website
 start_time: 2018-03-03T08:30:00-08:00
 end_time: 2018-03-03T17:00:00-08:00
-image: /img/events/2018-03-03.jpg
+image: img/events/2018-03-03.jpg
 meetup:
   event_id: 237515330
   venue_id: 24252670
