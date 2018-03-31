@@ -6,8 +6,8 @@ description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
               This week also features our monthly Open Leadership Council.
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/247035150/
-start_time: 2018-04-04T17:30:00-08:00
-end_time: 2018-04-04T21:30:00-08:00
+start_time: 2018-04-04T17:30:00-07:00
+end_time: 2018-04-04T21:30:00-07:00
 meetup:
   event_id: 247035150
   venue_id: 6325852
