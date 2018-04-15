@@ -8,7 +8,7 @@ image: image11.png
 image_alt: SBA application prototype screenshot
 description: |
   A look at how Code for San Francisco's Data Science Working group was able to work with the local Small Business
-  Administration office to develop a tool to analyze loan data and provide insights.
+  Administration office to develop a tool to analyze loan data and answer questions to increase the office's impact.
 
 ---
 
