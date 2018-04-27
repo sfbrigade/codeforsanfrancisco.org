@@ -3,22 +3,22 @@ layout: default
 ---
 
 <article class='row'>
-  <div class="col-sm-12">
+  <div class="col-sm-12 col-md-8">
     <header>
       <h2>{{ page.title }}</h2>
-      {% if page.image %}
+      {% if page.image and page.image_list_only != true %}
         <p class="text-center">
           {% include image.html name=page.image alt=page.image_alt style="max-height: 400px" %}
         </p>
       {% endif %}
 
-      <h3>
+      <p>
         Published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}"> {{ page.date | date: "%b %-d, %Y" }} </time> by
         {% for author_key in page.authors %}
           {% assign author = site.data.authors[author_key] %}
           {{ author.name }}{% unless forloop.last %}, {% endunless %}
         {% endfor %}
-      </h3>
+      </p>
     </header>
 
     <section>
