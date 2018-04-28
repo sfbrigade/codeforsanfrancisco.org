@@ -2,7 +2,7 @@
 
 jason_lally:
   name: Jason Lally
-  bio: "Open Data Program Manager for the City and County of San Francisco"
+  bio: "Data Services Manager, DataSF"
   gravatar: b0d79f25e915d34f7f06907322ad8060
 
 joseph_tanigawa:
@@ -118,3 +118,15 @@ vincent_la:
 jude_calvillo:
   name: Jude Calvillo
   bio: "Former Data Science Working Group Co-Lead"
+
+rocio_ng:
+  name: Rocio Ng
+  bio: ""
+
+matt_mollison:
+  name: Matt Mollison
+  bio: ""
+
+catherine_zhang:
+  name: Catherine Zhang
+  bio: ""
