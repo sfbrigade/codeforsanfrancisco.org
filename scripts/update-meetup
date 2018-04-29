@@ -23,6 +23,8 @@ require 'pathname'
 DESCRIPTION_TEMPLATE = <<-TXT
   {{ description }}
 
+  See {{ link }} for complete agenda and details for this evening.
+
   We are a group of neighbors, government employees, designers, coders, students and more working on civic tech projects to improve our community and government.
 
   Each week:
@@ -34,8 +36,6 @@ DESCRIPTION_TEMPLATE = <<-TXT
   * Meet new (and different!) people
 
   Food and drinks will be provided. We encourage attendees to bring their own water bottles to reduce waste.
-
-  See {{ link }} for complete agenda and details for this evening.
 TXT
 
 
