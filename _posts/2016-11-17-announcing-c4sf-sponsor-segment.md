@@ -8,7 +8,7 @@ description: Code for San Francisco is happy to announce that Segment has contri
 image: segment.png
 image_alt: Segment Logo
 redirect_from:
-- /post/Announcing-C4SF-sponsor-Segment
+- /blog/post/Announcing-C4SF-sponsor-Segment
 
 ---
 
