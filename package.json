@@ -12,14 +12,14 @@
     "datatables.net-bs": "^1.10.16",
     "font-awesome": "^4.7.0",
     "html5shiv": "^3.7.3",
-    "jquery": "^3.2.1",
+    "jquery": "^3.3.1",
     "jquery-address": "^1.6.0",
-    "lunr": "^2.1.5",
+    "lunr": "^2.1.6",
     "mustache": "^2.3.0",
     "respond.js": "^1.4.2"
   },
   "devDependencies": {
     "json2yaml": "^1.1.0",
-    "request": "^2.83.0"
+    "request": "^2.85.0"
   }
 }
