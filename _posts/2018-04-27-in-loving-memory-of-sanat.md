@@ -7,6 +7,7 @@ authors:
 - vincent_la
 - jason_lally
 - allen_meyer
+- jesse_szwedko
 date: '2018-04-27'
 published: true
 image: sanat.jpg
@@ -22,11 +23,11 @@ It is with a heavy heart that we share the news that Sanat Moningi passed away t
 
 **Rocio Ng**
 
-When I first joined the Data Science Working group, it was just starting out and that was when I had the pleasure to make Sanat&#39;s acquaintance. He was very warm and welcoming and clearly passionate about his work.  I felt that I instantly had a place in the group and after that moment have had many opportunities to work with him, eventually as a co-lead for the DSWG.  During that time he was open to feedback and suggestions that I had for improving the group, and was happy to take on new directions, which are all signs of a great leader.  Others have attributed their success in the group to his welcoming nature and passion for the work, and we all agree that he was a great leader, colleague and friend.
+When I first joined the Data Science Working group, it was just starting out and that was when I had the pleasure to make Sanat's acquaintance. He was very warm and welcoming and clearly passionate about his work.  I felt that I instantly had a place in the group and after that moment have had many opportunities to work with him, eventually as a co-lead for the DSWG.  During that time he was open to feedback and suggestions that I had for improving the group, and was happy to take on new directions, which are all signs of a great leader.  Others have attributed their success in the group to his welcoming nature and passion for the work, and we all agree that he was a great leader, colleague and friend.
 
 **Vincent La**
 
-Sanat was the first person I met when I came out to my first hack night at Code for San Francisco. I was completely lost before talking with Sanat. He connected me with my first project with the Small Business Administration and he&#39;s a huge reason why I continued to stay at this organization where he&#39;s made tremendous contributions. Sanat will always be a part of this community, and I can say for sure that he&#39;s made a lasting impact on me and all the friends he&#39;s made here
+Sanat was the first person I met when I came out to my first hack night at Code for San Francisco. I was completely lost before talking with Sanat. He connected me with my first project with the Small Business Administration and he's a huge reason why I continued to stay at this organization where he's made tremendous contributions. Sanat will always be a part of this community, and I can say for sure that he's made a lasting impact on me and all the friends he's made here
 
 **Matt Mollison**
 
@@ -42,13 +43,21 @@ I've been involved in Code for San Francisco for going on 4 years now. I remembe
 
 **Jude Calvillo**
 
-Sanat was my first friend since moving to San Francisco and we co-founded the Data Science Working Group at Code for SF when no such group existed in the Code for America network. At the time, there was a blue ocean of opportunities to do good via data science, and he knew it. No matter the challenge, be it technical or human, he was happy to face it alongside his teammates. Because that&#39;s who Sanat was.
+Sanat was my first friend since moving to San Francisco and we co-founded the Data Science Working Group at Code for SF when no such group existed in the Code for America network. At the time, there was a blue ocean of opportunities to do good via data science, and he knew it. No matter the challenge, be it technical or human, he was happy to face it alongside his teammates. Because that's who Sanat was.
 
-Not only was he super passionate about our voyage, to use technology to improve the lives of his fellow citizens. He was also plain driven, with a smile on his face and embrace at the ready. Here&#39;s to a capable captain and caring friend. May your smile and spirit continue to radiate upon our community and upon this ocean of good we can do. We&#39;ll miss you buddy.
+Not only was he super passionate about our voyage, to use technology to improve the lives of his fellow citizens. He was also plain driven, with a smile on his face and embrace at the ready. Here's to a capable captain and caring friend. May your smile and spirit continue to radiate upon our community and upon this ocean of good we can do. We'll miss you buddy.
 
 **Catherine Zhang**
 
-I first met Sanat 3 years ago, when he and Jude started the Data Science Working Group at Code for San Francisco. I remember thinking how lucky I was to have met teammates like Sanat who had such incredible passion for tackling hard problems and seeking to empathize with those who are underserved. For me and Sanat, Code for San Francisco was only chapter one and not the full story. Last year Sanat founded a new startup, and I was his co-founder. We shared a mission to support rising leaders of the 21st century get elected into office. It was during this time that we worked together daily. Every week we would pick a new location, a different cafe, a new neighborhood, and when it got late we would grab pizza at the corner shop and remind each other why we had to do this. It was during this time I saw Sanat&#39;s unwavering determination, his patience, and his integrity. In times of uncertainty, he made me stronger and we would push forward together. Sanat, thank you for always fighting for others. Your legacy will live on.
+I first met Sanat 3 years ago, when he and Jude started the Data Science Working Group at Code for San Francisco. I remember thinking how lucky I was to have met teammates like Sanat who had such incredible passion for tackling hard problems and seeking to empathize with those who are underserved. For me and Sanat, Code for San Francisco was only chapter one and not the full story. Last year Sanat founded a new startup, and I was his co-founder. We shared a mission to support rising leaders of the 21st century get elected into office. It was during this time that we worked together daily. Every week we would pick a new location, a different cafe, a new neighborhood, and when it got late we would grab pizza at the corner shop and remind each other why we had to do this. It was during this time I saw Sanat's unwavering determination, his patience, and his integrity. In times of uncertainty, he made me stronger and we would push forward together. Sanat, thank you for always fighting for others. Your legacy will live on.
 
-If you are a member of Code for San Francisco and would like to add your statement, please reach out to [hello@codeforsanfrancisco.org](mailto:hello@codeforsanfrancisco.org)
+**Jesse Szwedko**
 
+In an environment where everyone is present because they want to create positive change, Sanat still managed to bring
+rare levels of energy and enthusiasm to the brigade. The Data Science Working Group, which he co-founded, has had
+incredible successes due in no small part to Sanat's leadership, vision, and stewardship. While we all emphasized the
+need to build partnerships with government, Sanat put this into pratice in a way that has had a lasting impact.
+
+Sanat, you are missed.
+
+_If you are a member of Code for San Francisco and would like to add your statement, please reach out to [hello@codeforsanfrancisco.org](mailto:hello@codeforsanfrancisco.org)_
