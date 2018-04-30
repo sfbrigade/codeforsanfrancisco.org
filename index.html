@@ -39,13 +39,17 @@ layout: default
     <h3 class="panel-title">Recent blog posts <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a></h3>
   </div>
   <div class="panel-body">
-    {# show posts pinned to front page via pin_to_frontpage: true #}
+    {% comment %}
+      show posts pinned to front page via pin_to_frontpage: true
+    {% endcomment %}
     {% assign pinned_posts = site.posts | where_exp: 'post', 'post.pin_to_frontpage == true' | sort: 'date' %}
     {% for pinned_post in pinned_posts %}
       {% include post_list_item.html post=pinned_post %}
     {% endfor %}
 
-    {# also show the latest unpinned post #}
+    {% comment %}
+      also show the latest unpinned post
+    {% endcomment %}
     {% assign post = site.posts | where_exp: 'post', 'post.pin_to_frontpage != true' | sort: 'date' | reverse | first %}
     {% include post_list_item.html post=post %}
   </div>
