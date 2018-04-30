@@ -36,36 +36,18 @@ layout: default
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Latest blog post <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a></h3>
+    <h3 class="panel-title">Recent blog posts <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a></h3>
   </div>
   <div class="panel-body">
-    {% for post in site.posts limit:1 %}
-      <div class='row'>
-        <div class='col-sm-4'>
-          {% if post.image %}
-            <img class='img-thumbnail img-responsive' src='/img/posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | slugify }}/{{post.image}}' alt='{{ post.title }}' />
-          {% else %}
-            <img class='img-thumbnail img-responsive' src='{{site.logo}}' alt='{{ post.title }}' />
-          {% endif %}
-        </div>
-        <div class='col-sm-8'>
-          <h4>
-            <a href='{{ post.url }}'>{{ post.title }}</a>
-          </h4>
-          <p>
-            <small>{{ post.date | date: "%b %-d, %Y" }} by
-              {% for author_key in post.authors %}
-                {% assign author = site.data.authors[author_key] %}
-                {{ author.name }}{% unless forloop.last %}, {% endunless %}
-              {% endfor %}
-            </small>
-            <br />
-            {{ post.description | markdownify }} <a href='{{post.url}}'>Read more &raquo;</a>
-          </p>
-          <br />
-        </div>
-      </div>
+    {# show posts pinned to front page via pin_to_frontpage: true #}
+    {% assign pinned_posts = site.posts | where_exp: 'post', 'post.pin_to_frontpage == true' | sort: 'date' %}
+    {% for pinned_post in pinned_posts %}
+      {% include post_list_item.html post=pinned_post %}
     {% endfor %}
+
+    {# also show the latest unpinned post #}
+    {% assign post = site.posts | where_exp: 'post', 'post.pin_to_frontpage != true' | sort: 'date' | reverse | first %}
+    {% include post_list_item.html post=post %}
   </div>
 </div>
 

@@ -17,28 +17,5 @@ description: A communal blog with the goal of amplifying more diverse perspectiv
 </p>
 
 {% for post in site.posts %}
-  <div class='row'>
-    <div class='col-sm-4'>
-      {% if post.image %}
-        <img class='img-thumbnail img-responsive' src='/img/posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | slugify }}/{{post.image}}' alt='{{ post.title }}' />
-      {% else %}
-        <img class='img-thumbnail img-responsive' src='/img/logo.png' alt='{{ post.title }}' />
-      {% endif %}
-    </div>
-    <div class='col-sm-8'>
-      <h4>
-        <a href='{{ post.url }}'>{{ post.title }}</a>
-      </h4>
-      <h5>
-        {{ post.date | date: "%b %-d, %Y" }} by
-        {% for author_key in post.authors %}
-          {% assign author = site.data.authors[author_key] %}
-          {{ author.name }}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </h5>
-      <p>
-        {{ post.description | markdownify }} <a href='{{ post.url }}'>Read&nbsp;more&nbsp;&raquo;</a>
-      </p>
-    </div>
-  </div>
+  {% include post_list_item.html post=post %}
 {% endfor %}
