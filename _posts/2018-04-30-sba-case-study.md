@@ -1,7 +1,7 @@
 ---
 authors:
 - vincent_la
-date: '2018-04-14'
+date: '2018-04-30'
 published: true
 title: Small Business Administration Case Study
 image: image11.png
