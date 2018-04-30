@@ -1,24 +1,22 @@
 ---
 layout: default
 ---
-
 <article class='row'>
-  <div class="col-sm-12 col-md-8">
+  <div class="col-md-9">
     <header>
-      <h2>{{ page.title }}</h2>
-      {% if page.image and page.image_list_only != true %}
-        <p class="text-center">
-          {% include image.html name=page.image alt=page.image_alt style="max-height: 400px" %}
-        </p>
-      {% endif %}
-
-      <p>
+      <h2 data-toc-skip>{{ page.title }}</h2>
+      <p class="text-secondary">
         Published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}"> {{ page.date | date: "%b %-d, %Y" }} </time> by
         {% for author_key in page.authors %}
           {% assign author = site.data.authors[author_key] %}
           {{ author.name }}{% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </p>
+      {% if page.image and page.image_list_only != true %}
+        <p class="text-center">
+          {% include image.html name=page.image alt=page.image_alt style="max-height: 400px" %}
+        </p>
+      {% endif %}
     </header>
 
     <section>
@@ -28,7 +26,7 @@ layout: default
     <hr />
 
     <footer>
-      <h3>About the author(s)</h3>
+      <h3 data-toc-skip>About the author(s)</h3>
       <address>
         {% for author_key in page.authors %}
           {% assign author = site.data.authors[author_key] %}
@@ -43,7 +41,7 @@ layout: default
               {% endif %}
             </div>
             <div class="media-body">
-              <h4 class="media-heading">
+              <h4 data-toc-skip class="media-heading">
                 {% if author.url %}
                   <a href='{{ author.url }}'>{{ author.name }}</a>
                 {% else %}
@@ -56,5 +54,8 @@ layout: default
         {% endfor %}
       </address>
     </footer>
+  </div>
+  <div class="col-md-3">
+    <nav id="toc" data-spy="affix"></nav>
   </div>
 </article>
