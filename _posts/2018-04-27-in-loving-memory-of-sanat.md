@@ -9,6 +9,7 @@ authors:
 - allen_meyer
 - jesse_szwedko
 - anna_kiefer
+- ryan_tanaka
 date: '2018-04-27'
 published: true
 image: sanat.jpg
@@ -68,5 +69,16 @@ Sanat, you are missed.
 Sanat welcomed me to Code for San Francisco with kind words and a warm smile. He was the first C4SF-er I spoke to, and
 I was glad I did. Sanat was approachable, well spoken, and funny. He truly wanted to do good for the citizens of San
 Francisco, and for the world. He was an effective leader and an understanding person. He will be dearly missed.
+
+**Ryan Tanaka**
+
+I met Sanat the first day I joined Code for San Francisco -- at that point I had no idea what I was looking to do there
+but he helped guide me through the organization and suggested that I take over the SF Fire Risk project as the lead.
+Sanat was the main organizer of the Data Science Working Group, which he lead great passion and compassion -- he helped
+me a lot in my understanding of data science, which eventually lead to a job at the Mayor's Office as a data specialist.
+(One of the best jobs I've ever had.)
+
+Sanat really did leave a positive impact on my life and he will be missed. Hopefully we can carry on his legacy through
+our continued efforts with the Brigade.
 
 _If you are a member of Code for San Francisco and would like to add your statement, please reach out to [hello@codeforsanfrancisco.org](mailto:hello@codeforsanfrancisco.org)_
