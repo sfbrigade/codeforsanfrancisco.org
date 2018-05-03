@@ -8,6 +8,7 @@ authors:
 - jason_lally
 - allen_meyer
 - jesse_szwedko
+- anna_kiefer
 date: '2018-04-27'
 published: true
 image: sanat.jpg
@@ -61,5 +62,11 @@ incredible successes due in no small part to Sanat's leadership, vision, and ste
 need to build partnerships with government, Sanat put this into pratice in a way that has had a lasting impact.
 
 Sanat, you are missed.
+
+**Anna Kiefer**
+
+Sanat welcomed me to Code for San Francisco with kind words and a warm smile. He was the first C4SF-er I spoke to, and
+I was glad I did. Sanat was approachable, well spoken, and funny. He truly wanted to do good for the citizens of San
+Francisco, and for the world. He was an effective leader and an understanding person. He will be dearly missed.
 
 _If you are a member of Code for San Francisco and would like to add your statement, please reach out to [hello@codeforsanfrancisco.org](mailto:hello@codeforsanfrancisco.org)_
