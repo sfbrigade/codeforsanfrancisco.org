@@ -15,7 +15,7 @@ address:
   street: 155 9th St.
   locality: San Francisco
   region: CA
-agenda: https://docs.google.com/document/d/1ihujAeEgPfZTENEptCfGIzDDlV2WKZnbvsRqzSEM_hc/edit
+agenda: https://docs.google.com/document/d/1KnU8ElBiQISaKipooaj3OIJ2AR4cwAwfYl0Trl1gFFU/edit
 sponsor: <a href='http://www.microsoftbayarea.com/'>Microsoft</a>
 
 ---
