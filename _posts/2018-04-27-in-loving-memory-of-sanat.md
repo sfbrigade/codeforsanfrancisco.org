@@ -25,6 +25,11 @@ It is with a heavy heart that we share the news that Sanat Moningi passed away t
 
 {% include image.html name="sanat.jpg" alt="Photo of Sanat Moningi" style="max-height: 400px" %}
 
+If you would like to make a donation to the Data Science Working Group in Sanat's name, please use this link to [Code
+for America's donation
+form](https://secure.codeforamerica.org/page/contribute/default?source_codes=Brigade-page&brigade=Data%20Science%20Working%20Group%2C%20Code%20for%20San%20Francisco%20%28In%20Sanat%27s%20Memory%29)
+that will prefill the last field to direct the donation to us.
+
 **Rocio Ng**
 
 When I first joined the Data Science Working group, it was just starting out and that was when I had the pleasure to make Sanat's acquaintance. He was very warm and welcoming and clearly passionate about his work.  I felt that I instantly had a place in the group and after that moment have had many opportunities to work with him, eventually as a co-lead for the DSWG.  During that time he was open to feedback and suggestions that I had for improving the group, and was happy to take on new directions, which are all signs of a great leader.  Others have attributed their success in the group to his welcoming nature and passion for the work, and we all agree that he was a great leader, colleague and friend.
