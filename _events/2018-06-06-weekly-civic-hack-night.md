@@ -36,7 +36,7 @@ the hack night better. Anyone is welcome to join!
 
 ## Schedule
 
-* **5:30-6:30p** [Open Leadership Council #7]({{ "/about/leadership-council/" | prepend: site.baseurl }})
+* **5:30-6:30p** [Open Leadership Council #8]({{ "/about/leadership-council/" | prepend: site.baseurl }})
 * **6:00p** regular doors open, socialize and eat dinner
 * **6:30p** welcome remarks and project pitches
 * **7:00p** start hacking, new member orientation,
