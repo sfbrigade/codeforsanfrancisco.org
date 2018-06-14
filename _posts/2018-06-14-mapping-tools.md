@@ -6,7 +6,9 @@ published: true
 image: "civic-innovation-group.jpg"
 image_alt: Screenshot of Civic Innovation Group mapping tool
 title: Data Mapping Tools for Brigades
-description: Many organizations and institutions offer access to free, internet-enabled computers, but there is no way for someone to find these locations without being online already. In short, you need the internet to find the internet. LocalFreeWeb makes it so all you need is a cell phone.
+description: |
+            The Civic Innovation Group has built a suite of tools that Brigade members can use to remove roadblacks and
+            save time when working with filtering and mapping data, especially for people who don't have map coding skills.
 ---
 
 Code for SF has incubated a variety of groups and projects over the five years it's been hacking. [The Civic Innovation
