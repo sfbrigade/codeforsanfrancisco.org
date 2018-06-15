@@ -1,4 +1,4 @@
-{% capture imagePath %}/img/{{ page.collection | default: 'posts' }}/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+{% capture imagePath %}/img/uploads/{{ include.name }}{% endcapture %}
 <a href="{{ imagePath }}">
   <img class="{{ include.class | default: "img-responsive center-block" }}" src="{{ imagePath }}" alt="{{ include.alt }}" style="{{ include.style | default: "" }}" />
 </a>
