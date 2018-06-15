@@ -4,20 +4,51 @@ backend:
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "_posts"
+    sort: "date:desc"
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
+    fields:
       - {label: "Featured image", name: "image", widget: "image"}
-      - {label: "Featured Image Alt Text", name: "image_alt", widget: "string"}
+      - {label: "Featured image alt text", name: "image_alt", widget: "string"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Short description", name: "description", widget: "string"}
       - {label: "Pin To Frontpage", name: "pin_to_frontpage", widget: "boolean"}
       - {label: "Only show image in listing", name: "image_list_only", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
-    meta: # Meta data fields. Just like fields, but without any preview element
+    meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name: "projects"
+    label: "Project"
+    folder: "_projects"
+    sort: "title:desc"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Link", name: "app_link", widget: "string"}
+      - {label: "License", name: "license", widget: "string"}
+      - {label: "Slack channel name", name: "slack", widget: "string", required: false}
+      - label: "Project status"
+        name: "project_status"
+        widget: "select"
+        options:
+          - proposed
+          - discovery
+          - prototype
+          - mvp
+          - alpha
+          - beta
+          - live
+          - production
+      - {label: "Project Image", name: "image_path", widget: "image"}
+      - {label: "Active", name: "active", widget: "boolean", default: true}
+      - {label: "Blurb", name: "blurb", widget: "string"}
+      - {label: "Skills needed", name: "skills_needed", widget: "list", required: false}
+      - {label: "Civic topics", name: "civic_topics", widget: "list", required: false}
+      - {label: "Tags", name: "skills_needed", widget: "list", required: false}
+      - {label: "Links to repositories", name: "repos", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
