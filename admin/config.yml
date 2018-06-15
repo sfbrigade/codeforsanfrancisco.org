@@ -12,9 +12,12 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Featured image", name: "image", widget: "image"}
+      - {label: "Featured Image Alt Text", name: "image_alt", widget: "string"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Short description", name: "description", widget: "string"}
+      - {label: "Pin To Frontpage", name: "pin_to_frontpage", widget: "boolean"}
+      - {label: "Only show image in listing", name: "image_list_only", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", widget: "string", required: false}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
