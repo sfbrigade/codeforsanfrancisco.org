@@ -212,13 +212,32 @@ description: |
     <section class="seperated">
       <h3 id='our-partners'>Our Partners</h2>
       <p>
-        Code for San Francisco partners with San Francisco government and Bay Area non-profits to make our city work
-        better. Here’s some of the organizations we work with:
+        Code for San Francisco partners with San Francisco government, Bay Area non-profits, and companies to make our
+        city work better. Here’s some of the organizations we work with and are supported by:
       </p>
-      <ul>
-        <li><a href="http://innovatesf.com/">SF Mayor's Office of Civic Innovation</a></li>
-        <li><a href="http://datasf.org/">DataSF</a></li>
-      </ul>
+      <div class='row row-flex'>
+        <div class='col-sm-4'>
+          <div itemscope itemtype='http://schema.org/Organization'>
+            <a href='http://innovatesf.com' itemprop='url'>
+              <img src='{{ site.baseurl }}/img/partners/moci.png' alt="SF Mayor's Office of Civic Innovation" itemprop='logo' class='img-responsive' />
+            </a>
+          </div>
+        </div>
+        <div class='col-sm-2'>
+          <div itemscope itemtype='http://schema.org/Organization'>
+            <a href='http://datasf.org/' itemprop='url'>
+              <img src='{{ site.baseurl }}/img/partners/datasf.png' alt='DataSF' itemprop='logo' class='img-responsive' />
+            </a>
+          </div>
+        </div>
+        <div class='col-sm-2'>
+          <div itemscope itemtype='http://schema.org/Organization'>
+            <a href='https://zapier.com/' itemprop='url'>
+              <img src='{{ site.baseurl }}/img/partners/zapier.png' alt='Zapier' itemprop='logo' class='img-responsive' />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </div>

@@ -54,6 +54,7 @@ section.seperated {
 .row-flex {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
 }
 
 .col-flex-item {
