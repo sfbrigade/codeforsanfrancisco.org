@@ -13,7 +13,6 @@ skills_needed:
 civic_topics:
   - Volunteerism
   - Outreach
-  - Testing
 repos:
   - 'https://github.com/sfbrigade/adopt-a-drain'
 ---
