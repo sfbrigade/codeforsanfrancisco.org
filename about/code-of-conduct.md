@@ -4,7 +4,24 @@ title: Code of Conduct
 description: The Code for San Francisco community Code of Conduct.
 ---
 
-# Code of Conduct
+# Code for San Francisco is a space for everyone.
+
+What does that mean?
+- We **value** the people here and make everyone feel **welcome**
+- We **make room** for all Brigadiers to engage, discuss, and collaborate
+- We **support each other** to build a strong civic tech community
+- We **respect** the boundaries of others
+
+These are not just statements of belief, but principles that we collectively enact. We are dedicated to upholding them,
+and to ensuring that all members of our community respect them.
+
+Below, you’ll find the full text of our Code of Conduct, with more detailed information about our community principles.
+You’ll also find our harassment policy, along with information about who to contact if you think the policy has been
+violated. For other questions about the Code of Conduct, or about our brigade, reach out to Jesse Szwedko via
+[jesse.szwedko@codeforsanfrancisco.org](mailto:jesse.szwedko@codeforsanfrancisco.org) or
+[412-465-0863](tel:412-465-0863).
+
+## Code of Conduct
 
 The Code for America community expects that Code for San Francisco activities and events:
 
@@ -26,7 +43,7 @@ The Code for America community expects that Code for San Francisco activities an
    reserves the right to ask anyone in violation of these policies not to participate in Code for San Francisco events
    or network activities.
 
-# Anti-Harassment Policy
+## Anti-Harassment Policy
 <em>
   This anti-harassment policy is based on [the example
   policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) from the Geek Feminism wiki, created by
