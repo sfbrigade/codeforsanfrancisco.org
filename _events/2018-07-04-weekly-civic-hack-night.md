@@ -1,12 +1,14 @@
 ---
 published: true
 date: '2018-07-04'
-title: Weekly Civic Hack Night
+title: 'Weekly Civic Hack Night: Independence Day Edition'
 description: |
-              Our weekly hack night is focused on civic tech and making government services better in San Francisco.
+              What could be more patriotic than civic hacking!? Join us for our weekly hack night, focusing on civic tech and making government services better in San Francisco.
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/250264628/
 start_time: 2018-07-04T18:00:00-07:00
 end_time: 2018-07-04T21:30:00-07:00
+image: img/events/flag.png
+image_alt: American Flag
 meetup:
   event_id: 250264628
   venue_id: 247071574
@@ -20,7 +22,7 @@ sponsor: <a href='http://www.microsoftbayarea.com/'>Microsoft</a>
 
 ---
 
-Interested in helping San Francisco? You have found the right place!
+Join us in celebrating our nation's independence by helping it work better for its citizens!
 
 Join neighbors, government employees, designers, coders, students and more! Our weekly hack night is focused on civic
 tech and making government services better in San Francisco. We hack/build and learn together every Wednesday evening.
