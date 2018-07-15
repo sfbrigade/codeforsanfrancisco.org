@@ -8,7 +8,7 @@ description: The Code for San Francisco community Code of Conduct.
 
 What does that mean?
 - We **value** the people here and make everyone feel **welcome**
-- We **make room** for all Brigadiers to engage, discuss, and collaborate
+- We **make room** for all brigade members to engage, discuss, and collaborate
 - We **support each other** to build a strong civic tech community
 - We **respect** the boundaries of others
 
