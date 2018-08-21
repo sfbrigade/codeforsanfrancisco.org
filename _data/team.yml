@@ -1,23 +1,26 @@
 ---
-- name: Jesse Szwedko
-  title: Lead Organizer
-  gravatar: 3e3a63b9ce04e1cd241d8660248e5412
-  email: jesse.szwedko@codeforsanfrancisco.org
-- name: Jason Lally
-  title: Lead Organizer
-  gravatar: b0d79f25e915d34f7f06907322ad8060
-  email: jason@codeforsanfrancisco.org
+- name: Allen Meyers
+  title: Storyteller
+  gravatar: 900717b6b0d5430cbfb953d44cacd1de
+- name: Anthony Faber
+  title: Door Wrangler
+  gravatar: 15da69259d301b81d09f16a8ef342d62
 - name: Chuck Temple
-  title: Organizer and Project Investment Fund Lead
+  title: Project Investment Fund Lead
   gravatar: fd6fd28a3a89cd5416d47ca691a08442
   email: chuck@codeforsanfrancisco.org
-- name: Allen Meyers
-  title: Organizer and Storyteller
-  gravatar: 900717b6b0d5430cbfb953d44cacd1de
 - name: Emily Wasserman
   title: Organizer
   gravatar: 15a22b93c94ecd7c8cf880d8c5ac18ca
   email: emily@codeforsanfrancisco.org
-- name: Anthony Faber
-  title: Organizer and Door Wrangler
-  gravatar: 15da69259d301b81d09f16a8ef342d62
+- name: Jason Lally
+  title: Lead Organizer
+  gravatar: b0d79f25e915d34f7f06907322ad8060
+  email: jason@codeforsanfrancisco.org
+- name: Jesse Szwedko
+  title: Lead Organizer
+  gravatar: 3e3a63b9ce04e1cd241d8660248e5412
+  email: jesse.szwedko@codeforsanfrancisco.org
+- name: Peggy Lee
+  title: Hack Night Coordinator
+  gravatar: af22c106c5c1154389bb4329fc15fb21
