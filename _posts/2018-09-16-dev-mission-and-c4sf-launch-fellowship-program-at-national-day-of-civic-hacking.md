@@ -11,7 +11,7 @@ description: >-
   Hacking event. In the following interview he describes his vision for bringing
   equity to tech employment and how C4SF can help.
 pin_to_frontpage: true
-image_list_only: true
+image_list_only: false
 ---
 _Code for San Francisco, the city’s local chapter of Code for America, recently announced the launch of their first fellowship program this year. The Fellowship is in partnership with dev/Mission, with support from Microsoft._
 
