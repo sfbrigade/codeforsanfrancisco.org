@@ -1,5 +1,5 @@
 ---
-image: /img/uploads/leo-sosa-gives-keynote.jpg
+image: /img/uploads/leo-sosa-gives-keynote2.jpg
 image_alt: >-
   Leo Sosa of dev/Mission delivers keynote at Code for San Francisco's National
   Day of Civic Hacking event.
