@@ -26,7 +26,10 @@ description: Recent and upcoming hack nights and other Code for San Francisco ev
     </tr>
   </thead>
   <tbody>
+    {% assign now_unix = 'now' | date: '%s' | plus: 604800 %}
     {% for event in site.events %}
+    {% assign date_unix = event.date | date: '%s' | plus: 0 %}
+    {% if date_unix < now_unix %}
       <tr>
         <th data-order="{{ event.date }}" scope="row" class='nowrap'>
             <meta itemprop='startDate' datetime='{{ event.date | date: "%Y-%m-%d" }}' content='{{ event.date | date: "%Y-%m-%d" }}' />
@@ -48,6 +51,7 @@ description: Recent and upcoming hack nights and other Code for San Francisco ev
           </ul>
         </td>
       </tr>
+      {% endif %}
     {% endfor %}
   </tbody>
 </table>
