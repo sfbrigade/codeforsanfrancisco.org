@@ -104,8 +104,7 @@
   <script src="{{ site.baseurl }}/js/vendor/html5shiv.min.js"></script>
   <script src="{{ site.baseurl }}/js/vendor/respond.min.js"></script>
 <![endif]-->
-
-{% if site.google_analytics and jekyll.environment == 'production' %}
+{% if site.google_analytics and site.environment == 'production' %}
   {% include analytics.html %}
 {% endif %}
 
