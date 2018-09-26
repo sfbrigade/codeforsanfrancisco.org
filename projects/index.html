@@ -24,7 +24,7 @@ layout: default
   {% for project in active_projects %}
   <div class="card card-project">
     <div class="card-body">
-      <div class='row row-flex'>
+      <div class='row'>
       <div class='col-md-7' style='border-right: thin #e3e3e3 solid'>
           <a href="{{project.url}}" style="display:block"><div class="block-image pull-left" style="background-image:url({{project.image_path}});"></div></a>
           <h3><a href="{{project.url}}">{{ project.title }}</a></h3>
@@ -63,7 +63,7 @@ layout: default
 <script id="search-results-template" type="x-tmpl-mustache">
     <div class="card card-project">
     <div class="card-body">
-      <div class="row row-flex">
+      <div class="row">
       <div class="col-md-7" style="border-right: thin #e3e3e3 solid">
           <a href="{{id}}" style="display:block"><div class="block-image pull-left" style="background-image:url({{image_path}});"></div></a>
           <h3><a href="{{id}}">{{title}}</a></h3>

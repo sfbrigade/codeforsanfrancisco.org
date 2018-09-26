@@ -51,20 +51,6 @@ section.seperated {
   margin: 0 5px 5px 0;
 }
 
-.row-flex {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.row-center {
-  align-items: center;
-}
-
-.col-flex-item {
-  display: flex;
-  flex-flow: column;
-}
-
 .block-image {
   height: 200px;
   width: 200px;
