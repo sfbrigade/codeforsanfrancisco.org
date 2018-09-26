@@ -64,7 +64,7 @@ layout: default
     <div class='col-md-5'>
       {% if page.image %}
         <p>
-          <img class='img-responsive img-thumbnail' src='/{{ page.image | prepend: site.baseurl }}' alt='{{ page.title }}' />
+          <img class='img-fluid img-thumbnail' src='/{{ page.image | prepend: site.baseurl }}' alt='{{ page.title }}' />
         </p>
       {% endif %}
       <div class='well'>

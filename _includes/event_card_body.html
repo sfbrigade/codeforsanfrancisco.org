@@ -19,7 +19,7 @@
   </div>
   <div class='col-md-5'>
     {% if include.event.image %}
-      <a href="{{ include.event.url }}"><img class='img-responsive img-thumbnail' src='/{{ include.event.image | prepend: site.basurl }}' alt='{{include.event.title}}' /></a>
+      <a href="{{ include.event.url }}"><img class='img-fluid img-thumbnail' src='/{{ include.event.image | prepend: site.basurl }}' alt='{{include.event.title}}' /></a>
     {% endif %}
   </div>
 </div>
