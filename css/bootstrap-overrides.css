@@ -2,11 +2,13 @@
  * Overrides of Flatly bootstrap theme
  */
 
+.navbar-light .navbar-nav .nav-link,
 a {
   color: #2c4a92;
   text-decoration:none;
 }
 
+.navbar-light .navbar-nav .nav-link:hover,
 a:hover {
   color: #cf1b41;
   text-decoration: none;
