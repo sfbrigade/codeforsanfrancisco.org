@@ -34,19 +34,19 @@ layout: default
         {% if project.skills_needed %}
         <h4>Skills needed by this project</h4>
         {% for skill in project.skills_needed %}
-          <span class='label label-info'>{{skill}}</span>
+          <span class='badge badge-info'>{{skill}}</span>
         {% endfor %}
         {% endif %}
         {% if project.learning_opportunities %}
         <h4>This project's learning opportunities</h4>
         {% for opportunity in project.learning_opportunities %}
-          <span class='label label-warning'>{{opportunity}}</span>
+          <span class='badge badge-warning'>{{opportunity}}</span>
         {% endfor %}
         {% endif %}
         {% if project.civic_topics %}
         <h4>This project's civic interests</h4>
         {% for topic in project.civic_topics %}
-          <span class='label label-danger'>{{topic}}</span>
+          <span class='badge badge-danger'>{{topic}}</span>
         {% endfor %}
         {% endif %}
         
@@ -72,11 +72,11 @@ layout: default
       <div class="col-lg-5">
         <h4>Skills needed by this project</h4>
           {{#skills_needed}}
-          <span class="label label-info">{{.}}</span>
+          <span class="badge badge-info">{{.}}</span>
           {{/skills_needed}}
           <h4>This project's civic interests</h4>
           {{#civic_topics}}
-          <span class="label label-info">{{.}}</span>
+          <span class="badge badge-info">{{.}}</span>
           {{/civic_topics}}
       </div>
     </div>
