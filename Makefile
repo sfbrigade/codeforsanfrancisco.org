@@ -34,7 +34,7 @@ include-yarn-js:
 	mkdir -p $(JS_VENDOR_DIR)
 	cp node_modules/jquery/dist/jquery.min.js $(JS_VENDOR_DIR)
 	cp node_modules/datatables.net/js/jquery.dataTables.js $(JS_VENDOR_DIR)
-	cp node_modules/datatables.net-bs/js/dataTables.bootstrap.js $(JS_VENDOR_DIR)
+	cp node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js $(JS_VENDOR_DIR)
 	cp node_modules/jquery-address/src/jquery.address.js $(JS_VENDOR_DIR)
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(JS_VENDOR_DIR)
 	cp node_modules/html5shiv/dist/html5shiv.min.js $(JS_VENDOR_DIR)
@@ -49,7 +49,7 @@ include-yarn-css:
 	mkdir -p $(CSS_VENDOR_DIR)
 	cp node_modules/bootstrap/dist/css/bootstrap.min.css $(CSS_VENDOR_DIR)
 	cp node_modules/font-awesome/css/font-awesome.min.css $(CSS_VENDOR_DIR)
-	cp node_modules/datatables.net-bs/css/dataTables.bootstrap.css $(CSS_VENDOR_DIR)
+	cp node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css $(CSS_VENDOR_DIR)
 	cp -R node_modules/font-awesome/fonts $(CSS_FONTS_DIR)
 
 .PHONY: build
