@@ -78,11 +78,11 @@ section.seperated {
   border: thin solid #e3e3e3;
 }
 
-.panel-project h3 {
+.card-project h3 {
   margin-top: 0;
 }
 
-.panel-project {
+.card-project {
   border-radius: 0;
 }
 

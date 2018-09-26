@@ -7,22 +7,22 @@ layout: default
 
 {% assign next_featured_event = site.events | where: "featured", true | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
 {% if next_featured_event %}
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title">Featured upcoming event</h3>
+  <div class="card mb-3">
+    <div class="card-header text-white bg-primary">
+      <h3>Featured upcoming event</h3>
     </div>
-    <div class="panel-body">
+    <div class="card-body">
       {% include event_card_body.html event=next_featured_event %}
     </div>
   </div>
 {% endif %}
 
 {% assign next_event = site.events | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></h3>
+<div class="card mb-3">
+  <div class="card-header">
+    <h3>Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></h3>
   </div>
-  <div class="panel-body">
+  <div class="card-body">
     {% if next_event %}
       {% include event_card_body.html event=next_event %}
     {% else %}
@@ -34,11 +34,11 @@ layout: default
   </div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Recent blog posts <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a></h3>
+<div class="card mb-3">
+  <div class="card-header">
+    <h3>Recent blog posts <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a></h3>
   </div>
-  <div class="panel-body">
+  <div class="card-body">
     {% comment %}
       show posts pinned to front page via pin_to_frontpage: true
     {% endcomment %}
@@ -82,23 +82,29 @@ layout: default
     </p>
     <div class='row text-center row-eq-height'>
       <div class='col-md-4'>
-        <div class='well'>
-          <h1 aria-hidden="true"><i class='fa fa-fw fa-calendar'></i></h1>
-          <p>1. Go to a Civic Hack Night. <a href='https://www.meetup.com/{{ site.meetup }}'>We meet every Wednesday at 6pm</a></p>
+        <div class='card h-100 bg-light'>
+          <div class='card-body'>
+            <h1 aria-hidden="true"><i class='fa fa-fw fa-calendar'></i></h1>
+            <p>1. Go to a Civic Hack Night. <a href='https://www.meetup.com/{{ site.meetup }}'>We meet every Wednesday at 6pm</a></p>
+          </div>
         </div>
       </div>
 
       <div class='col-md-4'>
-        <div class='well'>
-          <h1 aria-hidden="true"><i class='fa fa-fw fa-envelope'></i></h1>
-          <p>2. <a href='{{ site.mailchimp }}'>Subscribe to updates</a> on upcoming speakers, events, and other brigade news</p>
+        <div class='card h-100 bg-light'>
+          <div class='card-body'>
+            <h1 aria-hidden="true"><i class='fa fa-fw fa-envelope'></i></h1>
+            <p>2. <a href='{{ site.mailchimp }}'>Subscribe to updates</a> on upcoming speakers, events, and other brigade news</p>
+          </div>
         </div>
       </div>
 
       <div class='col-md-4'>
-        <div class='well'>
-          <h1 aria-hidden="true"><i class='fa fa-fw fa-group'></i></h1>
-          <p>3. Browse our <a href='{{ site.baseurl }}/projects'>active projects</a> to find yours</p>
+        <div class='card h-100 bg-light'>
+          <div class='card-body'>
+            <h1 aria-hidden="true"><i class='fa fa-fw fa-group'></i></h1>
+            <p>3. Browse our <a href='{{ site.baseurl }}/projects'>active projects</a> to find yours</p>
+          </div>
         </div>
       </div>
     </div>

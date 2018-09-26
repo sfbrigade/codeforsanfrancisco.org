@@ -22,15 +22,15 @@ layout: default
 <div class="all-projects">
   {% assign active_projects = site.projects | where:"active",true %}
   {% for project in active_projects %}
-  <div class="panel panel-default panel-project">
-    <div class="panel-body">
+  <div class="card card-project">
+    <div class="card-body">
       <div class='row row-flex'>
-      <div class='col-lg-7' style='border-right: thin #e3e3e3 solid'>
+      <div class='col-md-7' style='border-right: thin #e3e3e3 solid'>
           <a href="{{project.url}}" style="display:block"><div class="block-image pull-left" style="background-image:url({{project.image_path}});"></div></a>
           <h3><a href="{{project.url}}">{{ project.title }}</a></h3>
           <p>{{ project.blurb }}</p>
       </div>
-      <div class='col-lg-5'>
+      <div class='col-md-5'>
         {% if project.skills_needed %}
         <h4>Skills needed by this project</h4>
         {% for skill in project.skills_needed %}
@@ -61,15 +61,15 @@ layout: default
 
 {% raw %}
 <script id="search-results-template" type="x-tmpl-mustache">
-    <div class="panel panel-default panel-project">
-    <div class="panel-body">
+    <div class="card card-project">
+    <div class="card-body">
       <div class="row row-flex">
-      <div class="col-lg-7" style="border-right: thin #e3e3e3 solid">
+      <div class="col-md-7" style="border-right: thin #e3e3e3 solid">
           <a href="{{id}}" style="display:block"><div class="block-image pull-left" style="background-image:url({{image_path}});"></div></a>
           <h3><a href="{{id}}">{{title}}</a></h3>
           <p>{{blurb}}</p>
       </div>
-      <div class="col-lg-5">
+      <div class="col-md-5">
         <h4>Skills needed by this project</h4>
           {{#skills_needed}}
           <span class="badge badge-info">{{.}}</span>

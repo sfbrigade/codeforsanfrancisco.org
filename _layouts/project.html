@@ -20,111 +20,113 @@ layout: default
     {{ content }}
   </div>
   <div class="col-sm-5">
-    <div class="well">
-      <table class='table table-sm'>
-        <tbody>
+    <div class="card">
+      <div class="card-body bg-light">
+        <table class='table table-sm table-borderless'>
+          <tbody>
+              <tr>
+                <td>Project Status</td>
+                <td><span class='badge badge-primary'>{{page.project_status}}</span></td>
+              </tr>
+            {% if page.app_link %}
             <tr>
-              <td>Project Status</td>
-              <td><span class='badge badge-primary'>{{page.project_status}}</span></td>
+              <td>Website</td>
+              <td><a target='_blank' href='{{page.app_link}}'>{{page.app_link}}</a></td>
             </tr>
-          {% if page.app_link %}
-          <tr>
-            <td>Website</td>
-            <td><a target='_blank' href='{{page.app_link}}'>{{page.app_link}}</a></td>
-          </tr>
-          {% endif %}
-          {% if page.repos %}
-          <tr>
-            <td>Code</td>
-            <td>
-              <ul class='list-unstyled'>
-                  {% for repo in page.repos %}
-                  <li><a target='_blank' href='{{repo}}'>{{repo}}</a></li>
-                  {% endfor %}
-              </ul>
-            </td>
-          </tr>
-          {% endif %}
-          {% if page.civic_topics %}
-          <tr>
-            <td>Civic Topics</td>
-            <td>
-              {% for topic in page.civic_topics %}
-                <span class='badge badge-danger'>{{topic}}</span>
-              {% endfor %}
-            </td>
-          </tr>
-          {% endif %}
-          {% if page.skills_needed %}
-          <tr>
-            <td>Skills Needed</td>
-            <td>
-              {% for skill in page.skills_needed %}
-                <span class='badge badge-info'>{{skill}}</span>
-              {% endfor %}
-            </td>
-          </tr>
-          {% endif %}
-          {% if page.learning_opportunities %}
-          <tr>
-            <td>Learning Opportunities</td>
-            <td>
-              {% for opportunity in page.learning_opportunities %}
-                <span class='badge badge-warning'>{{opportunity}}</span>
-              {% endfor %}
-            </td>
-          </tr>
-          {% endif %}
-          {% if page.project_lead %}
-          <tr>
-            <td>Project Lead</td>
-            <td>
-              {% assign member = site.data.authors[page.project_lead] %}
-              {% if member.url %}
-                <a href='{{member.url}}'>
-                  <img class='media-object member-image' src="https://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
-                </a>
-              {% else %}
-                <img class='media-object member-image' src="https://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
-              {% endif %}
-            </td>
-          </tr>
-          {% endif %}
-          {% if page.project_members %}
-          <tr>
-            <td>Project Members</td>
-            <td>
-                {% for member_key in page.project_members %}
-                {% assign member = site.data.authors[member_key] %}
-                  {% if member.url %}
-                    <a href='{{member.url}}'>
-                      <img class='media-object member-image' src="https://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
-                    </a>
-                  {% else %}
+            {% endif %}
+            {% if page.repos %}
+            <tr>
+              <td>Code</td>
+              <td>
+                <ul class='list-unstyled'>
+                    {% for repo in page.repos %}
+                    <li><a target='_blank' href='{{repo}}'>{{repo}}</a></li>
+                    {% endfor %}
+                </ul>
+              </td>
+            </tr>
+            {% endif %}
+            {% if page.civic_topics %}
+            <tr>
+              <td>Civic Topics</td>
+              <td>
+                {% for topic in page.civic_topics %}
+                  <span class='badge badge-danger'>{{topic}}</span>
+                {% endfor %}
+              </td>
+            </tr>
+            {% endif %}
+            {% if page.skills_needed %}
+            <tr>
+              <td>Skills Needed</td>
+              <td>
+                {% for skill in page.skills_needed %}
+                  <span class='badge badge-info'>{{skill}}</span>
+                {% endfor %}
+              </td>
+            </tr>
+            {% endif %}
+            {% if page.learning_opportunities %}
+            <tr>
+              <td>Learning Opportunities</td>
+              <td>
+                {% for opportunity in page.learning_opportunities %}
+                  <span class='badge badge-warning'>{{opportunity}}</span>
+                {% endfor %}
+              </td>
+            </tr>
+            {% endif %}
+            {% if page.project_lead %}
+            <tr>
+              <td>Project Lead</td>
+              <td>
+                {% assign member = site.data.authors[page.project_lead] %}
+                {% if member.url %}
+                  <a href='{{member.url}}'>
                     <img class='media-object member-image' src="https://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
-                  {% endif %}
-              {% endfor %}
-            </td>
-          </tr>
-          {% endif %}
-          {% if page.slack %}
-          <tr>
-            <td>Slack Channel</td>
-            <td><a href='https://sfbrigade.slack.com/app_redirect?channel={{page.slack}}' target='_blank'>#{{page.slack}}</a></td>
-          </tr>
-          {% endif %}
-          {% if page.tags %}
-          <tr>
-            <td>Tags</td>
-            <td>
-              {% for tag in page.tags %}
-                <span class='badge badge-primary'>{{tag}}</span>
-              {% endfor %}
-            </td>
-          </tr>
-          {% endif %}
-        </tbody>
-      </table>
+                  </a>
+                {% else %}
+                  <img class='media-object member-image' src="https://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
+                {% endif %}
+              </td>
+            </tr>
+            {% endif %}
+            {% if page.project_members %}
+            <tr>
+              <td>Project Members</td>
+              <td>
+                  {% for member_key in page.project_members %}
+                  {% assign member = site.data.authors[member_key] %}
+                    {% if member.url %}
+                      <a href='{{member.url}}'>
+                        <img class='media-object member-image' src="https://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
+                      </a>
+                    {% else %}
+                      <img class='media-object member-image' src="https://gravatar.com/avatar/{{member.gravatar}}" alt="{{ member.name }}">
+                    {% endif %}
+                {% endfor %}
+              </td>
+            </tr>
+            {% endif %}
+            {% if page.slack %}
+            <tr>
+              <td>Slack Channel</td>
+              <td><a href='https://sfbrigade.slack.com/app_redirect?channel={{page.slack}}' target='_blank'>#{{page.slack}}</a></td>
+            </tr>
+            {% endif %}
+            {% if page.tags %}
+            <tr>
+              <td>Tags</td>
+              <td>
+                {% for tag in page.tags %}
+                  <span class='badge badge-primary'>{{tag}}</span>
+                {% endfor %}
+              </td>
+            </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
