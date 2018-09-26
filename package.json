@@ -16,6 +16,7 @@
     "jquery-address": "^1.6.0",
     "lunr": "^2.1.6",
     "mustache": "^2.3.0",
+    "popper.js": "^1.14.4",
     "respond.js": "^1.4.2"
   },
   "devDependencies": {

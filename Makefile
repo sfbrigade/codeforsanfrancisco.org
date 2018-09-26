@@ -41,6 +41,7 @@ include-yarn-js:
 	cp node_modules/respond.js/dest/respond.min.js $(JS_VENDOR_DIR)
 	cp node_modules/mustache/mustache.min.js $(JS_VENDOR_DIR)
 	cp node_modules/lunr/lunr.js $(JS_VENDOR_DIR)
+	cp node_modules/popper.js/dist/umd/popper.min.js $(JS_VENDOR_DIR)
 
 # TODO(jszwedko) rewrite this to use the files as targets
 .PHONY: include-yarn-css
