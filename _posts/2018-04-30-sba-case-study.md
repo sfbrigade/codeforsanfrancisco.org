@@ -165,10 +165,10 @@ all of this. By the end of the white board session, we set a deadline and timeli
 3.  Identification of which small businesses are support by SBA
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-lg-6">
     {% include image.html name="image17.jpg" alt="Whiteboard before sprint" caption="The Whiteboard, pre-sprint"%}
   </div>
-  <div class="col-md-6">
+  <div class="col-lg-6">
     {% include image.html name="image20.jpg" alt="Whiteboard after sprint" caption="Post-sprint"%}
   </div>
 </div>
@@ -178,16 +178,16 @@ findings into specs and features. Given a tight timeline of 3 weeks, we pulled t
 out.
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-lg-6">
     {% include image.html name="image10.jpg" alt="Screenshot" %}
   </div>
-  <div class="col-md-6">
+  <div class="col-lg-6">
     {% include image.html name="image14.jpg" alt="Screenshot" %}
   </div>
-  <div class="col-md-6">
+  <div class="col-lg-6">
     {% include image.html name="image16.jpg" alt="Screenshot" %}
   </div>
-  <div class="col-md-6">
+  <div class="col-lg-6">
     {% include image.html name="image13.jpg" alt="Screenshot" %}
   </div>
 </div>
