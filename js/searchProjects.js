@@ -33,8 +33,11 @@ $(document).ready(function () {
       var query = $(this).val();
 
       // Search for it
-      query = query.length > 0 ? query + '~1' : query
-      var result = idx.search(query)
+      var results = [];
+      if (query.length) {
+        // Tweak query to support partial words
+        result = idx.search('*' + query + '*');
+      }
 
       // Output it
       
