@@ -33,7 +33,7 @@ $(document).ready(function () {
       var query = $(this).val();
 
       // Search for it
-      var results = [];
+      var result = [];
       if (query.length) {
         // Tweak query to support partial words
         result = idx.search('*' + query + '*');
