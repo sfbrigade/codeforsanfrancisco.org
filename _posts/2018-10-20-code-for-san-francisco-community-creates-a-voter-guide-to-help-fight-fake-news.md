@@ -36,7 +36,7 @@ David Yancey (R-Virginia) and Shelly Simonds (D-Virginia) both ran against each 
 
 Americans are overwhelmed by election marketing and misinformation. In the two party system, parties are incentivized to turn out base supporters they know will be reliable votes for their side instead of bringing in all eligible voters. This leads to a constant drum of political information. This also leads to deluge of ads and political marketing espousing incorrect facts and slander. We Vote is working to increase voter turnout in the U.S. by allowing voters to see what is on their ballot and to see who in their network supports the ballot items without excess fanfare.
 
-**64% of adults believe fake news stories cause a great deal of confusion.**
+## **64% of adults believe fake news stories cause a great deal of confusion.**
 
 It is always election season, somewhere in the U.S.. The U.S. holds more elections than most other developed nations. Though the president is elected for four years, all seats in the House of Representatives are up for election every two years, as are about a third of the seats in the Senate. Additionally, local elections take place throughout the four year presidential term. 
 
