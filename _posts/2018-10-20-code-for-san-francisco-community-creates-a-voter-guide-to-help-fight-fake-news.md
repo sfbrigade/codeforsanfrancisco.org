@@ -28,7 +28,7 @@ Voter registration is often harder in the U.S.. Tens of millions of Americans ar
 
 In 2008, the Census Bureau found around 4 million Americans fell into these various non-registered categories.
 
-**Many Americans think their vote doesn’t matter. Elections matter, and each vote matters. Some elections have been decided by one vote.** 
+## **Elections matter, and each vote matters. Some elections have been decided by one vote.** 
 
 “I was first recruited to run for the Senate when there was a vacancy on the ballot. My selection to be the party nominee was decided by a one vote margin,” says Ivey-Soto, D-New Mexico. 
 
