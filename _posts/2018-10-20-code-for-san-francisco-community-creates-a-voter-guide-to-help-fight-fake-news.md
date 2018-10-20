@@ -1,5 +1,5 @@
 ---
-image: /img/uploads/we-vote-logo-wordmark-vertical-inverted-color-256x256.png
+image: /img/uploads/we-vote-logo-wordmark-vertical-color-on-white-750.jpg
 image_alt: We Vote logo
 title: >-
   Code for San Francisco Community Creates a Voter Guide to Help Fight Fake
