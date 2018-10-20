@@ -2,8 +2,8 @@
 image: /img/uploads/we-vote-logo-wordmark-vertical-inverted-color-256x256.png
 image_alt: We Vote logo
 title: >-
-  Code for San Francisco community creates a voter guide to help fight fake
-  news.
+  Code for San Francisco Community Creates a Voter Guide to Help Fight Fake
+  News.
 description: >-
   We Vote is nonpartisan and nonprofit, founded and built by volunteers,
   including engineers from the Code for San Francisco Brigade of Code for
