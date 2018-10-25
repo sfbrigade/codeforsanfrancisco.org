@@ -5,7 +5,7 @@ title: Weekly Civic Hack Night
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
               This week also features our monthly Open Leadership Council.
-rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxnbfb/
+rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxpbkb/
 start_time: 2018-10-24T17:30:00-07:00
 end_time: 2018-10-24T21:30:00-07:00
 meetup:
@@ -16,7 +16,7 @@ address:
   street: 155 9th St.
   locality: San Francisco
   region: CA
-agenda: https://docs.google.com/document/d/1eQjDXI4e8uaE3GTjALyHlc_N1gW51T3atVM1cOS51YA/edit
+agenda: https://docs.google.com/document/d/1z8NPlAvpklqFEWOLiEPnieQ2Z0UIMvsLhK2wJc98Ack/edit
 sponsor: <a href='http://www.microsoftbayarea.com/'>Microsoft</a>
 
 ---
