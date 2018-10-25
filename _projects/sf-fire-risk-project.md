@@ -7,7 +7,7 @@
     - "Data Analysis"
     - "Data Visualization"
   repos: 
-    - ""
+    - "https://github.com/sfbrigade/datasci-firerisk"
   app_link: "http://datascience.codeforsanfrancisco.org/project/sf-fire-risk/"
   license: null
   project_status: "prototype"
