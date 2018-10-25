@@ -1,7 +1,7 @@
 ---
 published: true
 date: '2018-10-24'
-title: Weekly Civic Hack Night w/ Open Leadership Council
+title: Weekly Civic Hack Night
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
               This week also features our monthly Open Leadership Council.
