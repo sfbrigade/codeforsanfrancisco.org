@@ -3,8 +3,7 @@ published: true
 date: '2018-10-31'
 title: Hack Night Cancelled for 10/31
 description: |
-              Our weekly hack night is focused on civic tech and making government services better in San Francisco.
-              This week also features our monthly Open Leadership Council.
+              Hack night is cancelled on 10/31 for Halloween, and will resume on 11/7.
 rsvp: 
 start_time: 2018-10-31T17:30:00-07:00
 end_time: 2018-10-31T21:30:00-07:00
@@ -21,20 +20,6 @@ sponsor: <a href='http://www.microsoftbayarea.com/'>Microsoft</a>
 
 ---
 
-Interested in helping San Francisco? You have found the right place!
+There will be **NO** hack night on 10/31. The Code for America building will not be open for brigade members; please do not come.
 
-Join neighbors, government employees, designers, coders, students and more! Our weekly hack night is focused on civic
-tech and making government services better in San Francisco. We hack/build and learn together every Wednesday evening.
-
-* Contribute to the betterment of San Francisco
-* Build your own portfolio of work or work on someone else's cool project
-* Meet new (and different!) people
-
-## Schedule
-
-* **6:00p** regular doors open, socialize and eat dinner
-* **6:30p** welcome remarks and project pitches
-* **7:00p** start hacking, new member orientation,
-* **8:00p** more hacking
-* **9:00p** keep on hacking
-* **9:30p** doors close and lights out
+We'll pick back up the next week (11/7), with an agenda that includes Open Leadership Council at 5:30pm. See you then!
