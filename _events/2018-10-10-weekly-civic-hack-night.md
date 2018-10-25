@@ -1,13 +1,13 @@
 ---
 published: true
-date: '2018-10-03'
+date: '2018-10-10'
 title: Weekly Civic Hack Night w/ Open Leadership Council
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
               This week also features our monthly Open Leadership Council.
 rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxnbfb/
-start_time: 2018-09-26T17:30:00-07:00
-end_time: 2018-09-26T21:30:00-07:00
+start_time: 2018-10-10T17:30:00-07:00
+end_time: 2018-10-10T21:30:00-07:00
 meetup:
   event_id: zcxqvpyxnbfb
   venue_id: 247070674
