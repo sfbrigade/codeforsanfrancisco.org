@@ -17,7 +17,7 @@ address:
   locality: San Francisco
   region: CA
 agenda: https://docs.google.com/document/d/1qsxfOf7SwK0HT0jw6dnAT3eUX_hjKRimeyZNq8mqogY/edit
-sponsor: <a href='http://www.microsoftbayarea.com/'>Microsoft</a>
+sponsor: <a href='https://blogs.microsoft.com/bayarea/'>Microsoft</a>
 
 ---
 
