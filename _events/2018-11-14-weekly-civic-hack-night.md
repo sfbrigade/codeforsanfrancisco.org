@@ -1,23 +1,23 @@
 ---
 published: true
-date: '2018-11-07'
-title: Weekly Civic Hack Night w/ Open Leadership Council
+date: '2018-11-14'
+title: Weekly Civic Hack Night
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
               This week also features our monthly Open Leadership Council.
-rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxpbkb/
-start_time: 2018-11-07T17:30:00-07:00
-end_time: 2018-11-07T21:30:00-07:00
+rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxpbsb/
+start_time: 2018-11-14T17:30:00-07:00
+end_time: 2018-11-14T21:30:00-07:00
 meetup:
-  event_id: zcxqvpyxpbkb
+  event_id: zcxqvpyxpbsb
   venue_id: 247070674
 address:
   name: Code for America
   street: 155 9th St.
   locality: San Francisco
   region: CA
-agenda: https://docs.google.com/document/d/1qsxfOf7SwK0HT0jw6dnAT3eUX_hjKRimeyZNq8mqogY/edit
-sponsor: <a href='https://blogs.microsoft.com/bayarea/'>Microsoft</a>
+agenda: https://docs.google.com/document/d/1i9ZffCSZkl7TjLsRO6yqjHvVQW01-UUjpnXYG3ZH0yQ/edit
+sponsor: <a href='http://www.microsoftbayarea.com/'>Microsoft</a>
 
 ---
 
@@ -32,7 +32,6 @@ tech and making government services better in San Francisco. We hack/build and l
 
 ## Schedule
 
-* **5:30-6:30p** [Open Leadership Council #10]({{ "/about/leadership-council/" | prepend: site.baseurl }})
 * **6:00p** regular doors open, socialize and eat dinner
 * **6:30p** welcome remarks and project pitches
 * **7:00p** start hacking, new member orientation,

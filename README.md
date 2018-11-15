@@ -12,10 +12,10 @@ Heavily inspired by [Chi Hack Night's website](https://chihacknight.org/).
 
 * Install the version of Ruby specified in [.ruby-version](.ruby-version)
   * Usage of [rbenv](https://github.com/rbenv/rbenv) recommended
+  * `gem install bundle`
+* Install [`yarn`](https://yarnpkg.com/en/docs/install) (used for managing external asset libraries (like Bootstrap,
+  jQuery, etc.)
 * Run `make`
-
-[yarn](https://yarnpkg.com/lang/en/docs/install/) is used for managing external asset libraries (like Bootstrap, jQuery,
-etc.).
 
 If you add a new external resource, be sure to add lines to the relevant [`Makefile`](Makefile) target to copy
 them into `css/vendor` and `js/vendor`.
