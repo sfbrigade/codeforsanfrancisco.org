@@ -1,6 +1,6 @@
 {% capture imagePath %}/img/uploads/{{ include.name }}{% endcapture %}
 <a href="{{ imagePath }}">
-  <img class="{{ include.class | default: "img-responsive center-block" }}" src="{{ imagePath }}" alt="{{ include.alt }}" style="{{ include.style | default: "" }}" />
+  <img class="{{ include.class | default: "img-fluid center-block" }}" src="{{ imagePath }}" alt="{{ include.alt }}" style="{{ include.style | default: "" }}" />
 </a>
 {% if include.caption %}
   <p class="text-center">

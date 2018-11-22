@@ -3,42 +3,62 @@ layout: default
 
 ---
 
-<h2>{{ site.description }}</h2>
+<h1 class="pt-3">San Francisco's all volunteer civic technology group</h1>
+<p class="lead pb-3">We are a collective of neighbors, government employees, designers, coders, students and more that work on social impact and civic projects together every Wednesday night. Everyone welcome! <a href="/about">Learn more</a>.</p>
 
+<div class="row mb-3">
+  <div class="col-md-4">
+      <div class="list-group">
+        <a href="/projects" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Explore our active projects</h5>
+          </div>
+          <p class="mb-1">Join or create a new project to work on with our community.</p>
+        </a>
+        <a href="http://eepurl.com/bfFkF9" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Join our newsletter</h5>
+          </div>
+          <p class="mb-1">Stay in the loop on upcoming events and opportunities.</p>
+        </a>
+      </div>
+  </div>
+  <div class="col-md-8">
 {% assign next_featured_event = site.events | where: "featured", true | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
 {% if next_featured_event %}
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title">Featured upcoming event</h3>
+    <div class="card mb-3">
+      <div class="card-header text-white bg-primary">
+        Featured upcoming event
+      </div>
+      <div class="card-body">
+        {% include event_card_body.html event=next_featured_event %}
+      </div>
     </div>
-    <div class="panel-body">
-      {% include event_card_body.html event=next_featured_event %}
-    </div>
-  </div>
 {% endif %}
 
-{% assign next_event = site.events | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></h3>
+  {% assign next_event = site.events | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
+    <div class="card mb-3">
+      <div class="card-header">
+        <div>Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></div>
+      </div>
+      <div class="card-body">
+        {% if next_event %}
+          {% include event_card_body.html event=next_event %}
+        {% else %}
+            No upcoming events. Stay tuned for more!
+          <p><a href='{{ site.baseurl }}/events/'>See previous events</a></p>
+        {% endif %}
+      </div>
+    </div>
   </div>
-  <div class="panel-body">
-    {% if next_event %}
-      {% include event_card_body.html event=next_event %}
-    {% else %}
-      <h3 class='name'>
-        No upcoming events. Stay tuned for more!
-      </h3>
-      <p><a href='{{ site.baseurl }}/events/'>See previous events</a></p>
-    {% endif %}
-  </div>
+  
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Recent blog posts <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a></h3>
+<div class="card mb-3">
+  <div class="card-header">
+    Recent blog posts <a class='pull-right' href='{{ site.baseurl }}/blog/'>All posts &raquo;</a>
   </div>
-  <div class="panel-body">
+  <div class="card-body">
     {% comment %}
       show posts pinned to front page via pin_to_frontpage: true
     {% endcomment %}
@@ -56,53 +76,7 @@ layout: default
 </div>
 
 <div class='row'>
-  <div class='col-sm-12'>
-    <h2>Welcome!</h2>
-    <p>
-      We are a collective of neighbors, government employees, designers, coders, students and more focused on civic tech
-      and making government services better in San Francisco.  Join us every almost Wendesday from 6 - 9:30 PM at Code
-      for America's HQ (<a href="https://goo.gl/maps/fEy5XnYsquE2">155 9th St.</a>) to:
-
-      <ul>
-        <li>Contribute to the betterment of San Francisco</li>
-        <li>Build your own portfolio of work or work on someone else's cool project</li>
-        <li>Meet new (and different!) people</li>
-        <li>Hear from great speakers</li>
-      </ul>
-
-      <a href='{{ site.baseurl }}/about'>More about us &raquo;</a>
-    </p>
-
-    <hr />
-
-    <h2 id='community'>Join our community</h2>
-    <p>
-      Code for San Francisco is a central hub for <a href='{{ site.baseurl }}/community'>San Francisco's civic tech
-      community</a>. Here's the three best ways to get involved:
-    </p>
-    <div class='row text-center row-eq-height'>
-      <div class='col-sm-4'>
-        <div class='well'>
-          <h1 aria-hidden="true"><i class='fa fa-fw fa-calendar'></i></h1>
-          <p>1. Go to a Civic Hack Night. <a href='https://www.meetup.com/{{ site.meetup }}'>We meet every Wednesday at 6pm</a></p>
-        </div>
-      </div>
-
-      <div class='col-sm-4'>
-        <div class='well'>
-          <h1 aria-hidden="true"><i class='fa fa-fw fa-envelope'></i></h1>
-          <p>2. <a href='{{ site.mailchimp }}'>Subscribe to updates</a> on upcoming speakers, events, and other brigade news</p>
-        </div>
-      </div>
-
-      <div class='col-sm-4'>
-        <div class='well'>
-          <h1 aria-hidden="true"><i class='fa fa-fw fa-group'></i></h1>
-          <p>3. Browse our <a href='{{ site.baseurl }}/projects'>active projects</a> to find yours</p>
-        </div>
-      </div>
-    </div>
-
+  <div class='col-md-12'>
     <hr />
 
     <div class='sponsors'>
@@ -115,32 +89,32 @@ layout: default
       <p>
         Is your organization interested in becoming a Code for San Francisco sponsor? <a href="mailto:fundraising@codeforsanfrancisco.org">Drop us a line</a>!
       </p>
-      <div class='row row-flex'>
-        <div class='col-sm-2'>
+      <div class='row'>
+        <div class='col-md-2'>
           <h4 class='sponsor-level'>Major Sponsors</h4>
         </div>
-        <div class='col-sm-3'>
+        <div class='col-md-3'>
           <div itemscope itemtype='http://schema.org/Organization'>
-            <a href='https://blogs.microsoft.com/bayarea/' itemprop='url'>
-              <img src='{{ site.baseurl }}/img/sponsors/microsoft.png' alt='Microsoft' itemprop='logo' class='img-responsive' />
+            <a href='http://www.microsoftbayarea.com/' itemprop='url'>
+              <img src='{{ site.baseurl }}/img/sponsors/microsoft.png' alt='Microsoft' itemprop='logo' class='img-fluid' />
             </a>
           </div>
         </div>
       </div>
       <hr />
-      <div class='row row-flex'>
-        <div class='col-sm-2'>
+      <div class='row'>
+        <div class='col-md-2'>
           <h4 class='sponsor-level'>Sustaining Sponsors</h4>
         </div>
-        <div class='col-sm-3'>
+        <div class='col-md-3'>
         </div>
       </div>
       <hr />
-      <div class='row row-flex'>
-        <div class='col-sm-2'>
+      <div class='row'>
+        <div class='col-md-2'>
           <h4 class='sponsor-level'>Official Sponsors</h4>
         </div>
-        <div class='col-sm-3'>
+        <div class='col-md-3'>
         </div>
       </div>
     </div>

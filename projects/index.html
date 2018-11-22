@@ -9,12 +9,12 @@ layout: default
   Projects at Code for San Francisco are open source, collaborative and welcome various backgrounds and skills.
 </p>
 <div class="project-search-params">
-<div class="input-group">
-  <input id="search" type="text" class="form-control" placeholder="Search for...">
-  <span class="input-group-btn">
-    <button class="btn btn-default clear" type="button">Clear</button>
-  </span>
-</div><!-- /input-group -->
+  <div class="input-group">
+    <input id="search" type="text" class="form-control" placeholder="Search for...">
+    <span class="input-group-append">
+      <button class="btn btn-secondary clear" type="button">Clear</button>
+    </span>
+  </div><!-- /input-group -->
 </div>
 <div class="project-search-results">
 
@@ -22,9 +22,9 @@ layout: default
 <div class="all-projects">
   {% assign active_projects = site.projects | where:"active",true %}
   {% for project in active_projects %}
-  <div class="panel panel-default panel-project">
-    <div class="panel-body">
-      <div class='row row-flex'>
+  <div class="card card-project">
+    <div class="card-body">
+      <div class='row'>
       <div class='col-md-7' style='border-right: thin #e3e3e3 solid'>
           <a href="{{project.url}}" style="display:block"><div class="block-image pull-left" style="background-image:url({{project.image_path}});"></div></a>
           <h3><a href="{{project.url}}">{{ project.title }}</a></h3>
@@ -34,19 +34,19 @@ layout: default
         {% if project.skills_needed %}
         <h4>Skills needed by this project</h4>
         {% for skill in project.skills_needed %}
-          <span class='label label-info'>{{skill}}</span>
+          <span class='badge badge-info'>{{skill}}</span>
         {% endfor %}
         {% endif %}
         {% if project.learning_opportunities %}
         <h4>This project's learning opportunities</h4>
         {% for opportunity in project.learning_opportunities %}
-          <span class='label label-warning'>{{opportunity}}</span>
+          <span class='badge badge-warning'>{{opportunity}}</span>
         {% endfor %}
         {% endif %}
         {% if project.civic_topics %}
         <h4>This project's civic interests</h4>
         {% for topic in project.civic_topics %}
-          <span class='label label-danger'>{{topic}}</span>
+          <span class='badge badge-danger'>{{topic}}</span>
         {% endfor %}
         {% endif %}
         
@@ -61,9 +61,9 @@ layout: default
 
 {% raw %}
 <script id="search-results-template" type="x-tmpl-mustache">
-    <div class="panel panel-default panel-project">
-    <div class="panel-body">
-      <div class="row row-flex">
+    <div class="card card-project">
+    <div class="card-body">
+      <div class="row">
       <div class="col-md-7" style="border-right: thin #e3e3e3 solid">
           <a href="{{id}}" style="display:block"><div class="block-image pull-left" style="background-image:url({{image_path}});"></div></a>
           <h3><a href="{{id}}">{{title}}</a></h3>
@@ -72,11 +72,11 @@ layout: default
       <div class="col-md-5">
         <h4>Skills needed by this project</h4>
           {{#skills_needed}}
-          <span class="label label-info">{{.}}</span>
+          <span class="badge badge-info">{{.}}</span>
           {{/skills_needed}}
           <h4>This project's civic interests</h4>
           {{#civic_topics}}
-          <span class="label label-info">{{.}}</span>
+          <span class="badge badge-info">{{.}}</span>
           {{/civic_topics}}
       </div>
     </div>
