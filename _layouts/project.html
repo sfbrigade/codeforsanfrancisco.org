@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<p><img alt="{{page.title}}" class="img-thumbnail" src="{{page.image_path}}" /></p>
+{% if page.image_path %}
+  <p><img alt="{{page.title}}" class="img-thumbnail" src="{{page.image_path}}" /></p>
+{% endif %}
 
 <p><a href='/projects'>&laquo; back to Projects</a></p>
 
