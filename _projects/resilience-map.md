@@ -6,7 +6,7 @@
     - "GeoJSON"
     - "Azure"
   repos: 
-    - ""
+    - https://github.com/ResiliencyWorkingGroup
   app_link: "http://resiliency-map.azurewebsites.net/"
   license: null
   project_status: "live"
