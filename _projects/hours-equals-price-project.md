@@ -32,7 +32,7 @@
   project_lead: null
   project_members: null
   image_path: "http://i.imgur.com/2lHqtJ7.png"
-  active: true
+  active: false
   tags: 
     - "economics"
     - "sliding scale pricing"
