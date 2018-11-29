@@ -6,7 +6,7 @@ skills_needed:
 - "documentation"
 repos: 
 - "https://github.com/sfbrigade/ballotapi"
-app_link: "https://github.com/sfbrigade/ballotapi"
+app_link: ballotapi.com
 license: "MIT"
 project_status: "proposed"
 project_lead: null
