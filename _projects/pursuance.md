@@ -15,7 +15,7 @@
   project_lead: null
   project_members: null
   image_path: "https://pbs.twimg.com/profile_banners/855427515644395520/1505557850/1500x500"
-  active: true
+  active: false
   tags: 
     - "React.js"
     - "encryption"
