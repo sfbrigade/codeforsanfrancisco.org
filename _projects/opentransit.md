@@ -14,7 +14,7 @@
   project_status: "prototype"
   project_lead: null
   project_members: null
-  image_path: "http://i.imgur.com/2lHqtJ7.png"
+  image_path: "https://imgur.com/tEMB2tQ.png"
   active: true
   tags: 
     - "transit"
