@@ -6,6 +6,7 @@
     "id": "{{project.url}}",
     "title": "{{project.title}}",
     "path": "{{project.path}}",
+    "slug": "{{project.slug}}",
     "blurb": "{{project.blurb}}",
     "tags": {{project.tags | jsonify}},
     "civic_topics": {{project.civic_topics | jsonify}},
