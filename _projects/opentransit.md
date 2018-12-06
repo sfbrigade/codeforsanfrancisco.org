@@ -9,12 +9,12 @@
     - "cassandra"
   repos: 
     - ""
-  app_link: "https://github.com/trynmaps"
+  app_link: https://github.com/trynmaps
   license: null
   project_status: "prototype"
   project_lead: null
   project_members: null
-  image_path: "https://imgur.com/tEMB2tQ.png"
+  image_path: https://github.com/trynmaps/vision.opentransit.city/blob/master/img/ttc-opentransit-web-bg-sm.jpg
   active: true
   tags: 
     - "transit"
