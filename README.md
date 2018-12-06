@@ -1,4 +1,8 @@
-# Code for San Francisco's website
+# CodeForSanFrancisco.org
+* [Hosting on Netlify](https://app.netlify.com/sites/codeforsanfrancisco)
+* [Admin CMS](https://codeforsanfrancisco.org/admin/) (Login with Github)
+
+# Website Background
 
 [Brigadehub](https://github.com/brigadehub/brigadehub), the current host of
 [codeforsanfranciso.org](http://codeforsanfrancisco.org) is [retired](https://brigadehub.github.io/) we desire to find
@@ -16,6 +20,10 @@ Heavily inspired by [Chi Hack Night's website](https://chihacknight.org/).
 * Install [`yarn`](https://yarnpkg.com/en/docs/install) (used for managing external asset libraries (like Bootstrap,
   jQuery, etc.)
 * Run `make`
+* Edit code locally in new branch
+* Push to Github and open a Pull Request
+* Get Pull Request reviewed and preview the build by clicking on the Netlify build hook link
+* Merge into master (automatically publishes changes)
 
 If you add a new external resource, be sure to add lines to the relevant [`Makefile`](Makefile) target to copy
 them into `css/vendor` and `js/vendor`.
