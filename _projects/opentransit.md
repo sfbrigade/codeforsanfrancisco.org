@@ -14,7 +14,7 @@
   project_status: "prototype"
   project_lead: null
   project_members: null
-  image_path: https://github.com/trynmaps/vision.opentransit.city/blob/master/img/ttc-opentransit-web-bg-sm.jpg
+  image_path: http://opentransit.city/img/ttc-opentransit-web-bg-sm.jpg
   active: true
   tags: 
     - "transit"
