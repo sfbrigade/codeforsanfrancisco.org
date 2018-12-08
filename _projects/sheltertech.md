@@ -14,7 +14,7 @@
   project_lead: null
   project_members: null
   image_path: "http://sheltertech.org/images/app.png"
-  active: false
+  active: true
   tags: 
     - "homeless"
     - "low income"
