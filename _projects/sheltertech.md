@@ -13,7 +13,7 @@
   project_status: "alpha"
   project_lead: null
   project_members: null
-  image_path: "http://sheltertech.org/images/app.png"
+  image_path: "https://imgur.com/a/rk5TSgf"
   active: true
   tags: 
     - "homeless"
