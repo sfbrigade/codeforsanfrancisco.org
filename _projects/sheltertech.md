@@ -13,7 +13,7 @@
   project_status: "alpha"
   project_lead: null
   project_members: null
-  image_path: "https://imgur.com/a/rk5TSgf"
+  image_path: "https://i.imgur.com/zSXi8nG.png"
   active: true
   tags: 
     - "homeless"
