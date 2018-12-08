@@ -11,7 +11,7 @@ license: "MIT"
 project_status: "proposed"
 project_lead: null
 project_members: null
-image_path: "http://i.imgur.com/2lHqtJ7.png"
+image_path: null
 active: true
 tags: []
 civic_topics:
