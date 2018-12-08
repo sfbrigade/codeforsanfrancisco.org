@@ -14,7 +14,7 @@
   project_lead: null
   project_members: null
   image_path: "http://datascience.codeforsanfrancisco.org/wp-content/uploads/2017/03/sba.jpg"
-  active: true
+  active: false
   tags: 
     - "data science"
     - "predictive modeling"
