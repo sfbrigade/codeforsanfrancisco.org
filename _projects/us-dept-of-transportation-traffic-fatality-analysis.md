@@ -13,7 +13,7 @@
   project_lead: null
   project_members: null
   image_path: "http://datascience.codeforsanfrancisco.org/wp-content/uploads/2016/10/dot_fatalities-750x330.jpg"
-  active: true
+  active: false
   tags: 
     - "data science"
     - "inferential statistics"
