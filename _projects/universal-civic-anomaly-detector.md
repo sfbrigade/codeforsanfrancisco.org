@@ -14,7 +14,7 @@
   project_lead: null
   project_members: null
   image_path: "http://datascience.codeforsanfrancisco.org/wp-content/uploads/2016/10/shiny_anomalies-R_jude-calvillo_mock-412x330.png"
-  active: true
+  active: false
   tags: 
     - "anomaly detection"
     - "inferential statistics"
