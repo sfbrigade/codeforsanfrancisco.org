@@ -1,21 +1,21 @@
 ---
 published: true
-date: '2018-11-28'
+date: '2018-12-19'
 title: Weekly Civic Hack Night
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
-rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxpblc/
-start_time: 2018-11-28T17:30:00-07:00
-end_time: 2018-11-28T21:30:00-07:00
+rsvp: https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/zcxqvpyxqbzb/
+start_time: 2018-12-19T17:30:00-07:00
+end_time: 2018-1-19T21:30:00-07:00
 meetup:
-  event_id: zcxqvpyxpblc
+  event_id: zcxqvpyxqbzb
   venue_id: 247070674
 address:
   name: Code for America
-  street: 155 9th St.
+  street: 972 Mission St.
   locality: San Francisco
   region: CA
-agenda: https://docs.google.com/document/d/1rVYYkeIZ1hnuul4nh8xf-0rX0J7JCVdSzFE1mDNBSw0/edit
+agenda: https://docs.google.com/document/d/1aZsGY-41H-8HmlRjPPYgvOVAW0AyIFH_7VOGXodVqHY/edit#
 sponsor: <a href='http://www.microsoftbayarea.com/'>Microsoft</a>
 
 ---
