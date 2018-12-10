@@ -10,7 +10,7 @@
     - ""
   app_link: "https://github.com/sfbrigade/datasci-sba"
   license: null
-  project_status: "discovery"
+  project_status: "complete"
   project_lead: null
   project_members: null
   image_path: "http://datascience.codeforsanfrancisco.org/wp-content/uploads/2017/03/sba.jpg"
