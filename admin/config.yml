@@ -32,7 +32,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Project Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Project Link", name: "app_link", widget: "string", }
+      - {label: "Project Link", name: "app_link", widget: "string", placeholder: "https://my-amazing-project.org" }
       - {label: "License", name: "license", widget: "string"}
       - {label: "Slack Channel Name", name: "slack", widget: "string", required: false}
       - label: "Project Status"
