@@ -9,7 +9,7 @@ start_time: 2018-12-19T17:30:00-07:00
 end_time: 2018-1-19T21:30:00-07:00
 meetup:
   event_id: zcxqvpyxqbzb
-  venue_id: 247070674
+  venue_id: 7107782
 address:
   name: Code for America
   street: 972 Mission St.
