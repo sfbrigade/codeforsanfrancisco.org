@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: master # Branch to update (master by default)
 
+display_url: https://codeforsanfrancisco.org
+logo_url: https://codeforsanfrancisco.org/img/logo.png
+
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
 collections:
@@ -14,7 +17,7 @@ collections:
     fields:
       - {label: "Featured image", name: "image", widget: "image"}
       - {label: "Featured image alt text", name: "image_alt", widget: "string"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Post Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Short description", name: "description", widget: "string"}
       - {label: "Pin To Frontpage", name: "pin_to_frontpage", widget: "boolean"}
       - {label: "Only show image in listing", name: "image_list_only", widget: "boolean"}
@@ -28,11 +31,11 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Link", name: "app_link", widget: "string"}
+      - {label: "Project Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Project Link", name: "app_link", widget: "string", placeholder: "https://my-amazing-project.org" }
       - {label: "License", name: "license", widget: "string"}
-      - {label: "Slack channel name", name: "slack", widget: "string", required: false}
-      - label: "Project status"
+      - {label: "Slack Channel Name", name: "slack", widget: "string", required: false}
+      - label: "Project Status"
         name: "project_status"
         widget: "select"
         options:
@@ -44,11 +47,11 @@ collections:
           - beta
           - live
           - production
+        default: proposed
       - {label: "Project Image", name: "image_path", widget: "image"}
       - {label: "Active", name: "active", widget: "boolean", default: true}
-      - {label: "Blurb", name: "blurb", widget: "string"}
-      - {label: "Skills needed", name: "skills_needed", widget: "list", required: false}
-      - {label: "Civic topics", name: "civic_topics", widget: "list", required: false}
-      - {label: "Tags", name: "skills_needed", widget: "list", required: false}
+      - {label: "Short Blurb", name: "blurb", widget: "string"}
+      - {label: "Skills Needed", name: "skills_needed", widget: "list", required: false}
+      - {label: "Related Civic Topics", name: "civic_topics", widget: "list", required: false}
       - {label: "Links to repositories", name: "repos", widget: "list", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Project Description", name: "body", widget: "markdown"}
