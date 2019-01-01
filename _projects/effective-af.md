@@ -35,3 +35,5 @@ Effective can be used for a great many things.  But we, its creators, have certa
 In addition to fighting for this more prosperous future, we aim to confront and correct, via an energetic, global network of forward-thinking individuals, the injustices imposed on society by criminalized institutions the world over.
 
 To read more about the broader vision, see **<https://effective.af/2018/12/31/the-vision/>**.
+
+To contribute to this epic project, [join our Slack channel](https://sfbrigade.slack.com/messages/CF45DHGG4/) or contact our fearless leader, [Steve Phillips](https://tryingtobeawesome.com/contact/), who's been using Linux since 2001, programming since 2009, co-founded Santa Barbara Hackerspace in 2010, gave a DEF CON talk in 2015, and moved to SF in 2016 to be closer to people like you.
