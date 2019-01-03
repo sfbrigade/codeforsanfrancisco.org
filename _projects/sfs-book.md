@@ -1,29 +1,23 @@
 ---
-  title: "SFS Book"
-  blurb: "Reduce violence against women in SF"
-  skills_needed: 
-    - "Go"
-    - "HTML"
-    - "CSS"
-    - "Javascript"
-  repos: 
-    - "https://github.com/sfbrigade/sfsbook"
-  app_link: "https://github.com/sfbrigade/sfsbook"
-  license: "MIT"
-  project_status: "alpha"
-  project_lead: null
-  project_members: null
-  image_path: "http://i.imgur.com/2lHqtJ7.png"
-  active: true
-  tags: 
-    - "violence"
-    - "sfsbook"
-    - "sfwar"
-  civic_topics:
-    - "Resource Directory"
-    - "Nonprofit"
-    - "Women's Safety"
-  slack: sfsbook
+title: SFS Book
+app_link: 'https://github.com/sfbrigade/sfsbook'
+license: MIT
+slack: sfsbook
+project_status: alpha
+image_path: 'http://i.imgur.com/2lHqtJ7.png'
+active: false
+blurb: Reduce violence against women in SF
+skills_needed:
+  - Go
+  - HTML
+  - CSS
+  - Javascript
+civic_topics:
+  - Resource Directory
+  - Nonprofit
+  - Women's Safety
+repos:
+  - 'https://github.com/sfbrigade/sfsbook'
 ---
 # stop-violence
 
