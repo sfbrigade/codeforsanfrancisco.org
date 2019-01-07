@@ -1,6 +1,6 @@
 ---
 published: true
-date: '2019-01-02'
+date: '2019-01-09'
 title: Weekly Civic Hack Night - Now at 972 Mission St!
 description: |
               Our weekly hack night is focused on civic tech and making government services better in San Francisco.
