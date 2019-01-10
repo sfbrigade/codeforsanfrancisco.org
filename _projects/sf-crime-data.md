@@ -1,42 +1,22 @@
 ---
-  title: "SF Crime Data"
-  blurb: "Build the “go to web source” for SF crime-on-campus data."
-  skills_needed: 
-    - "HTML"
-    - "CSS"
-    - "Javascript"
-    - "API"
-    - "Front End"
-    - "Mapbox"
-    - "SFOpenData"
-  repos: 
-    - "https://github.com/sfbrigade/sf-crime-data"
-  app_link: "http://sfcrimedata.org"
-  license: "MIT"
-  project_status: "beta"
-  project_lead: null
-  project_members: null
-  image_path: "http://i.imgur.com/ZhfivEV.jpg"
-  active: true
-  tags: 
-    - "crime"
-    - "safety"
-    - "university"
-    - "rate"
-    - "neighborhood"
-    - "college"
-    - "safe"
-    - "city"
-    - "school"
-    - "near"
-    - "theft"
-    - "data"
-    - "campus"
-    - "stolen"
-    - "stats"
-    - "police"
-    - "statistics"
-  slack: prj-sf-crime-data
+title: SF Crime Data
+app_link: 'http://sfcrimedata.org'
+license: MIT
+slack: prj-sf-crime-data
+project_status: beta
+image_path: 'http://i.imgur.com/ZhfivEV.jpg'
+active: false
+blurb: Build the “go to web source” for SF crime-on-campus data.
+skills_needed:
+  - HTML
+  - CSS
+  - Javascript
+  - API
+  - Front End
+  - Mapbox
+  - SFOpenData
+repos:
+  - 'https://github.com/sfbrigade/sf-crime-data'
 ---
 <h1 id="sf-crime-data">SF Crime Data</h1>
 <p>Reduce paper public records requests made to SFPD, by delivering fast, accurate OpenData in a web browser.</p>
