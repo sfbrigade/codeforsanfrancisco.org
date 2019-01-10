@@ -1,31 +1,23 @@
 ---
-  title: "SBA Data Analysis & Visualizations"
-  blurb: "Working with the Small Business Administration (SBA) to create interactive applications, predictive models, visualizations, and more."
-  skills_needed: 
-    - "full stack"
-    - "data visualizations"
-    - "data science"
-    - "predictive modeling"
-  repos: 
-    - ""
-  app_link: "https://github.com/sfbrigade/datasci-sba"
-  license: null
-  project_status: "discovery"
-  project_lead: null
-  project_members: null
-  image_path: "http://datascience.codeforsanfrancisco.org/wp-content/uploads/2017/03/sba.jpg"
-  active: true
-  tags: 
-    - "data science"
-    - "predictive modeling"
-    - "full stack development"
-    - "ui"
-    - "ux"
-    - "public equity"
-    - "economic development"
-  civic_topics:
-    - "Economic Development"
-  slack: datasci-sba
+title: SBA Data Analysis & Visualizations
+app_link: 'https://github.com/sfbrigade/datasci-sba'
+license: '?'
+slack: datasci-sba
+project_status: live
+image_path: 'http://datascience.codeforsanfrancisco.org/wp-content/uploads/2017/03/sba.jpg'
+active: false
+blurb: >-
+  Working with the Small Business Administration (SBA) to create interactive
+  applications, predictive models, visualizations, and more.
+skills_needed:
+  - full stack
+  - data visualizations
+  - data science
+  - predictive modeling
+civic_topics:
+  - Economic Development
+repos:
+  - ''
 ---
 datasci-sba (Small Business Association
 
