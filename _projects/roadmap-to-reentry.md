@@ -1,30 +1,22 @@
 ---
-  title: "Roadmap to Reentry"
-  blurb: "Publishing an essential reentry legal resource on the web"
-  skills_needed: 
-    - "html"
-    - "css"
-    - "a11y"
-  repos: 
-    - "https://github.com/rootandrebound/roadmap-to-html"
-  app_link: "http://roadmap.rootandrebound.org"
-  license: null
-  project_status: "alpha"
-  project_lead: null
-  project_members: null
-  image_path: "https://cloud.githubusercontent.com/assets/451510/23977211/f873c780-09a9-11e7-80fc-bfeded2b3b3e.png"
-  active: true
-  tags: 
-    - "html"
-    - "css"
-    - "MS-Word"
-    - "content"
-    - "criminal justice"
-    - "reentry"
-  civic_topics:
-    - "Resource Directory"
-    - "Criminal Justice"
-  slack: roadmap
+title: Roadmap to Reentry
+app_link: 'http://roadmap.rootandrebound.org'
+license: '?'
+slack: roadmap
+project_status: alpha
+image_path: >-
+  https://cloud.githubusercontent.com/assets/451510/23977211/f873c780-09a9-11e7-80fc-bfeded2b3b3e.png
+active: false
+blurb: Publishing an essential reentry legal resource on the web
+skills_needed:
+  - html
+  - css
+  - a11y
+civic_topics:
+  - Resource Directory
+  - Criminal Justice
+repos:
+  - 'https://github.com/rootandrebound/roadmap-to-html'
 ---
 Help us convert a massive, valuable Word Document into a high-quality, accessible static website!
 
