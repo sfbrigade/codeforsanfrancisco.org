@@ -17,9 +17,7 @@ and to ensuring that all members of our community respect them.
 
 Below, you’ll find the full text of our Code of Conduct, with more detailed information about our community principles.
 You’ll also find our harassment policy, along with information about who to contact if you think the policy has been
-violated. For other questions about the Code of Conduct, or about our brigade, reach out to Jesse Szwedko via
-[jesse.szwedko@codeforsanfrancisco.org](mailto:jesse.szwedko@codeforsanfrancisco.org) or
-[412-465-0863](tel:412-465-0863).
+violated. For other questions about the Code of Conduct, or about our brigade, reach out to [hello@codeforsanfrancisco.org](mailto:hello@codeforsanfrancisco.org).
 
 ## Code of Conduct
 
@@ -74,10 +72,9 @@ If a participant engages in harassing behavior, the organizers may take any acti
 warning the offender or expulsion from Code for San Francisco network activities, events, and digital forums.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please tell one of
-the following organizers what you experienced or witnessed:
+the organizers what you experienced or witnessed:
 
-* Jesse Szwedko, [jesse.szwedko@codeforsanfrancisco.org](mailto:jesse.szwedko@codeforsanfrancisco.org),
-  [412-465-0863](tel:+14124650863)
+* Core Team, [hello@codeforsanfrancisco.org](mailto:hello@codeforsanfrancisco.org)
 
 Event staff or forum administrators will be happy to help participants contact hotel/venue security or local
 law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the
