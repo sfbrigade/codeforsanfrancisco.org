@@ -1,29 +1,23 @@
 ---
-  title: "SF Fire Risk Project"
-  blurb: "Building an predictive fire risk model with an interactive map of the San Francisco area."
-  skills_needed: 
-    - "Data Scientist"
-    - "Product Manager"
-    - "Data Analysis"
-    - "Data Visualization"
-  repos: 
-    - "https://github.com/sfbrigade/datasci-firerisk"
-  app_link: "http://datascience.codeforsanfrancisco.org/project/sf-fire-risk/"
-  license: null
-  project_status: "prototype"
-  project_lead: null
-  project_members: null
-  image_path: "http://product.ryangtanaka.com/images/sffd2.png"
-  active: true
-  tags: 
-    - "Fire"
-    - "Fire Risk"
-    - "Data Science"
-    - "Mapping Software"
-    - "Predictive Modeling"
-  civic_topics:
-    - "Public Safety"
-  slack: datasci-firerisk
+title: SF Fire Risk Project
+app_link: 'http://datascience.codeforsanfrancisco.org/project/sf-fire-risk/'
+license: '?'
+slack: datasci-firerisk
+project_status: prototype
+image_path: 'http://product.ryangtanaka.com/images/sffd2.png'
+active: false
+blurb: >-
+  Building an predictive fire risk model with an interactive map of the San
+  Francisco area.
+skills_needed:
+  - Data Scientist
+  - Product Manager
+  - Data Analysis
+  - Data Visualization
+civic_topics:
+  - Public Safety
+repos:
+  - 'https://github.com/sfbrigade/datasci-firerisk'
 ---
 URL to Current Prototype:
 
