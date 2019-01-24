@@ -1,6 +1,6 @@
 ---
 title: Lane Breach
-app_link: www.lanebreach.org
+app_link: 'https://www.lanebreach.org'
 license: Apache 2.0
 slack: '#lane-breach'
 project_status: prototype
