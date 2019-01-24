@@ -22,6 +22,7 @@ civic_topics:
   - transportation justice
   - responsible consumption
   - micromobility
+  - open data
 repos:
   - 'https://github.com/lanebreach'
 ---
