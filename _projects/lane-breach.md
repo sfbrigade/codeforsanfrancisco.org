@@ -7,11 +7,10 @@ project_status: prototype
 image_path: /img/uploads/screen-shot-2019-01-23-at-10.12.33-pm.png
 active: true
 blurb: >-
-  We are creating a platform that serves as the hub for cyclist data in San
-  Francisco by consolidating disparate data sources and providing easy access
-  through a single API. Our goal is to daylight difficult to find data, which
-  are made available to non-technical users through a web service with simple
-  tools and intuitive data visualizations.
+  We are creating a hub for bike data in San Francisco through consolidating
+  sources and providing easy access through a single API. Our goal is to
+  daylight difficult to find data, which are made available to non-technical
+  users through a web service with simple tools and intuitive visualizations.
 skills_needed:
   - react
   - node
