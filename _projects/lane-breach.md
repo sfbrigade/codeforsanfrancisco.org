@@ -2,7 +2,7 @@
 title: Lane Breach
 app_link: 'https://www.lanebreach.org'
 license: Apache 2.0
-slack: '#lane-breach'
+slack: lane-breach
 project_status: prototype
 image_path: /img/uploads/screen-shot-2019-01-23-at-10.12.33-pm.png
 active: true
