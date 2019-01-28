@@ -3,55 +3,53 @@ layout: default
 
 ---
 
-<h1 class="pt-3">San Francisco's all volunteer civic technology group</h1>
-<p class="lead pb-3">We are a collective of neighbors, government employees, designers, coders, students and more that work on social impact and civic projects together every Wednesday night. Everyone welcome! <a href="/about">Learn more</a>.</p>
-
+<h1 class="pt-3">We are Code for San Francisco</h1>
+<p class="lead pb-3">
+  As part of the <a href="https://brigade.codeforamerica.org/">Code for America Brigade Network</a>, we are a welcoming
+  and inclusive volunteer group of developers,
+  designers, data geeks, and citizen activists who use creative technology to solve civic and social problems.
+</p>
 <div class="row mb-3">
-  <div class="col-md-4">
-      <div class="list-group">
-        <a href="/projects" class="list-group-item list-group-item-action flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Explore our active projects</h5>
-          </div>
-          <p class="mb-1">Join or create a new project to work on with our community.</p>
+  <div class="col-md-6">
+    <ul class="list-group text-center">
+      <li class="list-group-item">
+        <h3>Civic Hack Night</h3>
+        Open to both technical and non-technical volunteers, Civic Hack Night is an opportunity to discover local
+        civic tech projects you can get involved in or start your own.
+      </li>
+      <li class="list-group-item" title="See Meetup for more info">
+        <strong>When: </strong>Wednesdays, 6pm - 9:30pm<br>
+        <small><i class="fa fa-info-circle"></i> See Meetup for more info</small>
+      </li>
+      <li class="list-group-item">
+        <strong>Where:</strong>
+        <a href="https://goo.gl/maps/BJu3c28TkL82">Code for America</a>
+      </li>
+      <li class="list-group-item">
+        <a href="https://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night" class="btn btn-danger">
+          RSVP on Meetup
+          <i class="fa fa-meetup"></i>
         </a>
-        <a href="http://eepurl.com/bfFkF9" class="list-group-item list-group-item-action flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Join our newsletter</h5>
-          </div>
-          <p class="mb-1">Stay in the loop on upcoming events and opportunities.</p>
+      </li>
+      <li class="list-group-item">
+        <a href="http://c4sf.me/slack" class="btn btn-outline-info">
+          Chat on Slack
+          <i class="fa fa-slack"></i>
         </a>
-      </div>
+      </li>
+      <li class="list-group-item">
+        <a href="http://eepurl.com/bfFkF9" class="btn btn-outline-info">
+          Join our Newsletter
+          <i class="fa fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
   </div>
-  <div class="col-md-8">
-{% assign next_featured_event = site.events | where: "featured", true | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
-{% if next_featured_event %}
-    <div class="card mb-3">
-      <div class="card-header text-white bg-primary">
-        Featured upcoming event
-      </div>
-      <div class="card-body">
-        {% include event_card_body.html event=next_featured_event %}
-      </div>
-    </div>
-{% endif %}
+  <div class="col-md-6">
+    <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ5TaJx2KAhYARCMH_oRu-g50&amp;key=AIzaSyBSdXQPDe62iDqi1Bp9u92gBGDSaeKWhBw"
+      allowfullscreen=""></iframe>
+  </div>
 
-  {% assign next_event = site.events | where_exp: 'event', 'event.end_time >= site.time' | sort: 'date' | first %}
-    <div class="card mb-3">
-      <div class="card-header">
-        <div>Next Event <a class='pull-right' href='{{ site.baseurl }}/events/'>Past events &raquo;</a></div>
-      </div>
-      <div class="card-body">
-        {% if next_event %}
-          {% include event_card_body.html event=next_event %}
-        {% else %}
-            No upcoming events. Stay tuned for more!
-          <p><a href='{{ site.baseurl }}/events/'>See previous events</a></p>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-  
 </div>
 
 <div class="card mb-3">
