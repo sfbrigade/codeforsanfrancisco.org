@@ -16,6 +16,7 @@ skills_needed:
   - node
   - graphql
   - rails
+  - android
 civic_topics:
   - Infrastructure
   - transportation justice
