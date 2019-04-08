@@ -4,7 +4,7 @@ app_link: 'https://github.com/sfbrigade/nltweets/wiki'
 license: tbd
 slack: '#NLTweets'
 project_status: prototype
-image_path: /img/uploads/nltweets.jpg
+image_path: /img/uploads/nltweets2.png
 active: true
 blurb: Mining Social Media Data for User Research
 skills_needed:
