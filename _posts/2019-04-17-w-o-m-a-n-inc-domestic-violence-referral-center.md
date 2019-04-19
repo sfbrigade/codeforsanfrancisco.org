@@ -1,5 +1,5 @@
 ---
-image: /img/uploads/dvirc-masthead.jpg
+image: dvirc-masthead.jpg
 image_alt: domestic violence information referral center logo
 title: 'W.O.M.A.N., Inc. Domestic Violence Referral Center'
 description: >-
