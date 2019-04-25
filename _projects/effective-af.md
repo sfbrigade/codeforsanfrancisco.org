@@ -6,7 +6,7 @@ slack: effectiveaf
 project_status: alpha
 image_path: >-
   /img/uploads/screenshot-effective-taskhierarchy-example-foianetwork-screenshot_2018-12-16_14-48-09.png
-active: true
+active: false
 blurb: >-
   Ready to start harnessing the power of the internet to allow thousands of
   projects and millions of people to join forces to change the world? End-to-end

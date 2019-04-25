@@ -5,7 +5,7 @@ license: MIT
 slack: ''
 project_status: production
 image_path: /img/uploads/screenshot.png
-active: true
+active: false
 blurb: >-
   Open311 Status monitors and aggregates the status of dozens of Open311 API
   endpoints, providing benchmarks and comparative insights.

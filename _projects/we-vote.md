@@ -13,7 +13,7 @@
   project_lead: null
   project_members: null
   image_path: "/img/uploads/wevote.png"
-  active: true
+  active: false
   tags: 
     - "Politics"
     - "Voting"
