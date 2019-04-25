@@ -5,7 +5,7 @@ license: MIT
 slack: adopt-a-drain
 project_status: live
 image_path: 'http://i.imgur.com/Dwec8rP.png'
-active: true
+active: false
 blurb: Crowd-sourced cleaning of storm drains after it rains.
 skills_needed:
   - rails
