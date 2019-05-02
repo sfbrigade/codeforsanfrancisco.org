@@ -14,23 +14,28 @@ Though we explored the idea of bringing in keynote speakers, as we had done for 
 
 Here’s what they have to say:
 
-**Shelter Tech**\
+**Shelter Tech**
+
 Richard Xia, a ShelterTech developer, says, “It was great to have access to devs.” Even though most people think ‘quantitative’ when they hear the word ‘data’, “most of our data was qualitative, which made it easier for us to put folks to work.”
 
-**Open Transit**\
+**Open Transit**
+
 Neel, a project manager at OpenTransit: “We walked people through the open data process.” With the opportunity to focus on their project over a full day, the OpenTransit team churned out over X GitHub commits - Y% of all their commits to date.
 
-**Data Science Working Group**\
+**Data Science Working Group**
+
 Rocio, co-lead of the Data Science Working Group, hosted a workshop on using the R language to analyze open data. “It was a great introduction to open data. We had a lot of beginners, but there was room for people to choose their own adventure.”
 
 Vincent, the group’s other co-lead, led a team focused on analyzing campaign finance data. “People came out and explored \[the] data. We made material progress that day and pushed the project forward!”
 
-**Lane Breach**\
+**Lane Breach**
+
 The LaneBreach team describes their project as “creating a hub for bike data in San Francisco through consolidating sources and providing easy access through a single API. Our goal is to daylight difficult to find data, which are made available to non-technical users through a web service with simple tools and intuitive visualizations.”
 
 Alex, LaneBreach’s founder, offers some of his own personal reflections: “I enjoyed preparing for the event. It’s sometimes difficult to set defined goals on an open-ended project like this, so having some external pressure was very welcome. This was also a chance to get some feedback from a group of people who don’t normally come to hack night. Very valuable, I had some great conversations. I particularly enjoyed the breakout discussion surrounding the social impacts of crowd-sourced data collection.”
 
-**NLTweets**\
+**NLTweets**
+
 According to the NLtweets team, “\[we have] a mission to provide projects with a tool that will let them accomplish valuable user research data in one night, and, with continued study of their domain problem, meaningful insights over time.” 
 
 On Open Data Day, the team was able to work in a way that went beyond the regular Wednesday events: “Every project needs good user research to maximize their chances of making the biggest impact possible, but the format of weekly Hack Nights doesn’t afford the time to plan and implement a solid user research campaign. And experience has shown that user research is an activity many members might not know much about or maybe isn’t high on their list of skills they want to master.”
