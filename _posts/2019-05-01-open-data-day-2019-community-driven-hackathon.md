@@ -1,5 +1,5 @@
 ---
-image: /img/uploads/odd-2019-key-note.jpg
+image: odd-2019-key-note.jpg
 image_alt: >-
   Jason Lally from DataSF gives key note at Code for San Francisco's Open Data
   Day 2019
