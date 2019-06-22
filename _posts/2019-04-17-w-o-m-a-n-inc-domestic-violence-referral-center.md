@@ -3,7 +3,7 @@ image: dvirc-masthead.jpg
 image_alt: domestic violence information referral center logo
 title: 'W.O.M.A.N., Inc. Domestic Violence Referral Center'
 authors:
-- Shaena Spoor
+- Shaena_Spoor
 description: >-
   This February, W.O.M.A.N., Inc. and Code for San Francisco volunteers launched
   a revamped version of DVIRC, a database that helps domestic violence agencies

@@ -60,7 +60,7 @@ layout: default
     {% comment %}
       show posts pinned to front page via pin_to_frontpage: true
     {% endcomment %}
-    {% assign pinned_posts = site.posts | where_exp: 'post', 'post.pin_to_frontpage == true' | sort: 'date' %}
+    {% assign pinned_posts = site.posts | where_exp: 'post', 'post.pin_to_frontpage == true' | sort: 'date' desc %}
     {% for pinned_post in pinned_posts %}
       {% include post_list_item.html post=pinned_post %}
     {% endfor %}
