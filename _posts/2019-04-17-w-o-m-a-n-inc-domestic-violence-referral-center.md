@@ -8,7 +8,7 @@ description: >-
   connect information with the survivors who need it. Shaena Spoor, the project
   representative from W.O.M.A.N., Inc., tells the story of how it came
   together. 
-pin_to_frontpage: true
+pin_to_frontpage: false
 image_list_only: true
 ---
 By: Shaena Spoor - shaena@womaninc.org

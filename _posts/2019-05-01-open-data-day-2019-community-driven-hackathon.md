@@ -4,8 +4,10 @@ image_alt: >-
   Jason Lally from DataSF gives key note at Code for San Francisco's Open Data
   Day 2019
 title: Open Data Day 2019 - Community Driven Hackathon
+authors:
+- allen_meyer
 description: An open source report from your local civic tech community.
-pin_to_frontpage: true
+pin_to_frontpage: false
 authors: Code for San Francisco Community
 image_list_only: true
 ---
