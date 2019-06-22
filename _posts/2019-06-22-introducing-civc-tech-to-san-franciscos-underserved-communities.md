@@ -1,7 +1,7 @@
 ---
 image: four-fine-fellows.jpg
 image_alt: 'dev/Mission Fellows, Edgar, Mellany, AJ and Daniel'
-title: Introducing Civic Tech to San Francisco's Underserved Communites
+title: Introducing Civic Tech to San Francisco's Underserved Communities
 authors:
 - allen_meyer
 description: >-
