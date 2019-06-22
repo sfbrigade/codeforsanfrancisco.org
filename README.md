@@ -39,4 +39,3 @@ This script is used to update a Meetup.com event with the description and metada
 markdown document in the `_events/` collection. It should be run any time an event is updated. We would like to automate
 this in the future.
 
-*
