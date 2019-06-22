@@ -66,3 +66,6 @@ _Do you have any plans now that the Fellowship is done, do you have plans to kee
 **Proposed Solution:** Build a web app that would assist Hunters Point East/West residents report pests using their mobile devices. 
 
 Daniel and Ajmal worked directly with [Pestec](https://www.pestec.com/), Property Managers, Resident Service Coordinators and public housing residents to design a web app that enables residents to report pest issues in their housing. While they didn't work directly with Brigade volunteers they did use basic civic design principles of designing with the residents, not for the residents of public housing, to help identify those issues that concerned them.
+
+**About the author:**\
+[Allen Meyer](http://allenmeyerdesign.com/) has been volunteering with the Brigade since 2013 and is currently a visual designer for the San Francisco Human Services Agency.
