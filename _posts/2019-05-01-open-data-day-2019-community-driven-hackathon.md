@@ -8,7 +8,7 @@ title: Open Data Day 2019 - Community Driven Hackathon
 description: An open source report from your local civic tech community.
 pin_to_frontpage: yes
 authors: 
-- Code_for_San_Francisco_Community
+- code_for_san_francisco_community
 image_list_only: true
 ---
 The last six months have been busy for C4SF, as we’ve gone through changes in leadership, supported strong turnout at our weekly hack nights, and completed two projects with a C4SF sponsor—not to mention moving to CfA’s new HQ on Mission Street. Just when we thought we might get to take a breather in January, we realized that one of the biggest events of the year - Open Data Day - was just a month away! 
