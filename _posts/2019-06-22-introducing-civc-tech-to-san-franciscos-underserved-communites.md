@@ -1,7 +1,7 @@
 ---
 image: /img/uploads/four-fine-fellows.jpg
 image_alt: 'dev/Mission Fellows, Edgar, Mellany, AJ and Daniel'
-title: Introducing Civc Tech to San Francisco's Underserved Communites
+title: Introducing Civic Tech to San Francisco's Underserved Communites
 description: >-
   Code for San Francisco teams up with <dev/Mission> to create a Fellowship
   program to introduce San Francisco's underserved youth to civic tech.
