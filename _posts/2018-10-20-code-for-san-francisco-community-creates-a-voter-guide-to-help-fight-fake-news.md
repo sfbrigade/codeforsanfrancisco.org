@@ -11,7 +11,7 @@ description: >-
   including engineers from the Code for San Francisco Brigade of Code for
   America. We Vote is a networked digital voter guide that empowers voters and
   improves democracy. 
-pin_to_frontpage: false
+pin_to_frontpage: true
 image_list_only: false
 ---
 We Vote is nonpartisan and nonprofit, founded and built by volunteers, including engineers from the Code for San Francisco Brigade of Code for America.

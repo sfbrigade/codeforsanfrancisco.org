@@ -7,7 +7,7 @@ authors:
 description: >-
   Code for San Francisco teams up with <dev/Mission> to create a Fellowship
   program to introduce San Francisco's underserved youth to civic tech.
-pin_to_frontpage: false
+pin_to_frontpage: yes
 image_list_only: true
 ---
 The [<dev/Mission>](http://devmission.org/) Code for San Francisco Fellowship began with a desire of the C4SF organizing team to increase the diversity of the communities that participate in our weekly hack night. The team thought they could make a contribution to the movement to bring tech training to underserved communities, and also contribute to tech equity, by tapping into the large pool of volunteer knowledge and skills that shows up at our weekly hack nights. 
