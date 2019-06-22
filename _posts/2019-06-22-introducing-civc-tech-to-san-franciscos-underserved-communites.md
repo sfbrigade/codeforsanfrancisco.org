@@ -41,7 +41,7 @@ _Do you have any plans now that the Fellowship is done, do you have plans to kee
 
 **Sebastian:** I would love to take this project to the next level and continue to practice my content management skills. There is a number of things that the project needs however, including a much larger group of people working on stories for the project to make it accurate and up to date, perhaps a professional design team, and a lot of work on the shoes and music tabs. I am in the process of starting my own company to help at-risk transitional age youth in Marin county, Project Clarity, and I could see the two projects intertwining in interesting and meaningful ways. 
 
-![Mellany presents her Fellowship project at Microsoft's Reactor event space.](/img/uploads/mellany-presents-2.jpg "Mellany presents her Fellowship project at Microsoft's Reactor.")
+![Mellany presents her Fellowship project at Microsoft's Reactor event space.](/img/uploads/mellany-presents-3.jpg "Mellany presents her Fellowship project at Microsoft's Reactor.")
 
 **Project Name:** Give Back\
 **Project Lead:** Mellany Andrea Almendarez 
