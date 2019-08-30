@@ -13,6 +13,7 @@ skills_needed:
   - data science
   - graphql
   - cassandra
+  - UI design
 civic_topics:
   - Transit
 repos:
