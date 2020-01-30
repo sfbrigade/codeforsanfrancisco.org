@@ -5,7 +5,7 @@ license: Apache 2.0
 slack: lane-breach
 project_status: prototype
 image_path: /img/uploads/screen-shot-2019-01-23-at-10.12.33-pm.png
-active: true
+active: false
 blurb: >-
   We are creating a hub for bike data in San Francisco through consolidating
   sources and providing easy access through a single API. Our goal is to
