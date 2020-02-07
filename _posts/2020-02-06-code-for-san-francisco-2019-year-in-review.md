@@ -1,5 +1,5 @@
 ---
-image: /img/uploads/NDoCH-2019.jpg
+image: /img/uploads/NDoCH-2019-2.jpg
 image_alt: >-
   EEmily Wasserman, team captain leads of National Day of Civic Hacking at
   GitHub
