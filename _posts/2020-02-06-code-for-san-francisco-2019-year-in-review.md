@@ -1,8 +1,10 @@
 ---
-image: /img/uploads/NDoCH-2019-2.jpg
+image: NDoCH-2019-2.jpg
 image_alt: >-
-  EEmily Wasserman, team captain leads of National Day of Civic Hacking at
+  Emily Wasserman, team captain leads of National Day of Civic Hacking at
   GitHub
+authors:
+- allen_meyer
 title: Code for San Francisco 2019 Year in Review
 description: 2019 was a very busy year for the Code for SF community!
 pin_to_frontpage: true
