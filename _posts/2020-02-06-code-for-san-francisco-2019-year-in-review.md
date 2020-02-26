@@ -1,10 +1,6 @@
 ---
 image: NDoCH-2019-2.jpg
-image_alt: >-
-  Emily Wasserman, team captain leads of National Day of Civic Hacking at
-  GitHub
-authors:
-- allen_meyer
+image_alt: 'Emily Wasserman, team captain leads of National Day of Civic Hacking at GitHub'
 title: Code for San Francisco 2019 Year in Review
 description: 2019 was a very busy year for the Code for SF community!
 pin_to_frontpage: true
@@ -62,3 +58,5 @@ We partnered with [dev/Mission](https://devmission.org/) to create a Fellowship 
 **W.O.M.A.N., Inc:** Volunteers worked with a partner at W.O.M.A.N. Inc. to [revamp their online hub](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcodeforsanfrancisco.org%2F2019%2F04%2F17%2Fw-o-m-a-n-inc-domestic-violence-referral-center%2F&data=02%7C01%7Cscott.mauvais%40microsoft.com%7C854b1f0ce8084822f73a08d6f46f6516%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C1%7C636965156611403213&sdata=LWcpgJwB2fS4YgCr7ICdddZECdAOLw%2FJMOCZTM7%2FlBY%3D&reserved=0) for domestic-violence services.
 
 2020 is starting out with a bang! We have projects in the works with the Department of Public Health, the Fire Department and several events. Join us!
+
+And finally, a special thanks to MicroSoft who has been a generous supporter of C4SF for the last several years.
