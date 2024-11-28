@@ -12,7 +12,7 @@
     "datatables.net-bs4": "^1.10.16",
     "font-awesome": "^4.7.0",
     "html5shiv": "^3.7.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-address": "^1.6.0",
     "lunr": "^2.1.6",
     "mustache": "^2.3.0",
